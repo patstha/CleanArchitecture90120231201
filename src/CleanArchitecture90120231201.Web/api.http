@@ -1,6 +1,6 @@
 # For more info on HTTP files go to https://aka.ms/vs/httpfile
 @hostname=localhost
-@port=57679
+@port=57678
 
 // List all contributors
 GET http://{{hostname}}:{{port}}/Contributors

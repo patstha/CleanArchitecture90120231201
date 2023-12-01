@@ -1,0 +1,159 @@
+2023-12-01 11:54:32.197 -06:00 [INF] Registered 5 endpoints in 2789 milliseconds.
+2023-12-01 11:54:34.652 -06:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-12-01 11:54:34.763 -06:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Contributors" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Contributors" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL
+);
+2023-12-01 11:54:35.019 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contributors" AS "c")
+2023-12-01 11:54:35.093 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status"
+FROM "Contributors" AS "c"
+2023-12-01 11:54:35.320 -06:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 7), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Contributors" ("Name", "Status")
+VALUES (@p0, @p1)
+RETURNING "Id";
+2023-12-01 11:54:35.346 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 8), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Contributors" ("Name", "Status")
+VALUES (@p0, @p1)
+RETURNING "Id";
+2023-12-01 11:54:35.552 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-01 11:54:35.553 -06:00 [INF] Hosting environment: Development
+2023-12-01 11:54:35.553 -06:00 [INF] Content root path: C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\src\CleanArchitecture90120231201.Web
+2023-12-01 11:54:35.787 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2023-12-01 11:54:36.609 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 834.0509ms
+2023-12-01 11:54:36.644 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2023-12-01 11:54:36.837 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 192.2179ms
+2023-12-01 11:54:36.920 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui.css - null null
+2023-12-01 11:54:36.920 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.css - null null
+2023-12-01 11:54:36.920 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-01 11:54:36.938 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-01 11:54:36.940 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2023-12-01 11:54:36.947 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui-bundle.js - null null
+2023-12-01 11:54:36.960 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13800 application/javascript; charset=utf-8 25.2615ms
+2023-12-01 11:54:36.983 -06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-01 11:54:36.983 -06:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2023-12-01 11:54:36.984 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.css - 200 218 text/css 64.9703ms
+2023-12-01 11:54:36.984 -06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-01 11:54:36.986 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui.css - 200 151213 text/css 67.8583ms
+2023-12-01 11:54:36.995 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui-standalone-preset.js - 200 230642 text/javascript 76.547ms
+2023-12-01 11:54:37.010 -06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-01 11:54:37.055 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui-bundle.js - 200 1385018 text/javascript 107.7983ms
+2023-12-01 11:54:37.134 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 193.9338ms
+2023-12-01 11:54:37.272 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/favicon-16x16.png - null null
+2023-12-01 11:54:37.274 -06:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2023-12-01 11:54:37.275 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/favicon-16x16.png - 200 665 image/png 2.2675ms
+2023-12-01 11:54:37.331 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2023-12-01 11:54:37.400 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-12-01 11:54:38.351 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 1019.8515ms
+2023-12-01 11:55:14.080 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Contributors - null null
+2023-12-01 11:55:14.084 -06:00 [WRN] Failed to determine the https port for redirect.
+2023-12-01 11:55:14.089 -06:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2023-12-01 11:55:14.127 -06:00 [INF] Handling ListContributorsQuery
+2023-12-01 11:55:14.128 -06:00 [INF] Property Skip : null
+2023-12-01 11:55:14.128 -06:00 [INF] Property Take : null
+2023-12-01 11:55:14.228 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name"
+FROM (
+    SELECT Id, Name FROM Contributors
+) AS "c"
+2023-12-01 11:55:14.231 -06:00 [INF] Handled ListContributorsQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[CleanArchitecture90120231201.UseCases.Contributors.ContributorDTO]] in 103 ms
+2023-12-01 11:55:14.258 -06:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2023-12-01 11:55:14.262 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Contributors - 200 null application/json 182.1863ms
+2023-12-01 11:55:19.148 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Contributors/1 - null null
+2023-12-01 11:55:19.151 -06:00 [INF] Executing endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2023-12-01 11:55:19.194 -06:00 [INF] Handling GetContributorQuery
+2023-12-01 11:55:19.195 -06:00 [INF] Property ContributorId : 1
+2023-12-01 11:55:19.244 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[@__contributorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status"
+FROM "Contributors" AS "c"
+WHERE "c"."Id" = @__contributorId_0
+LIMIT 1
+2023-12-01 11:55:19.252 -06:00 [INF] Handled GetContributorQuery with Ardalis.Result.Result`1[CleanArchitecture90120231201.UseCases.Contributors.ContributorDTO] in 57 ms
+2023-12-01 11:55:19.255 -06:00 [INF] Executed endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2023-12-01 11:55:19.255 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Contributors/1 - 200 null application/json 107.73ms
+2023-12-01 11:55:27.450 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:57678/Contributors - application/json 55
+2023-12-01 11:55:27.451 -06:00 [INF] Executing endpoint 'HTTP: POST /Contributors'
+2023-12-01 11:55:27.476 -06:00 [INF] Handling CreateContributorCommand
+2023-12-01 11:55:27.476 -06:00 [INF] Property Name : John Doe
+2023-12-01 11:55:27.483 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 8), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Contributors" ("Name", "Status")
+VALUES (@p0, @p1)
+RETURNING "Id";
+2023-12-01 11:55:27.495 -06:00 [INF] Handled CreateContributorCommand with Ardalis.Result.Result`1[System.Int32] in 18 ms
+2023-12-01 11:55:27.497 -06:00 [INF] Executed endpoint 'HTTP: POST /Contributors'
+2023-12-01 11:55:27.498 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:57678/Contributors - 200 null application/json 47.7359ms
+2023-12-01 11:55:36.196 -06:00 [INF] Request starting HTTP/1.1 PUT http://localhost:57678/Contributors/1 - application/json 38
+2023-12-01 11:55:36.197 -06:00 [INF] Executing endpoint 'HTTP: PUT /Contributors/{ContributorId:int}'
+2023-12-01 11:55:36.212 -06:00 [INF] Handling UpdateContributorCommand
+2023-12-01 11:55:36.213 -06:00 [INF] Property ContributorId : 1
+2023-12-01 11:55:36.213 -06:00 [INF] Property NewName : ardalis2
+2023-12-01 11:55:36.241 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status"
+FROM "Contributors" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2023-12-01 11:55:36.247 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 8), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Contributors" SET "Name" = @p0, "Status" = @p1
+WHERE "Id" = @p2
+RETURNING 1;
+2023-12-01 11:55:36.251 -06:00 [INF] Handled UpdateContributorCommand with Ardalis.Result.Result`1[CleanArchitecture90120231201.UseCases.Contributors.ContributorDTO] in 37 ms
+2023-12-01 11:55:36.251 -06:00 [INF] Handling GetContributorQuery
+2023-12-01 11:55:36.251 -06:00 [INF] Property ContributorId : 1
+2023-12-01 11:55:36.255 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[@__contributorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status"
+FROM "Contributors" AS "c"
+WHERE "c"."Id" = @__contributorId_0
+LIMIT 1
+2023-12-01 11:55:36.255 -06:00 [INF] Handled GetContributorQuery with Ardalis.Result.Result`1[CleanArchitecture90120231201.UseCases.Contributors.ContributorDTO] in 3 ms
+2023-12-01 11:55:36.258 -06:00 [INF] Executed endpoint 'HTTP: PUT /Contributors/{ContributorId:int}'
+2023-12-01 11:55:36.258 -06:00 [INF] Request finished HTTP/1.1 PUT http://localhost:57678/Contributors/1 - 200 null application/json 62.3789ms
+2023-12-01 11:55:49.361 -06:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:57678/Contributors/3 - null null
+2023-12-01 11:55:49.362 -06:00 [INF] Executing endpoint 'HTTP: DELETE /Contributors/{ContributorId:int}'
+2023-12-01 11:55:49.367 -06:00 [INF] Handling DeleteContributorCommand
+2023-12-01 11:55:49.367 -06:00 [INF] Property ContributorId : 3
+2023-12-01 11:55:49.370 -06:00 [INF] Deleting Contributor 3
+2023-12-01 11:55:49.372 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status"
+FROM "Contributors" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2023-12-01 11:55:49.379 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Contributors"
+WHERE "Id" = @p0
+RETURNING 1;
+2023-12-01 11:55:49.389 -06:00 [INF] Handling Contributed Deleted event for 3
+2023-12-01 11:55:49.394 -06:00 [INF] Handled DeleteContributorCommand with Ardalis.Result.Result in 26 ms
+2023-12-01 11:55:49.396 -06:00 [INF] Executed endpoint 'HTTP: DELETE /Contributors/{ContributorId:int}'
+2023-12-01 11:55:49.401 -06:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:57678/Contributors/3 - 204 null null 39.9786ms
+2023-12-01 11:57:45.594 -06:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:57678/Contributors/3 - null null
+2023-12-01 11:57:45.596 -06:00 [INF] Executing endpoint 'HTTP: DELETE /Contributors/{ContributorId:int}'
+2023-12-01 11:57:45.599 -06:00 [INF] Handling DeleteContributorCommand
+2023-12-01 11:57:45.599 -06:00 [INF] Property ContributorId : 3
+2023-12-01 11:57:45.600 -06:00 [INF] Deleting Contributor 3
+2023-12-01 11:57:45.604 -06:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status"
+FROM "Contributors" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2023-12-01 11:57:45.606 -06:00 [INF] Handled DeleteContributorCommand with Ardalis.Result.Result in 7 ms
+2023-12-01 11:57:45.607 -06:00 [INF] Executed endpoint 'HTTP: DELETE /Contributors/{ContributorId:int}'
+2023-12-01 11:57:45.608 -06:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:57678/Contributors/3 - 404 null null 14.9784ms
+2023-12-01 11:57:48.635 -06:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:57678/Contributors/3 - null null
+2023-12-01 11:57:48.635 -06:00 [INF] Executing endpoint 'HTTP: DELETE /Contributors/{ContributorId:int}'
+2023-12-01 11:57:48.636 -06:00 [INF] Handling DeleteContributorCommand
+2023-12-01 11:57:48.636 -06:00 [INF] Property ContributorId : 3
+2023-12-01 11:57:48.637 -06:00 [INF] Deleting Contributor 3
+2023-12-01 11:57:48.638 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status"
+FROM "Contributors" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2023-12-01 11:57:48.638 -06:00 [INF] Handled DeleteContributorCommand with Ardalis.Result.Result in 1 ms
+2023-12-01 11:57:48.638 -06:00 [INF] Executed endpoint 'HTTP: DELETE /Contributors/{ContributorId:int}'
+2023-12-01 11:57:48.639 -06:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:57678/Contributors/3 - 404 null null 3.6757ms
