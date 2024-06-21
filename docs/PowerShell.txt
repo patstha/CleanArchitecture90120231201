@@ -1,0 +1,155 @@
+PowerShell 7.4.2
+PS C:\Users\kushal> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date; dotnet build; date; dotnet clean; date; dotnet test; date;
+
+Friday, June 21, 2024 4:38:55 AM
+Friday, June 21, 2024 4:38:55 AM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/CleanArchitecture90120231201.Web/database.sqlite-shm
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/CleanArchitecture90120231201.Web/log20240527.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Friday, June 21, 2024 4:38:56 AM
+Friday, June 21, 2024 4:38:56 AM
+[master 2298df6] add all files
+ 2 files changed, 36 insertions(+)
+ create mode 100644 src/CleanArchitecture90120231201.Web/log20240527.txt
+Friday, June 21, 2024 4:38:56 AM
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.55 KiB | 1.55 MiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   8afcdd0..2298df6  master -> master
+Friday, June 21, 2024 4:38:57 AM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Friday, June 21, 2024 4:38:58 AM
+Restore complete (16.3s)
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+  CleanArchitecture90120231201.Core succeeded (7.0s) → src\CleanArchitecture90120231201.Core\bin\Debug\net8.0\CleanArchitecture90120231201.Core.dll
+  CleanArchitecture90120231201.UseCases succeeded (1.3s) → src\CleanArchitecture90120231201.UseCases\bin\Debug\net8.0\CleanArchitecture90120231201.UseCases.dll
+  CleanArchitecture90120231201.UnitTests succeeded (2.2s) → tests\CleanArchitecture90120231201.UnitTests\bin\Debug\net8.0\CleanArchitecture90120231201.UnitTests.dll
+  CleanArchitecture90120231201.Infrastructure succeeded with 1 warning(s) (2.8s) → src\CleanArchitecture90120231201.Infrastructure\bin\Debug\net8.0\CleanArchitecture90120231201.Infrastructure.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.4.24267.66\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(284,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.IntegrationTests succeeded with 1 warning(s) (3.5s) → tests\CleanArchitecture90120231201.IntegrationTests\bin\Debug\net8.0\CleanArchitecture90120231201.IntegrationTests.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.4.24267.66\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(284,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.Web succeeded with 1 warning(s) (6.6s) → src\CleanArchitecture90120231201.Web\bin\Debug\net8.0\CleanArchitecture90120231201.Web.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.4.24267.66\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(284,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.FunctionalTests succeeded with 1 warning(s) (2.9s) → tests\CleanArchitecture90120231201.FunctionalTests\bin\Debug\net8.0\CleanArchitecture90120231201.FunctionalTests.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.4.24267.66\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(284,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+
+Build succeeded with 4 warning(s) in 36.9s
+Friday, June 21, 2024 4:39:36 AM
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+
+Build succeeded in 8.0s
+Friday, June 21, 2024 4:39:46 AM
+Restore complete (6.2s)
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+  CleanArchitecture90120231201.Core succeeded (0.7s) → src\CleanArchitecture90120231201.Core\bin\Debug\net8.0\CleanArchitecture90120231201.Core.dll
+  CleanArchitecture90120231201.UseCases succeeded (1.5s) → src\CleanArchitecture90120231201.UseCases\bin\Debug\net8.0\CleanArchitecture90120231201.UseCases.dll
+  CleanArchitecture90120231201.UnitTests succeeded (2.1s) → tests\CleanArchitecture90120231201.UnitTests\bin\Debug\net8.0\CleanArchitecture90120231201.UnitTests.dll
+  CleanArchitecture90120231201.Infrastructure succeeded with 1 warning(s) (2.1s) → src\CleanArchitecture90120231201.Infrastructure\bin\Debug\net8.0\CleanArchitecture90120231201.Infrastructure.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.4.24267.66\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(284,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.Web succeeded with 1 warning(s) (5.0s) → src\CleanArchitecture90120231201.Web\bin\Debug\net8.0\CleanArchitecture90120231201.Web.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.4.24267.66\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(284,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.FunctionalTests succeeded with 1 warning(s) (3.5s) → tests\CleanArchitecture90120231201.FunctionalTests\bin\Debug\net8.0\CleanArchitecture90120231201.FunctionalTests.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.4.24267.66\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(284,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.UnitTests test succeeded (15.8s)
+  CleanArchitecture90120231201.IntegrationTests succeeded with 1 warning(s) (2.7s) → tests\CleanArchitecture90120231201.IntegrationTests\bin\Debug\net8.0\CleanArchitecture90120231201.IntegrationTests.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.4.24267.66\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(284,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.IntegrationTests test succeeded (8.2s)
+  CleanArchitecture90120231201.FunctionalTests test succeeded (23.9s)
+
+Test summary: total: 9, failed: 0, succeeded: 9, skipped: 0, duration: 32.2s
+Build succeeded with 4 warning(s) in 44.1s
+Friday, June 21, 2024 4:40:31 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> winget install Microsoft.DotNet.SDK.Preview
+Found an existing package already installed. Trying to upgrade the installed package...
+Found Microsoft .NET SDK 9.0 Preview [Microsoft.DotNet.SDK.Preview] Version 9.0.100-preview.5.24307.3
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://dotnetcli.azureedge.net/dotnet/Sdk/9.0.100-preview.5.24307.3/dotnet-sdk-9.0.100-preview.5.24307.3-win-x64.exe
+  ██████████████████████████████   211 MB /  211 MB
+Successfully verified installer hash
+Starting package install...
+Restart your PC to finish installation.
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> dotnet --info
+.NET SDK:
+ Version:           9.0.100-preview.5.24307.3
+ Commit:            35b2c21ea6
+ Workload version:  9.0.100-manifests.6407b7e4
+ MSBuild version:   17.11.0-preview-24279-02+b963c24ef
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.22631
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\
+
+.NET workloads installed:
+Configured to use loose manifests when installing new manifests.
+ [aspire]
+   Installation Source: VS 17.11.35017.193, VS 17.10.35013.160
+   Manifest Version:    9.0.0-preview.2.24163.9/9.0.100-preview.1
+   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\9.0.100-preview.1\microsoft.net.sdk.aspire\9.0.0-preview.2.24163.9\WorkloadManifest.json
+   Install Type:              Msi
+
+
+Host:
+  Version:      9.0.0-preview.5.24306.7
+  Architecture: x64
+  Commit:       a5cc707d97
+
+.NET SDKs installed:
+  8.0.300 [C:\Program Files\dotnet\sdk]
+  8.0.302 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.4.24267.66 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.5.24307.3 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 9.0.0-preview.5.24306.11 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.4.24266.19 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.5.24306.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.4.24267.11 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.5.24306.8 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date; dotnet build; date; dotnet clean; date; dotnet test; date;
