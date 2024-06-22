@@ -1641,3 +1641,293 @@ Build failed with 47 error(s) and 2 warning(s) in 30.8s
 Saturday, June 22, 2024 12:29:01 AM
 
 PS C:\Users\kushal\src\dotnet\Wyoming.Webapi> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date; dotnet build; date; dotnet clean; date; dotnet test; date;
+
+Saturday, June 22, 2024 12:29:13 AM
+Saturday, June 22, 2024 12:29:13 AM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Saturday, June 22, 2024 12:29:13 AM
+Saturday, June 22, 2024 12:29:13 AM
+[master 8fcbbc5] add all files
+ 1 file changed, 280 insertions(+)
+Saturday, June 22, 2024 12:29:13 AM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.34 KiB | 229.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   81ca5f3..8fcbbc5  master -> master
+Saturday, June 22, 2024 12:29:15 AM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Saturday, June 22, 2024 12:29:16 AM
+Restore complete (3.0s)
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+  CleanArchitecture90120231201.Core succeeded (0.4s) → src\CleanArchitecture90120231201.Core\bin\Debug\net9.0\CleanArchitecture90120231201.Core.dll
+  CleanArchitecture90120231201.UseCases succeeded (0.6s) → src\CleanArchitecture90120231201.UseCases\bin\Debug\net9.0\CleanArchitecture90120231201.UseCases.dll
+  CleanArchitecture90120231201.Infrastructure succeeded (1.8s) → src\CleanArchitecture90120231201.Infrastructure\bin\Debug\net9.0\CleanArchitecture90120231201.Infrastructure.dll
+  CleanArchitecture90120231201.UnitTests succeeded (1.5s) → tests\CleanArchitecture90120231201.UnitTests\bin\Debug\net9.0\CleanArchitecture90120231201.UnitTests.dll
+  CleanArchitecture90120231201.Web succeeded (2.5s) → src\CleanArchitecture90120231201.Web\bin\Debug\net9.0\CleanArchitecture90120231201.Web.dll
+  CleanArchitecture90120231201.IntegrationTests succeeded (2.4s) → tests\CleanArchitecture90120231201.IntegrationTests\bin\Debug\net9.0\CleanArchitecture90120231201.IntegrationTests.dll
+  CleanArchitecture90120231201.FunctionalTests succeeded (1.0s) → tests\CleanArchitecture90120231201.FunctionalTests\bin\Debug\net9.0\CleanArchitecture90120231201.FunctionalTests.dll
+
+Build succeeded in 11.1s
+Saturday, June 22, 2024 12:29:28 AM
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+
+Build succeeded in 6.1s
+Saturday, June 22, 2024 12:29:35 AM
+Restore complete (2.1s)
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+  CleanArchitecture90120231201.Core succeeded (0.4s) → src\CleanArchitecture90120231201.Core\bin\Debug\net9.0\CleanArchitecture90120231201.Core.dll
+  CleanArchitecture90120231201.UseCases succeeded (0.4s) → src\CleanArchitecture90120231201.UseCases\bin\Debug\net9.0\CleanArchitecture90120231201.UseCases.dll
+  CleanArchitecture90120231201.UnitTests succeeded (0.8s) → tests\CleanArchitecture90120231201.UnitTests\bin\Debug\net9.0\CleanArchitecture90120231201.UnitTests.dll
+  CleanArchitecture90120231201.Infrastructure succeeded with 1 warning(s) (0.9s) → src\CleanArchitecture90120231201.Infrastructure\bin\Debug\net9.0\CleanArchitecture90120231201.Infrastructure.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.Web succeeded with 1 warning(s) (3.3s) → src\CleanArchitecture90120231201.Web\bin\Debug\net9.0\CleanArchitecture90120231201.Web.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.FunctionalTests succeeded with 1 warning(s) (2.2s) → tests\CleanArchitecture90120231201.FunctionalTests\bin\Debug\net9.0\CleanArchitecture90120231201.FunctionalTests.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.UnitTests test succeeded (10.7s)
+  CleanArchitecture90120231201.IntegrationTests succeeded with 1 warning(s) (2.9s) → tests\CleanArchitecture90120231201.IntegrationTests\bin\Debug\net9.0\CleanArchitecture90120231201.IntegrationTests.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.IntegrationTests test succeeded (13.7s)
+  CleanArchitecture90120231201.FunctionalTests test succeeded (25.7s)
+
+Test summary: total: 9, failed: 0, succeeded: 9, skipped: 0, duration: 31.1s
+Build succeeded with 4 warning(s) in 35.6s
+Saturday, June 22, 2024 12:30:11 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd "C:\Users\kushal\src\dotnet\Wyoming.Webapi\"; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date; dotnet build; date; dotnet clean; date; dotnet test; date;
+
+Saturday, June 22, 2024 12:35:59 AM
+Saturday, June 22, 2024 12:35:59 AM
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/Wyoming.Webapi.Web/Contributors/ContributorRecord.cs
+        modified:   src/Wyoming.Webapi.Web/Contributors/Create.cs
+        modified:   src/Wyoming.Webapi.Web/Contributors/Delete.cs
+        modified:   src/Wyoming.Webapi.Web/Contributors/GetById.cs
+        modified:   src/Wyoming.Webapi.Web/Contributors/List.cs
+        modified:   src/Wyoming.Webapi.Web/Contributors/Update.cs
+        modified:   src/Wyoming.Webapi.Web/Program.cs
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Saturday, June 22, 2024 12:36:00 AM
+Saturday, June 22, 2024 12:36:00 AM
+[main fcc8b92] add all files
+ 7 files changed, 54 insertions(+), 8 deletions(-)
+Saturday, June 22, 2024 12:36:00 AM
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 1.53 KiB | 781.00 KiB/s, done.
+Total 12 (delta 10), reused 0 (delta 0), pack-reused 0
+To \\TP-Share\G\shared\git\wyoming.webapi
+   3747f64..fcc8b92  main -> main
+Saturday, June 22, 2024 12:36:07 AM
+* remote origin
+  Fetch URL: \\TP-Share\G\shared\git\wyoming.webapi
+  Push  URL: \\TP-Share\G\shared\git\wyoming.webapi
+  HEAD branch: (unknown)
+  Remote branch:
+    main tracked
+  Local ref configured for 'git push':
+    main pushes to main (up to date)
+Saturday, June 22, 2024 12:36:07 AM
+Restore complete (3.5s)
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+  Wyoming.Webapi.Core succeeded (0.4s) → src\Wyoming.Webapi.Core\bin\Debug\net9.0\Wyoming.Webapi.Core.dll
+  Wyoming.Webapi.UseCases succeeded (0.5s) → src\Wyoming.Webapi.UseCases\bin\Debug\net9.0\Wyoming.Webapi.UseCases.dll
+  Wyoming.Webapi.Infrastructure succeeded (0.9s) → src\Wyoming.Webapi.Infrastructure\bin\Debug\net9.0\Wyoming.Webapi.Infrastructure.dll
+  Wyoming.Webapi.UnitTests succeeded (0.8s) → tests\Wyoming.Webapi.UnitTests\bin\Debug\net9.0\Wyoming.Webapi.UnitTests.dll
+  Wyoming.Webapi.Web failed with 31 error(s) (0.9s)
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorRequest.cs(5,14): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorRequest'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorRequest.cs(7,23): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorRequest.Route'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorRequest.cs(10,18): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorRequest.Name'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorRequest.cs(11,18): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorRequest.PhoneNumber'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorResponse.cs(3,14): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorResponse'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorResponse.cs(3,14): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorResponse.CreateContributorResponse(int, string)'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorResponse.cs(5,14): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorResponse.Id'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorResponse.cs(6,17): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorResponse.Name'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorValidator.cs(12,10): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorValidator.CreateContributorValidator()'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Delete.DeleteContributorRequest.cs(3,15): error CS1591: Missing XML comment for publicly visible type or member 'DeleteContributorRequest'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Delete.DeleteContributorRequest.cs(5,23): error CS1591: Missing XML comment for publicly visible type or member 'DeleteContributorRequest.Route'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Delete.DeleteContributorRequest.cs(6,24): error CS1591: Missing XML comment for publicly visible type or member 'DeleteContributorRequest.BuildRoute(int)'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Delete.DeleteContributorRequest.cs(8,14): error CS1591: Missing XML comment for publicly visible type or member 'DeleteContributorRequest.ContributorId'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Delete.DeleteContributorValidator.cs(11,10): error CS1591: Missing XML comment for publicly visible type or member 'DeleteContributorValidator.DeleteContributorValidator()'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\GetById.GetContributorValidator.cs(11,10): error CS1591: Missing XML comment for publicly visible type or member 'GetContributorValidator.GetContributorValidator()'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\GetById.GetProjectByIdRequest.cs(3,14): error CS1591: Missing XML comment for publicly visible type or member 'GetContributorByIdRequest'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\GetById.GetProjectByIdRequest.cs(5,23): error CS1591: Missing XML comment for publicly visible type or member 'GetContributorByIdRequest.Route'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\GetById.GetProjectByIdRequest.cs(6,24): error CS1591: Missing XML comment for publicly visible type or member 'GetContributorByIdRequest.BuildRoute(int)'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\GetById.GetProjectByIdRequest.cs(8,14): error CS1591: Missing XML comment for publicly visible type or member 'GetContributorByIdRequest.ContributorId'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\List.ContributorListResponse.cs(3,14): error CS1591: Missing XML comment for publicly visible type or member 'ContributorListResponse'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\List.ContributorListResponse.cs(5,34): error CS1591: Missing XML comment for publicly visible type or member 'ContributorListResponse.Contributors'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorRequest.cs(5,14): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorRequest'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorRequest.cs(7,23): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorRequest.Route'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorRequest.cs(8,24): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorRequest.BuildRoute(int)'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorRequest.cs(10,14): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorRequest.ContributorId'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorRequest.cs(13,14): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorRequest.Id'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorRequest.cs(15,18): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorRequest.Name'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorResponse.cs(3,14): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorResponse'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorResponse.cs(3,14): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorResponse.UpdateContributorResponse(ContributorRecord)'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorResponse.cs(5,28): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorResponse.Contributor'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorValidator.cs(12,10): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorValidator.UpdateContributorValidator()'
+  Wyoming.Webapi.IntegrationTests succeeded (1.8s) → tests\Wyoming.Webapi.IntegrationTests\bin\Debug\net9.0\Wyoming.Webapi.IntegrationTests.dll
+
+Build failed with 31 error(s) in 7.9s
+Saturday, June 22, 2024 12:36:16 AM
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+
+Build succeeded in 3.9s
+Saturday, June 22, 2024 12:36:20 AM
+Restore complete (2.2s)
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+  Wyoming.Webapi.Core succeeded (0.6s) → src\Wyoming.Webapi.Core\bin\Debug\net9.0\Wyoming.Webapi.Core.dll
+  Wyoming.Webapi.UseCases succeeded (0.7s) → src\Wyoming.Webapi.UseCases\bin\Debug\net9.0\Wyoming.Webapi.UseCases.dll
+  Wyoming.Webapi.Infrastructure succeeded with 1 warning(s) (1.6s) → src\Wyoming.Webapi.Infrastructure\bin\Debug\net9.0\Wyoming.Webapi.Infrastructure.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  Wyoming.Webapi.UnitTests succeeded (1.5s) → tests\Wyoming.Webapi.UnitTests\bin\Debug\net9.0\Wyoming.Webapi.UnitTests.dll
+  Wyoming.Webapi.Web failed with 31 error(s) (2.6s)
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorRequest.cs(5,14): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorRequest'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorRequest.cs(7,23): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorRequest.Route'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorRequest.cs(10,18): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorRequest.Name'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorRequest.cs(11,18): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorRequest.PhoneNumber'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorResponse.cs(3,14): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorResponse'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorResponse.cs(3,14): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorResponse.CreateContributorResponse(int, string)'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorResponse.cs(5,14): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorResponse.Id'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorResponse.cs(6,17): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorResponse.Name'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Create.CreateContributorValidator.cs(12,10): error CS1591: Missing XML comment for publicly visible type or member 'CreateContributorValidator.CreateContributorValidator()'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Delete.DeleteContributorRequest.cs(3,15): error CS1591: Missing XML comment for publicly visible type or member 'DeleteContributorRequest'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Delete.DeleteContributorRequest.cs(5,23): error CS1591: Missing XML comment for publicly visible type or member 'DeleteContributorRequest.Route'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Delete.DeleteContributorRequest.cs(6,24): error CS1591: Missing XML comment for publicly visible type or member 'DeleteContributorRequest.BuildRoute(int)'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Delete.DeleteContributorRequest.cs(8,14): error CS1591: Missing XML comment for publicly visible type or member 'DeleteContributorRequest.ContributorId'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Delete.DeleteContributorValidator.cs(11,10): error CS1591: Missing XML comment for publicly visible type or member 'DeleteContributorValidator.DeleteContributorValidator()'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\GetById.GetContributorValidator.cs(11,10): error CS1591: Missing XML comment for publicly visible type or member 'GetContributorValidator.GetContributorValidator()'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\GetById.GetProjectByIdRequest.cs(3,14): error CS1591: Missing XML comment for publicly visible type or member 'GetContributorByIdRequest'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\GetById.GetProjectByIdRequest.cs(5,23): error CS1591: Missing XML comment for publicly visible type or member 'GetContributorByIdRequest.Route'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\GetById.GetProjectByIdRequest.cs(6,24): error CS1591: Missing XML comment for publicly visible type or member 'GetContributorByIdRequest.BuildRoute(int)'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\GetById.GetProjectByIdRequest.cs(8,14): error CS1591: Missing XML comment for publicly visible type or member 'GetContributorByIdRequest.ContributorId'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\List.ContributorListResponse.cs(3,14): error CS1591: Missing XML comment for publicly visible type or member 'ContributorListResponse'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\List.ContributorListResponse.cs(5,34): error CS1591: Missing XML comment for publicly visible type or member 'ContributorListResponse.Contributors'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorRequest.cs(5,14): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorRequest'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorRequest.cs(7,23): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorRequest.Route'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorRequest.cs(8,24): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorRequest.BuildRoute(int)'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorRequest.cs(10,14): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorRequest.ContributorId'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorRequest.cs(13,14): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorRequest.Id'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorRequest.cs(15,18): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorRequest.Name'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorResponse.cs(3,14): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorResponse'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorResponse.cs(3,14): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorResponse.UpdateContributorResponse(ContributorRecord)'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorResponse.cs(5,28): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorResponse.Contributor'
+    C:\Users\kushal\src\dotnet\Wyoming.Webapi\src\Wyoming.Webapi.Web\Contributors\Update.UpdateContributorValidator.cs(12,10): error CS1591: Missing XML comment for publicly visible type or member 'UpdateContributorValidator.UpdateContributorValidator()'
+  Wyoming.Webapi.UnitTests test succeeded (13.0s)
+  Wyoming.Webapi.IntegrationTests succeeded with 1 warning(s) (3.4s) → tests\Wyoming.Webapi.IntegrationTests\bin\Debug\net9.0\Wyoming.Webapi.IntegrationTests.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  Wyoming.Webapi.IntegrationTests test succeeded (9.0s)
+
+Test summary: total: 6, failed: 0, succeeded: 6, skipped: 0, duration: 24.7s
+Build failed with 31 error(s) and 2 warning(s) in 30.7s
+Saturday, June 22, 2024 12:36:52 AM
+
+PS C:\Users\kushal\src\dotnet\Wyoming.Webapi>
+PS C:\Users\kushal\src\dotnet\Wyoming.Webapi> date; cd "C:\Users\kushal\src\dotnet\Wyoming.Webapi\"; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date; dotnet build; date; dotnet clean; date; dotnet test; date;
+
+Saturday, June 22, 2024 12:42:17 AM
+Saturday, June 22, 2024 12:42:17 AM
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/Wyoming.Webapi.Web/Contributors/Create.CreateContributorRequest.cs
+        modified:   src/Wyoming.Webapi.Web/Contributors/Create.CreateContributorResponse.cs
+        modified:   src/Wyoming.Webapi.Web/Contributors/Create.CreateContributorValidator.cs
+        modified:   src/Wyoming.Webapi.Web/Contributors/Delete.DeleteContributorRequest.cs
+        modified:   src/Wyoming.Webapi.Web/Contributors/Delete.DeleteContributorValidator.cs
+        modified:   src/Wyoming.Webapi.Web/Contributors/GetById.GetContributorValidator.cs
+        modified:   src/Wyoming.Webapi.Web/Contributors/GetById.GetProjectByIdRequest.cs
+        modified:   src/Wyoming.Webapi.Web/Contributors/List.ContributorListResponse.cs
+        modified:   src/Wyoming.Webapi.Web/Contributors/Update.UpdateContributorRequest.cs
+        modified:   src/Wyoming.Webapi.Web/Contributors/Update.UpdateContributorResponse.cs
+        modified:   src/Wyoming.Webapi.Web/Contributors/Update.UpdateContributorValidator.cs
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Saturday, June 22, 2024 12:42:17 AM
+Saturday, June 22, 2024 12:42:17 AM
+[main 85639aa] add all files
+ 11 files changed, 96 insertions(+), 12 deletions(-)
+Saturday, June 22, 2024 12:42:17 AM
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (16/16), 2.06 KiB | 1.03 MiB/s, done.
+Total 16 (delta 11), reused 0 (delta 0), pack-reused 0
+To \\TP-Share\G\shared\git\wyoming.webapi
+   fcc8b92..85639aa  main -> main
+Saturday, June 22, 2024 12:42:23 AM
+* remote origin
+  Fetch URL: \\TP-Share\G\shared\git\wyoming.webapi
+  Push  URL: \\TP-Share\G\shared\git\wyoming.webapi
+  HEAD branch: (unknown)
+  Remote branch:
+    main tracked
+  Local ref configured for 'git push':
+    main pushes to main (up to date)
+Saturday, June 22, 2024 12:42:23 AM
+Restore complete (2.4s)
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+  Wyoming.Webapi.Core succeeded (0.3s) → src\Wyoming.Webapi.Core\bin\Debug\net9.0\Wyoming.Webapi.Core.dll
+  Wyoming.Webapi.UseCases succeeded (0.4s) → src\Wyoming.Webapi.UseCases\bin\Debug\net9.0\Wyoming.Webapi.UseCases.dll
+  Wyoming.Webapi.Infrastructure succeeded (0.5s) → src\Wyoming.Webapi.Infrastructure\bin\Debug\net9.0\Wyoming.Webapi.Infrastructure.dll
+  Wyoming.Webapi.UnitTests succeeded (0.6s) → tests\Wyoming.Webapi.UnitTests\bin\Debug\net9.0\Wyoming.Webapi.UnitTests.dll
+  Wyoming.Webapi.Web succeeded with 1 warning(s) (2.1s) → src\Wyoming.Webapi.Web\bin\Debug\net9.0\Wyoming.Webapi.Web.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  Wyoming.Webapi.IntegrationTests succeeded (2.0s) → tests\Wyoming.Webapi.IntegrationTests\bin\Debug\net9.0\Wyoming.Webapi.IntegrationTests.dll
+  Wyoming.Webapi.FunctionalTests succeeded with 1 warning(s) (1.3s) → tests\Wyoming.Webapi.FunctionalTests\bin\Debug\net9.0\Wyoming.Webapi.FunctionalTests.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+
+Build succeeded with 2 warning(s) in 7.8s
+Saturday, June 22, 2024 12:42:31 AM
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+
+Build succeeded in 3.2s
+Saturday, June 22, 2024 12:42:35 AM
+Restore complete (1.6s)
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+  Wyoming.Webapi.Core succeeded (0.4s) → src\Wyoming.Webapi.Core\bin\Debug\net9.0\Wyoming.Webapi.Core.dll
+  Wyoming.Webapi.UseCases succeeded (0.4s) → src\Wyoming.Webapi.UseCases\bin\Debug\net9.0\Wyoming.Webapi.UseCases.dll
+  Wyoming.Webapi.Infrastructure succeeded with 1 warning(s) (0.9s) → src\Wyoming.Webapi.Infrastructure\bin\Debug\net9.0\Wyoming.Webapi.Infrastructure.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  Wyoming.Webapi.UnitTests succeeded (0.9s) → tests\Wyoming.Webapi.UnitTests\bin\Debug\net9.0\Wyoming.Webapi.UnitTests.dll
+  Wyoming.Webapi.Web succeeded with 1 warning(s) (2.4s) → src\Wyoming.Webapi.Web\bin\Debug\net9.0\Wyoming.Webapi.Web.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  Wyoming.Webapi.FunctionalTests succeeded with 1 warning(s) (1.7s) → tests\Wyoming.Webapi.FunctionalTests\bin\Debug\net9.0\Wyoming.Webapi.FunctionalTests.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  Wyoming.Webapi.UnitTests test succeeded (9.3s)
+  Wyoming.Webapi.IntegrationTests succeeded with 1 warning(s) (3.5s) → tests\Wyoming.Webapi.IntegrationTests\bin\Debug\net9.0\Wyoming.Webapi.IntegrationTests.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  Wyoming.Webapi.IntegrationTests test succeeded (11.7s)
+  Wyoming.Webapi.FunctionalTests test succeeded (21.6s)
+
+Test summary: total: 9, failed: 0, succeeded: 9, skipped: 0, duration: 25.3s
+Build succeeded with 4 warning(s) in 29.2s
+Saturday, June 22, 2024 12:43:05 AM
+
+PS C:\Users\kushal\src\dotnet\Wyoming.Webapi> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date; dotnet build; date; dotnet clean; date; dotnet test; date;
