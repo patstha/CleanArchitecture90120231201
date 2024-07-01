@@ -4,47 +4,28 @@ PowerShell 7.4.2
    Upgrade now, or check out the release page at:
      https://aka.ms/PowerShell-Release?tag=v7.4.3
 
-PS C:\Users\kushal> scoop status
-scoop: The term 'scoop' is not recognized as a name of a cmdlet, function, script file, or executable program.
-Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
-PS C:\Users\kushal> winget search click
-Name                                                           Id                                    Version   Match                Source
--------------------------------------------------------------------------------------------------------------------------------------------
-Auto Clicker - Automated Mouse Click                           9P8F7JR0DSTR                          Unknown                        msstore
-A.Click - Auto Click, Auto Clicker                             9MV9MFVB6R5V                          Unknown                        msstore
-OP Auto Clicker                                                XPFM2K6GPV72CR                        Unknown                        msstore
-Auto Click: Automatic Clicker                                  9P16X2LJVTKL                          Unknown                        msstore
-Click Me Fast                                                  9WZDNCRDC4K3                          Unknown                        msstore
-Click Counters                                                 9NDK27K1RV6P                          Unknown                        msstore
-Gaming Auto Click                                              9NK3NF7297F5                          Unknown                        msstore
-Campus Click                                                   9NMLT1B7365T                          Unknown                        msstore
-Mouse Point Connecter-Quickly Connect Points & Automatic Click 9PLW2F5LNSXR                          Unknown                        msstore
-12G Click-Through Clock                                        9PBF2RCX9PQJ                          Unknown                        msstore
-Right-Click Uninstall                                          XPFP22DJBLGK3J                        Unknown                        msstore
-One Click Tube Downloader - HD                                 9P22F2N0X315                          Unknown                        msstore
-Auto.Click                                                     9P2F99B41P06                          Unknown                        msstore
-2-Click Screen Recorder                                        9N28BBWG8V0P                          Unknown                        msstore
-Click on the Movie                                             9NBLGGH57GWW                          Unknown                        msstore
-Power Click                                                    9N9F1KWGPVN7                          Unknown                        msstore
-Click and Convert                                              9MT145KJB8Z5                          Unknown                        msstore
-X Auto Clicker - Auto Click                                    9N19LXNGH23R                          Unknown                        msstore
-OP Auto Clicker                                                OPAutoClicker.OPAutoClicker           1.0.0.2                        winget
-One-Click-Backup                                               NIS.One-Click-Backup                  1.2                            winget
-Hand Tracked Cockpit Clicking                                  FredEmmott.HandTrackedCockpitClicking 1.0.0.324                      winget
-ClickUp                                                        ClickUp.ClickUp                       3.4.1                          winget
-Auto Clicker                                                   bbatistadaniel.autoclicker            1.0                            winget
-ScummVM                                                        ScummVM.ScummVM                       2.8.1     Tag: point-and-click winget
-Nilesoft Shell                                                 Nilesoft.Shell                        1.9.15    Tag: right-click     winget
-Dbmate                                                         amacneil.dbmate                       2.13.0    Tag: clickhouse      winget
-PS C:\Users\kushal> winget install --id=OPAutoClicker.OPAutoClicker  -e
-Found OP Auto Clicker [OPAutoClicker.OPAutoClicker] Version 1.0.0.2
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://sourceforge.net/projects/orphamielautoclicker/files/AutoClicker.exe/download
-  ██████████████████████████████   850 KB /  850 KB
-Successfully verified installer hash
-Starting package install...
-Path environment variable modified; restart your shell to use the new value.
-Command line alias added: "download"
-Successfully installed
-PS C:\Users\kushal> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date; dotnet build; date; dotnet clean; date; dotnet test; date;
+PS C:\Users\kushal> cd C:\Users\kushal\src\dotnet\BlazorCheckboxes\BlazorCheckboxes\BlazorCheckboxes\; date; dotnet build; date; dotnet clean; date; dotnet build; date;
+
+Monday, July 1, 2024 7:51:43 AM
+Restore complete (2.0s)
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+  BlazorCheckboxes.Client succeeded with 1 warning(s) (7.5s) → C:\Users\kushal\src\dotnet\BlazorCheckboxes\BlazorCheckboxes\BlazorCheckboxes.Client\bin\Debug\net9.0\wwwroot
+    C:\Users\kushal\src\dotnet\BlazorCheckboxes\BlazorCheckboxes\BlazorCheckboxes.Client\Pages\Counter.razor(25,27): warning CS8618: Non-nullable field '_hubConnection' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable.
+  BlazorCheckboxes succeeded (3.5s) → bin\Debug\net9.0\BlazorCheckboxes.dll
+
+Build succeeded with 1 warning(s) in 19.8s
+Monday, July 1, 2024 7:52:03 AM
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+
+Build succeeded in 3.3s
+Monday, July 1, 2024 7:52:07 AM
+Restore complete (1.7s)
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+  BlazorCheckboxes.Client succeeded with 1 warning(s) (4.1s) → C:\Users\kushal\src\dotnet\BlazorCheckboxes\BlazorCheckboxes\BlazorCheckboxes.Client\bin\Debug\net9.0\wwwroot
+    C:\Users\kushal\src\dotnet\BlazorCheckboxes\BlazorCheckboxes\BlazorCheckboxes.Client\Pages\Counter.razor(25,27): warning CS8618: Non-nullable field '_hubConnection' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable.
+  BlazorCheckboxes succeeded (3.3s) → bin\Debug\net9.0\BlazorCheckboxes.dll
+
+Build succeeded with 1 warning(s) in 12.7s
+Monday, July 1, 2024 7:52:20 AM
+
+PS C:\Users\kushal\src\dotnet\BlazorCheckboxes\BlazorCheckboxes\BlazorCheckboxes> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "addall files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date; dotnet build; date; dotnet clean; date; dotnet test; date;
