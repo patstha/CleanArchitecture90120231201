@@ -12,39 +12,12 @@
 //Move one space west
 //moveWest();
 
-moveSouth();
-moveSouth();
 moveEast();
 moveEast();
 moveEast();
-moveNorth();
-moveNorth();
-moveWest();
-moveWest();
-moveNorth();
-moveWest();
-moveSouth();
+moveEast();
+moveEast();
 
-moveEast();
-moveEast();
-moveNorth();
-moveNorth();
-moveNorth();
-moveNorth();
-moveNorth();
-moveWest();
-moveWest();
-
-moveEast();
-moveEast();
-moveEast();
-moveSouth();
-moveSouth();
-moveSouth();
-moveSouth();
-moveSouth();
-moveEast();
-moveEast();
 moveNorth();
 moveNorth();
 moveNorth();
@@ -54,6 +27,14 @@ moveNorth();
 moveWest();
 moveWest();
 moveWest();
+moveWest();
+moveWest();
+
+moveSouth();
+moveSouth();
+moveSouth();
+moveSouth();
+moveSouth();
 
 //Activate the teleporter to solve the level
 activateTeleporter();

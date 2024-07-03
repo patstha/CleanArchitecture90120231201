@@ -4,28 +4,136 @@ PowerShell 7.4.2
    Upgrade now, or check out the release page at:
      https://aka.ms/PowerShell-Release?tag=v7.4.3
 
-PS C:\Users\kushal> cd C:\Users\kushal\src\dotnet\BlazorCheckboxes\BlazorCheckboxes\BlazorCheckboxes\; date; dotnet build; date; dotnet clean; date; dotnet build; date;
+PS C:\Users\kushal> winget --info
+Windows Package Manager v1.8.1791
+Copyright (c) Microsoft Corporation. All rights reserved.
 
-Monday, July 1, 2024 7:51:43 AM
-Restore complete (2.0s)
+Windows: Windows.Desktop v10.0.22631.3810
+System Architecture: X64
+Package: Microsoft.DesktopAppInstaller v1.23.1791.0
+
+Winget Directories
+-------------------------------------------------------------------------------------------------------------------------------
+Logs                               %LOCALAPPDATA%\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\DiagOutputDir
+User Settings                      %LOCALAPPDATA%\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
+Portable Links Directory (User)    %LOCALAPPDATA%\Microsoft\WinGet\Links
+Portable Links Directory (Machine) C:\Program Files\WinGet\Links
+Portable Package Root (User)       %LOCALAPPDATA%\Microsoft\WinGet\Packages
+Portable Package Root              C:\Program Files\WinGet\Packages
+Portable Package Root (x86)        C:\Program Files (x86)\WinGet\Packages
+Installer Downloads                %USERPROFILE%\Downloads
+
+Links
+---------------------------------------------------------------------------
+Privacy Statement   https://aka.ms/winget-privacy
+License Agreement   https://aka.ms/winget-license
+Third Party Notices https://aka.ms/winget-3rdPartyNotice
+Homepage            https://aka.ms/winget
+Windows Store Terms https://www.microsoft.com/en-us/storedocs/terms-of-sale
+
+Admin Setting                             State
+--------------------------------------------------
+LocalManifestFiles                        Disabled
+BypassCertificatePinningForMicrosoftStore Disabled
+InstallerHashOverride                     Disabled
+LocalArchiveMalwareScanOverride           Disabled
+ProxyCommandLineOptions                   Disabled
+DefaultProxy                              Disabled
+PS C:\Users\kushal> winget search vlc
+Name             Id                    Version    Match        Source
+----------------------------------------------------------------------
+VLC              XPDM1ZW6815MQM        Unknown                 msstore
+VLC UWP          9NBLGGH4VVNH          Unknown                 msstore
+VLC media player VideoLAN.VLC          3.0.20     Moniker: vlc winget
+Streamlink       Streamlink.Streamlink 6.8.1-1    Tag: vlc     winget
+wcap             mmozeiko.wcap         2022.11.06 Tag: vlc     winget
+PS C:\Users\kushal> winget upgrade
+Name                                          Id                                  Version      Available    Source
+------------------------------------------------------------------------------------------------------------------
+Android Studio                                Google.AndroidStudio                2022.3.1.22  2024.1.1.11  winget
+Git                                           Git.Git                             2.42.0.2     2.45.2       winget
+7-Zip 23.01 (x64 edition)                     7zip.7zip                           23.01.00.0   24.07        winget
+IntelliJ IDEA Community Edition 2023.2.5      JetBrains.IntelliJIDEA.Community    2023.2.5     2024.1.4     winget
+OBS Studio                                    OBSProject.OBSStudio                30.0.0       30.1.2       winget
+PyCharm Community Edition 2023.2.5            JetBrains.PyCharm.Community         2023.2.5     2024.1.4     winget
+Microsoft SQL Server Management Studio - 19.2 Microsoft.SQLServerManagementStudio 19.2         20.1         winget
+PowerShell 7.4.2.0-x64                        Microsoft.PowerShell                7.4.2.0      7.4.3.0      winget
+Python Launcher                               Python.Launcher                     < 3.12.0     3.12.0       winget
+Python 3.11.6 (64-bit)                        Python.Python.3.11                  3.11.6       3.11.9       winget
+Windows Terminal                              Microsoft.WindowsTerminal           1.20.11381.0 1.20.11781.0 winget
+11 upgrades available.
+PS C:\Users\kushal>
+PS C:\Users\kushal>
+PS C:\Users\kushal> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date; dotnet build; date; dotnet clean; date; dotnet test; date;
+
+Tuesday, July 2, 2024 11:18:50 PM
+Tuesday, July 2, 2024 11:18:50 PM
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+Tuesday, July 2, 2024 11:18:50 PM
+Tuesday, July 2, 2024 11:18:51 PM
+[master 6a3ec8b] add all files
+ 1 file changed, 59 insertions(+)
+ create mode 100644 test.js
+Tuesday, July 2, 2024 11:18:51 PM
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 521 bytes | 260.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:patstha/CleanArchitecture90120231201.git
+   151559c..6a3ec8b  master -> master
+Tuesday, July 2, 2024 11:18:52 PM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Tuesday, July 2, 2024 11:18:53 PM
+Restore complete (11.8s)
 You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
-  BlazorCheckboxes.Client succeeded with 1 warning(s) (7.5s) → C:\Users\kushal\src\dotnet\BlazorCheckboxes\BlazorCheckboxes\BlazorCheckboxes.Client\bin\Debug\net9.0\wwwroot
-    C:\Users\kushal\src\dotnet\BlazorCheckboxes\BlazorCheckboxes\BlazorCheckboxes.Client\Pages\Counter.razor(25,27): warning CS8618: Non-nullable field '_hubConnection' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable.
-  BlazorCheckboxes succeeded (3.5s) → bin\Debug\net9.0\BlazorCheckboxes.dll
+  CleanArchitecture90120231201.Core succeeded (8.9s) → src\CleanArchitecture90120231201.Core\bin\Debug\net9.0\CleanArchitecture90120231201.Core.dll
+  CleanArchitecture90120231201.UseCases succeeded (1.4s) → src\CleanArchitecture90120231201.UseCases\bin\Debug\net9.0\CleanArchitecture90120231201.UseCases.dll
+  CleanArchitecture90120231201.UnitTests succeeded (2.6s) → tests\CleanArchitecture90120231201.UnitTests\bin\Debug\net9.0\CleanArchitecture90120231201.UnitTests.dll
+  CleanArchitecture90120231201.Infrastructure succeeded (2.6s) → src\CleanArchitecture90120231201.Infrastructure\bin\Debug\net9.0\CleanArchitecture90120231201.Infrastructure.dll
+  CleanArchitecture90120231201.IntegrationTests succeeded (2.5s) → tests\CleanArchitecture90120231201.IntegrationTests\bin\Debug\net9.0\CleanArchitecture90120231201.IntegrationTests.dll
+  CleanArchitecture90120231201.Web succeeded (4.8s) → src\CleanArchitecture90120231201.Web\bin\Debug\net9.0\CleanArchitecture90120231201.Web.dll
+  CleanArchitecture90120231201.FunctionalTests succeeded (1.1s) → tests\CleanArchitecture90120231201.FunctionalTests\bin\Debug\net9.0\CleanArchitecture90120231201.FunctionalTests.dll
 
-Build succeeded with 1 warning(s) in 19.8s
-Monday, July 1, 2024 7:52:03 AM
+Build succeeded in 31.1s
+Tuesday, July 2, 2024 11:19:25 PM
 You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
 
-Build succeeded in 3.3s
-Monday, July 1, 2024 7:52:07 AM
-Restore complete (1.7s)
+Build succeeded in 6.3s
+Tuesday, July 2, 2024 11:19:32 PM
+Restore complete (2.7s)
 You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
-  BlazorCheckboxes.Client succeeded with 1 warning(s) (4.1s) → C:\Users\kushal\src\dotnet\BlazorCheckboxes\BlazorCheckboxes\BlazorCheckboxes.Client\bin\Debug\net9.0\wwwroot
-    C:\Users\kushal\src\dotnet\BlazorCheckboxes\BlazorCheckboxes\BlazorCheckboxes.Client\Pages\Counter.razor(25,27): warning CS8618: Non-nullable field '_hubConnection' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable.
-  BlazorCheckboxes succeeded (3.3s) → bin\Debug\net9.0\BlazorCheckboxes.dll
+  CleanArchitecture90120231201.Core succeeded (0.8s) → src\CleanArchitecture90120231201.Core\bin\Debug\net9.0\CleanArchitecture90120231201.Core.dll
+  CleanArchitecture90120231201.UseCases succeeded (1.1s) → src\CleanArchitecture90120231201.UseCases\bin\Debug\net9.0\CleanArchitecture90120231201.UseCases.dll
+  CleanArchitecture90120231201.UnitTests succeeded (1.5s) → tests\CleanArchitecture90120231201.UnitTests\bin\Debug\net9.0\CleanArchitecture90120231201.UnitTests.dll
+  CleanArchitecture90120231201.Infrastructure succeeded with 1 warning(s) (1.8s) → src\CleanArchitecture90120231201.Infrastructure\bin\Debug\net9.0\CleanArchitecture90120231201.Infrastructure.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.Web succeeded with 1 warning(s) (5.3s) → src\CleanArchitecture90120231201.Web\bin\Debug\net9.0\CleanArchitecture90120231201.Web.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.FunctionalTests succeeded with 1 warning(s) (3.0s) → tests\CleanArchitecture90120231201.FunctionalTests\bin\Debug\net9.0\CleanArchitecture90120231201.FunctionalTests.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.UnitTests test succeeded (15.1s)
+  CleanArchitecture90120231201.IntegrationTests succeeded with 1 warning(s) (2.9s) → tests\CleanArchitecture90120231201.IntegrationTests\bin\Debug\net9.0\CleanArchitecture90120231201.IntegrationTests.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.IntegrationTests test succeeded (9.6s)
+  CleanArchitecture90120231201.FunctionalTests test succeeded (23.7s)
 
-Build succeeded with 1 warning(s) in 12.7s
-Monday, July 1, 2024 7:52:20 AM
+Test summary: total: 9, failed: 0, succeeded: 9, skipped: 0, duration: 31.8s
+Build succeeded with 4 warning(s) in 38.7s
+Tuesday, July 2, 2024 11:20:12 PM
 
-PS C:\Users\kushal\src\dotnet\BlazorCheckboxes\BlazorCheckboxes\BlazorCheckboxes> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "addall files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date; dotnet build; date; dotnet clean; date; dotnet test; date;
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
