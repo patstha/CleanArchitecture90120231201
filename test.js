@@ -1,55 +1,56 @@
-for (let i = 0; i < 5; i++) {
-    moveEast();
-}
+moveEast()
+moveEast()
+moveEast()
+moveEast()
+moveEast()
 
-for (let i = 0; i < 6; i++) {
-    moveNorth();
-}
+moveNorth()
+moveNorth()
+moveNorth()
+moveNorth()
+moveNorth()
+moveNorth()
 
-// moveNorth();
-// moveNorth();
-// moveEast();
-// moveEast();
-// moveSouth();
-// moveSouth();
+moveSouth()
+moveSouth()
+moveEast()
+moveEast()
+moveNorth()
+moveNorth()
 
-moveSouth();
-moveSouth();
-moveEast();
-moveEast();
-moveNorth();
-moveNorth();
+moveWest()
+moveWest()
+moveWest()
+moveWest()
+moveWest()
+moveWest()
 
-for (let i = 0; i < 6; i++) {
-    moveWest();
-}
+moveSouth()
+moveSouth()
 
-moveSouth();
-moveSouth();
+moveEast()
+moveEast()
+moveEast()
+moveEast()
+moveEast()
 
-moveEast();
-moveEast();
-moveEast();
-moveEast();
-moveEast();
+moveSouth()
+moveSouth()
+moveSouth()
 
-moveSouth();
-moveSouth();
-moveSouth();
+moveNorth()
+moveNorth()
+moveNorth()
 
-moveNorth();
-moveNorth();
-moveNorth();
+moveEast()
+moveEast()
+moveSouth()
+moveWest()
+moveWest()
+moveWest()
+moveWest()
+moveWest()
+moveWest()
+moveWest()
 
-moveEast();
-moveEast();
-moveSouth();
-moveWest();
-moveWest();
-moveWest();
-moveWest();
-moveWest();
-moveWest();
-moveWest();
-
-activateTeleporter();
+activateTeleporter()
