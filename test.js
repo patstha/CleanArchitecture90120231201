@@ -6,12 +6,20 @@ for (let i = 0; i < 6; i++) {
     moveNorth();
 }
 
-moveNorth();
-moveNorth();
-moveEast();
-moveEast();
+// moveNorth();
+// moveNorth();
+// moveEast();
+// moveEast();
+// moveSouth();
+// moveSouth();
+
 moveSouth();
 moveSouth();
+moveEast();
+moveEast();
+moveNorth();
+moveNorth();
+
 for (let i = 0; i < 6; i++) {
     moveWest();
 }
