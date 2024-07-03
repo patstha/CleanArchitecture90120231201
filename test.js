@@ -1,40 +1,17 @@
-// In Purrfect Code Level 3, try using JavaScript functions
-// to solve the puzzle. 
+// In Purrfect Code Level 4,  try passing unique values 
+//to your functions to solve the puzzle.
+
 //Move one space north
-//moveNorth();
+moveNorth();
 
 //Move one space south
-//moveSouth();
+moveSouth();
 
 //Move one space east
-//moveEast();
+moveEast();
 
 //Move one space west
-//moveWest();
-
-moveEast();
-moveEast();
-moveEast();
-moveEast();
-moveEast();
-
-moveNorth();
-moveNorth();
-moveNorth();
-moveNorth();
-moveNorth();
-
 moveWest();
-moveWest();
-moveWest();
-moveWest();
-moveWest();
-
-moveSouth();
-moveSouth();
-moveSouth();
-moveSouth();
-moveSouth();
 
 //Activate the teleporter to solve the level
 activateTeleporter();
