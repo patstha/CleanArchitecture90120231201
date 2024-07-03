@@ -1,43 +1,18 @@
-moveEast()
-moveEast()
-moveEast()
-moveEast()
-moveEast()
-moveEast()
-moveEast()
-moveEast()
-moveEast()
-moveEast()
+// In Purrfect Code Level 5,  the solution requires
+// you to combine the skills you've learned thus far!
+// Use JavaScript to solve the puzzle.
+ 
+//Move one space north
+moveNorth();
 
-moveNorth()
-moveNorth()
-moveNorth()
+//Move one space south
+moveSouth();
 
-moveWest()
-moveWest()
-moveWest()
-moveWest()
-moveWest()
-moveWest()
-moveWest()
-moveWest()
-moveWest()
-moveWest()
-moveWest()
+//Move one space east
+moveEast();
 
-// moveEast()
-
-moveNorth()
-
-moveSouth()
-moveSouth()
-
-moveEast()
-moveEast()
-moveEast()
-moveEast()
-
-moveSouth()
+//Move one space west
+moveWest();
 
 //Activate the teleporter to solve the level
-activateTeleporter()
+activateTeleporter();
