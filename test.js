@@ -1,17 +1,27 @@
-// In Purrfect Code Level 4,  try passing unique values 
-//to your functions to solve the puzzle.
+for (let i = 0; i < 10; i++) {
+    moveEast();
+}
 
-//Move one space north
+for (let i = 0; i < 3; i++) {
+    moveNorth();
+}
+
+for (let i = 0; i < 11; i++) {
+    moveWest();
+}
+
+// moveEast();
+
 moveNorth();
 
-//Move one space south
+moveSouth();
 moveSouth();
 
-//Move one space east
-moveEast();
+for (let i = 0; i < 4; i++) {
+    moveEast();
+}
 
-//Move one space west
-moveWest();
+moveSouth();
 
 //Activate the teleporter to solve the level
 activateTeleporter();
