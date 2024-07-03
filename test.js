@@ -1,27 +1,43 @@
-for (let i = 0; i < 10; i++) {
-    moveEast();
-}
+moveEast()
+moveEast()
+moveEast()
+moveEast()
+moveEast()
+moveEast()
+moveEast()
+moveEast()
+moveEast()
+moveEast()
 
-for (let i = 0; i < 3; i++) {
-    moveNorth();
-}
+moveNorth()
+moveNorth()
+moveNorth()
 
-for (let i = 0; i < 11; i++) {
-    moveWest();
-}
+moveWest()
+moveWest()
+moveWest()
+moveWest()
+moveWest()
+moveWest()
+moveWest()
+moveWest()
+moveWest()
+moveWest()
+moveWest()
 
-// moveEast();
+// moveEast()
 
-moveNorth();
+moveNorth()
 
-moveSouth();
-moveSouth();
+moveSouth()
+moveSouth()
 
-for (let i = 0; i < 4; i++) {
-    moveEast();
-}
+moveEast()
+moveEast()
+moveEast()
+moveEast()
 
-moveSouth();
+moveSouth()
 
 //Activate the teleporter to solve the level
-activateTeleporter();
+activateTeleporter()
