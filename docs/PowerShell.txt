@@ -89,3 +89,358 @@ Build succeeded with 4 warning(s) in 30.2s
 Tuesday, July 9, 2024 8:14:30 PM
 
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date; dotnet build; date; dotnet clean; date; dotnet test; date;
+
+Tuesday, July 9, 2024 8:14:53 PM
+Tuesday, July 9, 2024 8:14:53 PM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Tuesday, July 9, 2024 8:14:54 PM
+Tuesday, July 9, 2024 8:14:54 PM
+[master c05a2a6] add all files
+ 1 file changed, 49 insertions(+), 811 deletions(-)
+Tuesday, July 9, 2024 8:14:54 PM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.23 KiB | 419.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   9842d05..c05a2a6  master -> master
+Tuesday, July 9, 2024 8:14:55 PM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Tuesday, July 9, 2024 8:14:56 PM
+Restore complete (2.6s)
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+  CleanArchitecture90120231201.Core succeeded (0.3s) → src\CleanArchitecture90120231201.Core\bin\Debug\net9.0\CleanArchitecture90120231201.Core.dll
+  CleanArchitecture90120231201.UseCases succeeded (0.3s) → src\CleanArchitecture90120231201.UseCases\bin\Debug\net9.0\CleanArchitecture90120231201.UseCases.dll
+  CleanArchitecture90120231201.Infrastructure succeeded (0.4s) → src\CleanArchitecture90120231201.Infrastructure\bin\Debug\net9.0\CleanArchitecture90120231201.Infrastructure.dll
+  CleanArchitecture90120231201.UnitTests succeeded (1.0s) → tests\CleanArchitecture90120231201.UnitTests\bin\Debug\net9.0\CleanArchitecture90120231201.UnitTests.dll
+  CleanArchitecture90120231201.Web succeeded (1.1s) → src\CleanArchitecture90120231201.Web\bin\Debug\net9.0\CleanArchitecture90120231201.Web.dll
+  CleanArchitecture90120231201.IntegrationTests succeeded (1.3s) → tests\CleanArchitecture90120231201.IntegrationTests\bin\Debug\net9.0\CleanArchitecture90120231201.IntegrationTests.dll
+  CleanArchitecture90120231201.FunctionalTests succeeded (0.6s) → tests\CleanArchitecture90120231201.FunctionalTests\bin\Debug\net9.0\CleanArchitecture90120231201.FunctionalTests.dll
+
+Build succeeded in 5.8s
+Tuesday, July 9, 2024 8:15:02 PM
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+
+Build succeeded in 2.5s
+Tuesday, July 9, 2024 8:15:05 PM
+Restore complete (1.6s)
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+  CleanArchitecture90120231201.Core succeeded (0.4s) → src\CleanArchitecture90120231201.Core\bin\Debug\net9.0\CleanArchitecture90120231201.Core.dll
+  CleanArchitecture90120231201.UseCases succeeded (0.3s) → src\CleanArchitecture90120231201.UseCases\bin\Debug\net9.0\CleanArchitecture90120231201.UseCases.dll
+  CleanArchitecture90120231201.Infrastructure succeeded with 1 warning(s) (0.8s) → src\CleanArchitecture90120231201.Infrastructure\bin\Debug\net9.0\CleanArchitecture90120231201.Infrastructure.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.UnitTests succeeded (0.8s) → tests\CleanArchitecture90120231201.UnitTests\bin\Debug\net9.0\CleanArchitecture90120231201.UnitTests.dll
+  CleanArchitecture90120231201.Web succeeded with 1 warning(s) (2.8s) → src\CleanArchitecture90120231201.Web\bin\Debug\net9.0\CleanArchitecture90120231201.Web.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.FunctionalTests succeeded with 1 warning(s) (1.1s) → tests\CleanArchitecture90120231201.FunctionalTests\bin\Debug\net9.0\CleanArchitecture90120231201.FunctionalTests.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.UnitTests test succeeded (6.3s)
+  CleanArchitecture90120231201.IntegrationTests succeeded with 1 warning(s) (1.8s) → tests\CleanArchitecture90120231201.IntegrationTests\bin\Debug\net9.0\CleanArchitecture90120231201.IntegrationTests.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.IntegrationTests test succeeded (6.8s)
+  CleanArchitecture90120231201.FunctionalTests test succeeded (12.6s)
+
+Test summary: total: 9, failed: 0, succeeded: 9, skipped: 0, duration: 16.3s
+Build succeeded with 4 warning(s) in 20.0s
+Tuesday, July 9, 2024 8:15:26 PM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> winget install -e --id Obsidian.Obsidian
+Found Obsidian [Obsidian.Obsidian] Version 1.6.5
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://github.com/obsidianmd/obsidian-releases/releases/download/v1.6.5/Obsidian-1.6.5.exe
+  ██████████████████████████████   235 MB /  235 MB
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> winget
+Windows Package Manager v1.8.1791
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+The winget command line utility enables installing applications and other packages from the command line.
+
+usage: winget  [<command>] [<options>]
+
+The following commands are available:
+  install    Installs the given package
+  show       Shows information about a package
+  source     Manage sources of packages
+  search     Find and show basic info of packages
+  list       Display installed packages
+  upgrade    Shows and performs available upgrades
+  uninstall  Uninstalls the given package
+  hash       Helper to hash installer files
+  validate   Validates a manifest file
+  settings   Open settings or set administrator settings
+  features   Shows the status of experimental features
+  export     Exports a list of the installed packages
+  import     Installs all the packages in a file
+  pin        Manage package pins
+  configure  Configures the system into a desired state
+  download   Downloads the installer from a given package
+  repair     Repairs the selected package
+
+For more details on a specific command, pass it the help argument. [-?]
+
+The following options are available:
+  -v,--version                Display the version of the tool
+  --info                      Display general info of the tool
+  -?,--help                   Shows help about the selected command
+  --wait                      Prompts the user to press any key before exiting
+  --logs,--open-logs          Open the default logs location
+  --verbose,--verbose-logs    Enables verbose logging for winget
+  --nowarn,--ignore-warnings  Suppresses warning outputs
+  --disable-interactivity     Disable interactive prompts
+  --proxy                     Set a proxy to use for this execution
+  --no-proxy                  Disable the use of proxy for this execution
+
+More help can be found at: https://aka.ms/winget-command-help
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> winget upgrade
+Name                                          Id                                  Version      Available    Source
+------------------------------------------------------------------------------------------------------------------
+Android Studio                                Google.AndroidStudio                2022.3.1.22  2024.1.1.11  winget
+Git                                           Git.Git                             2.42.0.2     2.45.2       winget
+7-Zip 23.01 (x64 edition)                     7zip.7zip                           23.01.00.0   24.07        winget
+IntelliJ IDEA Community Edition 2023.2.5      JetBrains.IntelliJIDEA.Community    2023.2.5     2024.1.4     winget
+OBS Studio                                    OBSProject.OBSStudio                30.0.0       30.1.2       winget
+PyCharm Community Edition 2023.2.5            JetBrains.PyCharm.Community         2023.2.5     2024.1.4     winget
+Microsoft SQL Server Management Studio - 19.2 Microsoft.SQLServerManagementStudio 19.2         20.1         winget
+PowerShell 7.4.2.0-x64                        Microsoft.PowerShell                7.4.2.0      7.4.3.0      winget
+Python Launcher                               Python.Launcher                     < 3.12.0     3.12.0       winget
+Bitwarden                                     Bitwarden.Bitwarden                 2024.6.3     2024.6.4     winget
+Microsoft Visual Studio Code (User)           Microsoft.VisualStudioCode          1.90.2       1.91.0       winget
+PowerToys (Preview) x64                       Microsoft.PowerToys                 0.81.1       0.82.0       winget
+Python 3.11.6 (64-bit)                        Python.Python.3.11                  3.11.6       3.11.9       winget
+Windows Terminal                              Microsoft.WindowsTerminal           1.20.11381.0 1.20.11781.0 winget
+14 upgrades available.
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> scoop
+scoop: The term 'scoop' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget upgrade --all; date;
+
+Tuesday, July 9, 2024 9:50:59 PM
+Name                                          Id                                  Version      Available    Source
+------------------------------------------------------------------------------------------------------------------
+Android Studio                                Google.AndroidStudio                2022.3.1.22  2024.1.1.11  winget
+Git                                           Git.Git                             2.42.0.2     2.45.2       winget
+7-Zip 23.01 (x64 edition)                     7zip.7zip                           23.01.00.0   24.07        winget
+IntelliJ IDEA Community Edition 2023.2.5      JetBrains.IntelliJIDEA.Community    2023.2.5     2024.1.4     winget
+OBS Studio                                    OBSProject.OBSStudio                30.0.0       30.1.2       winget
+PyCharm Community Edition 2023.2.5            JetBrains.PyCharm.Community         2023.2.5     2024.1.4     winget
+Microsoft SQL Server Management Studio - 19.2 Microsoft.SQLServerManagementStudio 19.2         20.1         winget
+PowerShell 7.4.2.0-x64                        Microsoft.PowerShell                7.4.2.0      7.4.3.0      winget
+Python Launcher                               Python.Launcher                     < 3.12.0     3.12.0       winget
+Bitwarden                                     Bitwarden.Bitwarden                 2024.6.3     2024.6.4     winget
+Microsoft Visual Studio Code (User)           Microsoft.VisualStudioCode          1.90.2       1.91.0       winget
+PowerToys (Preview) x64                       Microsoft.PowerToys                 0.81.1       0.82.0       winget
+Python 3.11.6 (64-bit)                        Python.Python.3.11                  3.11.6       3.11.9       winget
+Windows Terminal                              Microsoft.WindowsTerminal           1.20.11381.0 1.20.11781.0 winget
+14 upgrades available.
+
+Installing dependencies:
+This package requires the following dependencies:
+  - Packages
+      Microsoft.VCRedist.2015+.x64
+      Microsoft.UI.Xaml.2.8 [>= 8.2306.22001.0]
+(1/13) Found Android Studio [Google.AndroidStudio] Version 2024.1.1.11
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://redirector.gvt1.com/edgedl/android/studio/install/2024.1.1.11/android-studio-2024.1.1.11-windows.exe
+  ██████████████████████████████  1.12 GB / 1.12 GB
+Successfully verified installer hash
+Starting package install...
+The installer will request to run as administrator, expect a prompt.
+Successfully installed
+
+(2/13) Found Git [Git.Git] Version 2.45.2
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://github.com/git-for-windows/git/releases/download/v2.45.2.windows.1/Git-2.45.2-64-bit.exe
+  ██████████████████████████████  64.9 MB / 64.9 MB
+Successfully verified installer hash
+Starting package install...
+The installer will request to run as administrator, expect a prompt.
+Successfully installed
+
+(3/13) Found 7-Zip [7zip.7zip] Version 24.07
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://7-zip.org/a/7z2407-x64.msi
+  ██████████████████████████████  1.87 MB / 1.87 MB
+Successfully verified installer hash
+Starting package install...
+The installer will request to run as administrator, expect a prompt.
+Successfully installed
+
+(4/13) Found IntelliJ IDEA Community Edition [JetBrains.IntelliJIDEA.Community] Version 2024.1.4
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://download.jetbrains.com/idea/ideaIC-2024.1.4.exe
+  ██████████████████████████████   570 MB /  570 MB
+Successfully verified installer hash
+Starting package uninstall...
+Successfully uninstalled
+Starting package install...
+Successfully installed
+
+(5/13) Found OBS Studio [OBSProject.OBSStudio] Version 30.1.2
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://github.com/obsproject/obs-studio/releases/download/30.1.2/OBS-Studio-30.1.2-Full-Installer-x64.exe
+  ██████████████████████████████   127 MB /  127 MB
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+
+(6/13) Found PyCharm Community Edition [JetBrains.PyCharm.Community] Version 2024.1.4
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://download.jetbrains.com/python/pycharm-community-2024.1.4.exe
+  ██████████████████████████████   456 MB /  456 MB
+Successfully verified installer hash
+Starting package uninstall...
+Successfully uninstalled
+Starting package install...
+Successfully installed
+
+(7/13) Found Microsoft SQL Server Management Studio [Microsoft.SQLServerManagementStudio] Version 20.1
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://download.microsoft.com/download/b/9/7/b97061b9-9b9c-4bc7-86de-22b262c016d1/SSMS-Setup-ENU.exe
+  ██████████████████████████████   485 MB /  485 MB
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+
+(8/13) Found Python Launcher [Python.Launcher] Version 3.12.0
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://www.python.org/ftp/python/3.12.0/win32/launcher.msi
+  ██████████████████████████████   540 KB /  540 KB
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+
+(9/13) Found Bitwarden [Bitwarden.Bitwarden] Version 2024.6.4
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://github.com/bitwarden/clients/releases/download/desktop-v2024.6.4/Bitwarden-Installer-2024.6.4.exe
+  ██████████████████████████████   714 KB /  714 KB
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+
+(10/13) Found Microsoft Visual Studio Code [Microsoft.VisualStudioCode] Version 1.91.0
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://vscode.download.prss.microsoft.com/dbazure/download/stable/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/VSCodeUserSetup-x64-1.91.0.exe
+  ██████████████████████████████  94.9 MB / 94.9 MB
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+
+(11/13) Found PowerToys (Preview) [Microsoft.PowerToys] Version 0.82.0
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://github.com/microsoft/PowerToys/releases/download/v0.82.0/PowerToysUserSetup-0.82.0-x64.exe
+  ██████████████████████████████   257 MB /  257 MB
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+
+(12/13) Found Python 3.11 [Python.Python.3.11] Version 3.11.9
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe
+  ██████████████████████████████  25.0 MB / 25.0 MB
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+
+(13/13) Found Windows Terminal [Microsoft.WindowsTerminal] Version 1.20.11781.0
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Successfully verified installer hash
+Starting package install...
+  ████████████████████████████▌   95%
+Successfully installed. Restart the application to complete the upgrade.
+
+1 package(s) have version numbers that cannot be determined. Use --include-unknown to see all results.
+Tuesday, July 9, 2024 10:10:51 PM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date; dotnet build; date; dotnet clean; date; dotnet test; date;
+
+Tuesday, July 9, 2024 10:40:58 PM
+Tuesday, July 9, 2024 10:40:58 PM
+On branch master
+nothing to commit, working tree clean
+Tuesday, July 9, 2024 10:40:58 PM
+Tuesday, July 9, 2024 10:40:58 PM
+On branch master
+nothing to commit, working tree clean
+Tuesday, July 9, 2024 10:40:58 PM
+Everything up-to-date
+Tuesday, July 9, 2024 10:41:00 PM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Tuesday, July 9, 2024 10:41:01 PM
+Restore complete (2.4s)
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+  CleanArchitecture90120231201.Core succeeded (0.6s) → src\CleanArchitecture90120231201.Core\bin\Debug\net9.0\CleanArchitecture90120231201.Core.dll
+  CleanArchitecture90120231201.UseCases succeeded (0.6s) → src\CleanArchitecture90120231201.UseCases\bin\Debug\net9.0\CleanArchitecture90120231201.UseCases.dll
+  CleanArchitecture90120231201.UnitTests succeeded (0.7s) → tests\CleanArchitecture90120231201.UnitTests\bin\Debug\net9.0\CleanArchitecture90120231201.UnitTests.dll
+  CleanArchitecture90120231201.Infrastructure succeeded (0.7s) → src\CleanArchitecture90120231201.Infrastructure\bin\Debug\net9.0\CleanArchitecture90120231201.Infrastructure.dll
+  CleanArchitecture90120231201.IntegrationTests succeeded (1.1s) → tests\CleanArchitecture90120231201.IntegrationTests\bin\Debug\net9.0\CleanArchitecture90120231201.IntegrationTests.dll
+  CleanArchitecture90120231201.Web succeeded (2.1s) → src\CleanArchitecture90120231201.Web\bin\Debug\net9.0\CleanArchitecture90120231201.Web.dll
+  CleanArchitecture90120231201.FunctionalTests succeeded (0.6s) → tests\CleanArchitecture90120231201.FunctionalTests\bin\Debug\net9.0\CleanArchitecture90120231201.FunctionalTests.dll
+
+Build succeeded in 7.6s
+Tuesday, July 9, 2024 10:41:09 PM
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+
+Build succeeded in 3.2s
+Tuesday, July 9, 2024 10:41:13 PM
+Restore complete (1.5s)
+You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
+  CleanArchitecture90120231201.Core succeeded (4.5s) → src\CleanArchitecture90120231201.Core\bin\Debug\net9.0\CleanArchitecture90120231201.Core.dll
+  CleanArchitecture90120231201.UseCases succeeded (0.7s) → src\CleanArchitecture90120231201.UseCases\bin\Debug\net9.0\CleanArchitecture90120231201.UseCases.dll
+  CleanArchitecture90120231201.Infrastructure succeeded with 1 warning(s) (1.7s) → src\CleanArchitecture90120231201.Infrastructure\bin\Debug\net9.0\CleanArchitecture90120231201.Infrastructure.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.UnitTests succeeded (2.1s) → tests\CleanArchitecture90120231201.UnitTests\bin\Debug\net9.0\CleanArchitecture90120231201.UnitTests.dll
+  CleanArchitecture90120231201.Web succeeded with 1 warning(s) (4.4s) → src\CleanArchitecture90120231201.Web\bin\Debug\net9.0\CleanArchitecture90120231201.Web.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.FunctionalTests succeeded with 1 warning(s) (1.9s) → tests\CleanArchitecture90120231201.FunctionalTests\bin\Debug\net9.0\CleanArchitecture90120231201.FunctionalTests.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.UnitTests test succeeded (9.8s)
+  CleanArchitecture90120231201.IntegrationTests succeeded with 1 warning(s) (2.2s) → tests\CleanArchitecture90120231201.IntegrationTests\bin\Debug\net9.0\CleanArchitecture90120231201.IntegrationTests.dll
+    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
+  CleanArchitecture90120231201.IntegrationTests test succeeded (6.0s)
+  CleanArchitecture90120231201.FunctionalTests test succeeded (15.9s)
+
+Test summary: total: 9, failed: 0, succeeded: 9, skipped: 0, duration: 21.6s
+Build succeeded with 4 warning(s) in 30.9s
+Tuesday, July 9, 2024 10:41:44 PM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date; dotnet build; date; dotnet clean; date; dotnet test; date;
