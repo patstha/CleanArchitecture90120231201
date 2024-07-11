@@ -4,45 +4,95 @@ PowerShell 7.4.2
    Upgrade now, or check out the release page at:
      https://aka.ms/PowerShell-Release?tag=v7.4.3
 
-PS C:\Users\kushal> yt-dlp
-yt-dlp: The term 'yt-dlp' is not recognized as a name of a cmdlet, function, script file, or executable program.
-Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
-PS C:\Users\kushal> winget install yt-dlp
-Found yt-dlp [yt-dlp.yt-dlp] Version 2024.07.07
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-This package requires the following dependencies:
-  - Packages
-      Gyan.FFmpeg
-(1/1) Found FFmpeg [Gyan.FFmpeg] Version 7.0.1
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://github.com/GyanD/codexffmpeg/releases/download/7.0.1/ffmpeg-7.0.1-full_build.zip
-  ██████████████████████████████   162 MB /  162 MB
-Successfully verified installer hash
-Extracting archive...
-Successfully extracted archive
-Starting package install...
-Path environment variable modified; restart your shell to use the new value.
-Command line alias added: "ffmpeg"
-Command line alias added: "ffplay"
-Command line alias added: "ffprobe"
-Successfully installed
-
-Downloading https://github.com/yt-dlp/yt-dlp/releases/download/2024.07.07/yt-dlp.exe
-  ██████████████████████████████  17.8 MB / 17.8 MB
-Successfully verified installer hash
-Starting package install...
-Path environment variable modified; restart your shell to use the new value.
-Command line alias added: "yt-dlp"
-Successfully installed
 PS C:\Users\kushal> yt-dlp https://www.youtube.com/shorts/qzqXru0GHNU
-yt-dlp: The term 'yt-dlp' is not recognized as a name of a cmdlet, function, script file, or executable program.
-Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+[youtube] Extracting URL: https://www.youtube.com/shorts/qzqXru0GHNU
+[youtube] qzqXru0GHNU: Downloading webpage
+[youtube] qzqXru0GHNU: Downloading ios player API JSON
+[youtube] qzqXru0GHNU: Downloading player b22ef6e7
+WARNING: [youtube] qzqXru0GHNU: nsig extraction failed: Some formats may be missing
+         n = qs0tl45s160CgBxIx ; player = https://www.youtube.com/s/player/b22ef6e7/player_ias.vflset/en_US/base.js
+WARNING: [youtube] qzqXru0GHNU: nsig extraction failed: Some formats may be missing
+         n = ZDCa7prkOrF-GWgDx ; player = https://www.youtube.com/s/player/b22ef6e7/player_ias.vflset/en_US/base.js
+[youtube] qzqXru0GHNU: Downloading m3u8 information
+[info] qzqXru0GHNU: Downloading 1 format(s): 625+140
+[hlsnative] Downloading m3u8 manifest
+[hlsnative] Total fragments: 11
+[download] Destination: ＊＊THIS＊＊ IS WHY YOU WANT A FLAIL MOWER [qzqXru0GHNU].f625.mp4
+[download] 100% of  124.07MiB in 00:00:09 at 13.72MiB/s
+[download] Destination: ＊＊THIS＊＊ IS WHY YOU WANT A FLAIL MOWER [qzqXru0GHNU].f140.m4a
+[download] 100% of  934.68KiB in 00:00:00 at 2.08MiB/s
+[Merger] Merging formats into "＊＊THIS＊＊ IS WHY YOU WANT A FLAIL MOWER [qzqXru0GHNU].mp4"
+Deleting original file ＊＊THIS＊＊ IS WHY YOU WANT A FLAIL MOWER [qzqXru0GHNU].f140.m4a (pass -k to keep)
+Deleting original file ＊＊THIS＊＊ IS WHY YOU WANT A FLAIL MOWER [qzqXru0GHNU].f625.mp4 (pass -k to keep)
+PS C:\Users\kushal> yt-dlp --verbose --restrict-filenames https://www.youtube.com/shorts/qzqXru0GHNU
+[debug] Command-line config: ['--verbose', '--restrict-filenames', 'https://www.youtube.com/shorts/qzqXru0GHNU']
+[debug] Encodings: locale cp1252, fs utf-8, pref cp1252, out utf-8, error utf-8, screen utf-8
+[debug] yt-dlp version stable@2024.07.07 from yt-dlp/yt-dlp [b337d2989] (win_exe)
+[debug] Python 3.8.10 (CPython AMD64 64bit) - Windows-10-10.0.22631-SP0 (OpenSSL 1.1.1k  25 Mar 2021)
+[debug] exe versions: ffmpeg 7.0.1-full_build-www.gyan.dev (setts), ffprobe 7.0.1-full_build-www.gyan.dev
+[debug] Optional libraries: Cryptodome-3.20.0, brotli-1.1.0, certifi-2024.07.04, curl_cffi-0.5.10, mutagen-1.47.0, requests-2.32.3, sqlite3-3.35.5, urllib3-2.2.2, websockets-12.0
+[debug] Proxy map: {}
+[debug] Request Handlers: urllib, requests, websockets, curl_cffi
+[debug] Loaded 1834 extractors
+[youtube] Extracting URL: https://www.youtube.com/shorts/qzqXru0GHNU
+[youtube] qzqXru0GHNU: Downloading webpage
+[youtube] qzqXru0GHNU: Downloading ios player API JSON
+[youtube] qzqXru0GHNU: Downloading player b22ef6e7
+WARNING: [youtube] qzqXru0GHNU: nsig extraction failed: Some formats may be missing
+         n = nen0EX0P0VdrPCTLJ ; player = https://www.youtube.com/s/player/b22ef6e7/player_ias.vflset/en_US/base.js
+[debug] [youtube] Unable to extract nsig function code (caused by RegexNotFoundError('Unable to extract \x1b[0;94mInitial JS player n function name\x1b[0m; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+WARNING: [youtube] qzqXru0GHNU: nsig extraction failed: Some formats may be missing
+         n = _nYTcK5bf0Wp3W38y ; player = https://www.youtube.com/s/player/b22ef6e7/player_ias.vflset/en_US/base.js
+[youtube] qzqXru0GHNU: Downloading m3u8 information
+[debug] Sort order given by extractor: quality, res, fps, hdr:12, source, vcodec:vp9.2, channels, acodec, lang, proto
+[debug] Formats sorted by: hasvid, ie_pref, quality, res, fps, hdr:12(7), source, vcodec:vp9.2(10), channels, acodec, lang, proto, size, br, asr, vext, aext, hasaud, id
+[debug] Default format spec: bestvideo*+bestaudio/best
+[info] qzqXru0GHNU: Downloading 1 format(s): 625+140
+[debug] Invoking hlsnative downloader on "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1720634157/ei/zXaOZoGOEK2DkucPwYCbgAk/ip/70.104.195.206/id/ab3a97aeed061cd5/itag/625/source/youtube/requiressl/yes/ratebypass/yes/pfa/1/wft/1/sgovp/clen%3D130089789%3Bdur%3D59.025%3Bgir%3Dyes%3Bitag%3D313%3Blmt%3D1695917384245442/rqh/1/hls_chunk_host/rr5---sn-8xgp1vo-gpje.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/mh/qY/mm/31,29/mn/sn-8xgp1vo-gpje,sn-8xgp1vo-p5qee/ms/au,rdu/mv/m/mvi/5/pl/20/pcm2/no/initcwndbps/916250/vprv/1/playlist_type/DVR/dover/13/txp/443C434/mt/1720612192/fvip/6/short_key/1/keepalive/yes/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,wft,sgovp,rqh,xpc,pcm2,vprv,playlist_type/sig/AJfQdSswRQIhAIisoeFKOgMqpAqhOSkAr-ZJrVcDNn3iR-DLCYGoKwcSAiBfHmu6iXkP-PPqlpVBQra1dTfdo1YWvNJrIw6eq4kYEA%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AHlkHjAwRAIgf4KZYakvRmWTLVNpUagb-4BzLvGoXziHFL0qIGVtjvoCIDi6JikpjdK3M7b_QBKJdZyY6CWm_XjZXyaewov6v8Hz/playlist/index.m3u8"
+[hlsnative] Downloading m3u8 manifest
+[hlsnative] Total fragments: 11
+[download] Destination: THIS_IS_WHY_YOU_WANT_A_FLAIL_MOWER-[qzqXru0GHNU].f625.mp4
+[debug] File locking is not supported. Proceeding without locking
+[download] 100% of  124.07MiB in 00:00:11 at 10.59MiB/s
+[debug] Invoking http downloader on "https://rr5---sn-8xgp1vo-gpje.googlevideo.com/videoplayback?expire=1720634157&ei=zXaOZoGOEK2DkucPwYCbgAk&ip=70.104.195.206&id=o-AD8g6sgGrJeA4bAhPVlf7C85m2s1SnVJfEsXcJXi540I&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=qY&mm=31%2C29&mn=sn-8xgp1vo-gpje%2Csn-8xgp1vo-p5qee&ms=au%2Crdu&mv=m&mvi=5&pl=20&pcm2=no&initcwndbps=916250&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=957113&dur=59.094&lmt=1695908163123548&mt=1720612192&fvip=6&keepalive=yes&c=IOS&txp=4432434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cpcm2%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAI_fjyTX_984N_1dAzEGFo9zuYoDLPJb_VNbZThez-V2AiEA7g0YK8XqJ8XFFNz8wvb_XJkLTQDLMxyJfPT-dhydXMs%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAJgfb8eQ1HnRV8VtVKb5pCJrLGu6viAnEBjvwUL1Wt2cAiB0osXUXek-1mpXaurgsPM_BG_WHsqYtJ7iqiaUsqT-uw%3D%3D"
+[download] Destination: THIS_IS_WHY_YOU_WANT_A_FLAIL_MOWER-[qzqXru0GHNU].f140.m4a
+[download] 100% of  934.68KiB in 00:00:00 at 12.62MiB/s
+[Merger] Merging formats into "THIS_IS_WHY_YOU_WANT_A_FLAIL_MOWER-[qzqXru0GHNU].mp4"
+[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:THIS_IS_WHY_YOU_WANT_A_FLAIL_MOWER-[qzqXru0GHNU].f625.mp4" -i "file:THIS_IS_WHY_YOU_WANT_A_FLAIL_MOWER-[qzqXru0GHNU].f140.m4a" -c copy -map 0:v:0 -map 1:a:0 -movflags +faststart "file:THIS_IS_WHY_YOU_WANT_A_FLAIL_MOWER-[qzqXru0GHNU].temp.mp4"
+Deleting original file THIS_IS_WHY_YOU_WANT_A_FLAIL_MOWER-[qzqXru0GHNU].f625.mp4 (pass -k to keep)
+Deleting original file THIS_IS_WHY_YOU_WANT_A_FLAIL_MOWER-[qzqXru0GHNU].f140.m4a (pass -k to keep)
+PS C:\Users\kushal>
+PS C:\Users\kushal> yt-dlp --verbose --restrict-filenames --embed-metadata https://www.youtube.com/shorts/qzqXru0GHNU
+[debug] Command-line config: ['--verbose', '--restrict-filenames', '--embed-metadata', 'https://www.youtube.com/shorts/qzqXru0GHNU']
+[debug] Encodings: locale cp1252, fs utf-8, pref cp1252, out utf-8, error utf-8, screen utf-8
+[debug] yt-dlp version stable@2024.07.07 from yt-dlp/yt-dlp [b337d2989] (win_exe)
+[debug] Python 3.8.10 (CPython AMD64 64bit) - Windows-10-10.0.22631-SP0 (OpenSSL 1.1.1k  25 Mar 2021)
+[debug] exe versions: ffmpeg 7.0.1-full_build-www.gyan.dev (setts), ffprobe 7.0.1-full_build-www.gyan.dev
+[debug] Optional libraries: Cryptodome-3.20.0, brotli-1.1.0, certifi-2024.07.04, curl_cffi-0.5.10, mutagen-1.47.0, requests-2.32.3, sqlite3-3.35.5, urllib3-2.2.2, websockets-12.0
+[debug] Proxy map: {}
+[debug] Request Handlers: urllib, requests, websockets, curl_cffi
+[debug] Loaded 1834 extractors
+[youtube] Extracting URL: https://www.youtube.com/shorts/qzqXru0GHNU
+[youtube] qzqXru0GHNU: Downloading webpage
+[youtube] qzqXru0GHNU: Downloading ios player API JSON
+[youtube] qzqXru0GHNU: Downloading player b22ef6e7
+WARNING: [youtube] qzqXru0GHNU: nsig extraction failed: Some formats may be missing
+         n = FngO6BC4vT8Lc_OW2 ; player = https://www.youtube.com/s/player/b22ef6e7/player_ias.vflset/en_US/base.js
+[debug] [youtube] Unable to extract nsig function code (caused by RegexNotFoundError('Unable to extract \x1b[0;94mInitial JS player n function name\x1b[0m; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+WARNING: [youtube] qzqXru0GHNU: nsig extraction failed: Some formats may be missing
+         n = zLrxFkDgdmyv9kUBT ; player = https://www.youtube.com/s/player/b22ef6e7/player_ias.vflset/en_US/base.js
+[youtube] qzqXru0GHNU: Downloading m3u8 information
+[debug] Sort order given by extractor: quality, res, fps, hdr:12, source, vcodec:vp9.2, channels, acodec, lang, proto
+[debug] Formats sorted by: hasvid, ie_pref, quality, res, fps, hdr:12(7), source, vcodec:vp9.2(10), channels, acodec, lang, proto, size, br, asr, vext, aext, hasaud, id
+[debug] Default format spec: bestvideo*+bestaudio/best
+[info] qzqXru0GHNU: Downloading 1 format(s): 625+140
+[download] THIS_IS_WHY_YOU_WANT_A_FLAIL_MOWER-[qzqXru0GHNU].mp4 has already been downloaded
+[Metadata] Adding metadata to "THIS_IS_WHY_YOU_WANT_A_FLAIL_MOWER-[qzqXru0GHNU].mp4"
+[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:THIS_IS_WHY_YOU_WANT_A_FLAIL_MOWER-[qzqXru0GHNU].mp4" -i "file:THIS_IS_WHY_YOU_WANT_A_FLAIL_MOWER-[qzqXru0GHNU].meta" -map 0 -dn -ignore_unknown -c copy -map_metadata 1 -write_id3v1 1 -metadata "title=**THIS** IS WHY YOU WANT A FLAIL MOWER" -metadata "date=20230726" -metadata "description=Check out Del Morino's Flail Mower's here: https://tinyurl.com/yc6kp5ne" -metadata "synopsis=Check out Del Morino's Flail Mower's here: https://tinyurl.com/yc6kp5ne" -metadata "purl=https://www.youtube.com/watch?v=qzqXru0GHNU" -metadata "comment=https://www.youtube.com/watch?v=qzqXru0GHNU" -metadata "artist=Good Works Tractors" -metadata:s:1 "language=eng" -movflags +faststart "file:THIS_IS_WHY_YOU_WANT_A_FLAIL_MOWER-[qzqXru0GHNU].temp.mp4"
 PS C:\Users\kushal> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date; dotnet build; date; dotnet clean; date; dotnet test; date;
 
-Wednesday, July 10, 2024 7:49:48 AM
-Wednesday, July 10, 2024 7:49:48 AM
+Wednesday, July 10, 2024 7:57:24 AM
+Wednesday, July 10, 2024 7:57:24 AM
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -50,21 +100,21 @@ Changes not staged for commit:
         modified:   docs/PowerShell.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
-Wednesday, July 10, 2024 7:49:48 AM
-Wednesday, July 10, 2024 7:49:48 AM
-[master b40c169] add all files
- 1 file changed, 72 insertions(+)
-Wednesday, July 10, 2024 7:49:49 AM
+Wednesday, July 10, 2024 7:57:24 AM
+Wednesday, July 10, 2024 7:57:24 AM
+[master 2c95eb1] add all files
+ 1 file changed, 65 insertions(+), 191 deletions(-)
+Wednesday, July 10, 2024 7:57:24 AM
 Enumerating objects: 7, done.
 Counting objects: 100% (7/7), done.
 Delta compression using up to 8 threads
 Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 698 bytes | 698.00 KiB/s, done.
+Writing objects: 100% (4/4), 1.39 KiB | 712.00 KiB/s, done.
 Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To github.com:patstha/CleanArchitecture90120231201.git
-   265a0d6..b40c169  master -> master
-Wednesday, July 10, 2024 7:49:50 AM
+   b40c169..2c95eb1  master -> master
+Wednesday, July 10, 2024 7:57:25 AM
 * remote origin
   Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
   Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
@@ -73,42 +123,10 @@ Wednesday, July 10, 2024 7:49:50 AM
     master tracked
   Local ref configured for 'git push':
     master pushes to master (up to date)
-Wednesday, July 10, 2024 7:49:51 AM
-Restore complete (2.6s)
+Wednesday, July 10, 2024 7:57:26 AM
+Restore complete (1.3s)
 You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
-  CleanArchitecture90120231201.Core succeeded (5.7s) → src\CleanArchitecture90120231201.Core\bin\Debug\net9.0\CleanArchitecture90120231201.Core.dll
-  CleanArchitecture90120231201.UseCases succeeded (1.1s) → src\CleanArchitecture90120231201.UseCases\bin\Debug\net9.0\CleanArchitecture90120231201.UseCases.dll
-  CleanArchitecture90120231201.Infrastructure succeeded (1.7s) → src\CleanArchitecture90120231201.Infrastructure\bin\Debug\net9.0\CleanArchitecture90120231201.Infrastructure.dll
-  CleanArchitecture90120231201.UnitTests succeeded (1.7s) → tests\CleanArchitecture90120231201.UnitTests\bin\Debug\net9.0\CleanArchitecture90120231201.UnitTests.dll
-  CleanArchitecture90120231201.IntegrationTests succeeded (1.9s) → tests\CleanArchitecture90120231201.IntegrationTests\bin\Debug\net9.0\CleanArchitecture90120231201.IntegrationTests.dll
-  CleanArchitecture90120231201.Web succeeded (3.6s) → src\CleanArchitecture90120231201.Web\bin\Debug\net9.0\CleanArchitecture90120231201.Web.dll
-  CleanArchitecture90120231201.FunctionalTests succeeded (1.7s) → tests\CleanArchitecture90120231201.FunctionalTests\bin\Debug\net9.0\CleanArchitecture90120231201.FunctionalTests.dll
+  CleanArchitecture90120231201.Core                                     _CheckForInvalidConfigurationAndPlatform (0.0s)
 
-Build succeeded in 17.1s
-Wednesday, July 10, 2024 7:50:09 AM
-You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
-
-Build succeeded in 3.8s
-Wednesday, July 10, 2024 7:50:13 AM
-Restore complete (2.2s)
-You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy
-  CleanArchitecture90120231201.Core succeeded (0.7s) → src\CleanArchitecture90120231201.Core\bin\Debug\net9.0\CleanArchitecture90120231201.Core.dll
-  CleanArchitecture90120231201.UseCases succeeded (0.8s) → src\CleanArchitecture90120231201.UseCases\bin\Debug\net9.0\CleanArchitecture90120231201.UseCases.dll
-  CleanArchitecture90120231201.Infrastructure succeeded with 1 warning(s) (1.4s) → src\CleanArchitecture90120231201.Infrastructure\bin\Debug\net9.0\CleanArchitecture90120231201.Infrastructure.dll
-    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
-  CleanArchitecture90120231201.UnitTests succeeded (1.3s) → tests\CleanArchitecture90120231201.UnitTests\bin\Debug\net9.0\CleanArchitecture90120231201.UnitTests.dll
-  CleanArchitecture90120231201.Web succeeded with 1 warning(s) (4.0s) → src\CleanArchitecture90120231201.Web\bin\Debug\net9.0\CleanArchitecture90120231201.Web.dll
-    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
-  CleanArchitecture90120231201.FunctionalTests succeeded with 1 warning(s) (1.8s) → tests\CleanArchitecture90120231201.FunctionalTests\bin\Debug\net9.0\CleanArchitecture90120231201.FunctionalTests.dll
-    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
-  CleanArchitecture90120231201.UnitTests test succeeded (11.9s)
-  CleanArchitecture90120231201.IntegrationTests succeeded with 1 warning(s) (2.3s) → tests\CleanArchitecture90120231201.IntegrationTests\bin\Debug\net9.0\CleanArchitecture90120231201.IntegrationTests.dll
-    C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(290,5): warning NETSDK1206: Found version-specific or distribution-specific runtime identifier(s): win7-x64, win7-x86. Affected libraries: SQLite. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.
-  CleanArchitecture90120231201.IntegrationTests test succeeded (6.3s)
-  CleanArchitecture90120231201.FunctionalTests test succeeded (18.4s)
-
-Test summary: total: 9, failed: 0, succeeded: 9, skipped: 0, duration: 23.9s
-Build succeeded with 4 warning(s) in 29.5s
-Wednesday, July 10, 2024 7:50:43 AM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date; dotnet build; date; dotnet clean; date; dotnet test; date;
+Build failed in 1.8s
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
