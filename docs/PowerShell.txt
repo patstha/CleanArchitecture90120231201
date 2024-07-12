@@ -548,3 +548,135 @@ Thursday, July 11, 2024 5:21:45 PM
 Thursday, July 11, 2024 5:21:46 PM
 
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Thursday, July 11, 2024 8:35:02 PM
+Thursday, July 11, 2024 8:35:02 PM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Thursday, July 11, 2024 8:35:02 PM
+Thursday, July 11, 2024 8:35:02 PM
+[master 67548f2] add all files
+ 1 file changed, 36 insertions(+)
+Thursday, July 11, 2024 8:35:02 PM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 556 bytes | 278.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   dfef836..67548f2  master -> master
+Thursday, July 11, 2024 8:35:04 PM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Thursday, July 11, 2024 8:35:05 PM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> cd "\\TP-Share\G\shared\jellyfin\shows\downloaded"; yt-dlp --verbose --restrict-filenames --embed-metadata "https://youtube.com/shorts/8gRcNBUcI8o?si=8wUVI8Aw0WINBQ4_"
+[debug] Command-line config: ['--verbose', '--restrict-filenames', '--embed-metadata', 'https://youtube.com/shorts/8gRcNBUcI8o?si=8wUVI8Aw0WINBQ4_']
+[debug] Encodings: locale cp1252, fs utf-8, pref cp1252, out utf-8, error utf-8, screen utf-8
+[debug] yt-dlp version stable@2024.07.07 from yt-dlp/yt-dlp [b337d2989] (win_exe)
+[debug] Python 3.8.10 (CPython AMD64 64bit) - Windows-10-10.0.22631-SP0 (OpenSSL 1.1.1k  25 Mar 2021)
+[debug] exe versions: ffmpeg 7.0.1-full_build-www.gyan.dev (setts), ffprobe 7.0.1-full_build-www.gyan.dev
+[debug] Optional libraries: Cryptodome-3.20.0, brotli-1.1.0, certifi-2024.07.04, curl_cffi-0.5.10, mutagen-1.47.0, requests-2.32.3, sqlite3-3.35.5, urllib3-2.2.2, websockets-12.0
+[debug] Proxy map: {}
+[debug] Request Handlers: urllib, requests, websockets, curl_cffi
+[debug] Loaded 1834 extractors
+[youtube] Extracting URL: https://youtube.com/shorts/8gRcNBUcI8o?si=8wUVI8Aw0WINBQ4_
+[youtube] 8gRcNBUcI8o: Downloading webpage
+[youtube] 8gRcNBUcI8o: Downloading ios player API JSON
+[youtube] 8gRcNBUcI8o: Downloading player 8d9f6215
+WARNING: [youtube] 8gRcNBUcI8o: nsig extraction failed: Some formats may be missing
+         n = hDSlDCAnmH6WOUgoGHb ; player = https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/en_US/base.js
+[debug] [youtube] Unable to extract nsig function code (caused by RegexNotFoundError('Unable to extract \x1b[0;94mInitial JS player n function name\x1b[0m; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+WARNING: [youtube] 8gRcNBUcI8o: nsig extraction failed: Some formats may be missing
+         n = IuKYh3Npla5jjJHBnpn ; player = https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/en_US/base.js
+[youtube] 8gRcNBUcI8o: Downloading m3u8 information
+[debug] Sort order given by extractor: quality, res, fps, hdr:12, source, vcodec:vp9.2, channels, acodec, lang, proto
+[debug] Formats sorted by: hasvid, ie_pref, quality, res, fps, hdr:12(7), source, vcodec:vp9.2(10), channels, acodec, lang, proto, size, br, asr, vext, aext, hasaud, id
+[debug] Default format spec: bestvideo*+bestaudio/best
+[info] 8gRcNBUcI8o: Downloading 1 format(s): 614+140
+[debug] Invoking hlsnative downloader on "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1720768875/ei/C4WQZqKzKaaAkucPkf6C-AQ/ip/70.104.195.206/id/f2045c34151c23ca/itag/614/source/youtube/requiressl/yes/ratebypass/yes/pfa/1/wft/1/sgovp/clen%3D10112680%3Bdur%3D51.733%3Bgir%3Dyes%3Bitag%3D248%3Blmt%3D1720110211439163/rqh/1/hls_chunk_host/rr2---sn-8xgp1vo-gpje.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/mh/T5/mm/31,29/mn/sn-8xgp1vo-gpje,sn-8xgp1vo-p5qe7/ms/au,rdu/mv/m/mvi/2/pl/20/initcwndbps/993750/vprv/1/playlist_type/DVR/dover/13/txp/630A224/mt/1720746786/fvip/6/short_key/1/keepalive/yes/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,wft,sgovp,rqh,xpc,vprv,playlist_type/sig/AJfQdSswRQIhAJI8dygNN8Ri03ayfpUE6KWEB8kKVL6xrpM1jL60_5V8AiBumB5B_r0WT1-CJ3jowzd9oV5wiGgKAx4OMQ0-qHHMrg%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AHlkHjAwRQIgGCJlFpnDKWwbXbPwTadTJv5FAqkNKCWmQtbyETtNbykCIQCB6W-owACtcyS-tgSsPoPF9RW7jt0hR5FS88wSumV_yw%3D%3D/playlist/index.m3u8"
+[hlsnative] Downloading m3u8 manifest
+[hlsnative] Total fragments: 10
+[download] Destination: Pay_attention_to_these_small_details_in_the_kitchen_the_sink_design_is_a_major_highlight_kitchen-[8gRcNBUcI8o].f614.mp4
+[debug] File locking is not supported. Proceeding without locking
+[download] 100% of    9.65MiB in 00:00:04 at 2.03MiB/s
+[debug] Invoking http downloader on "https://rr2---sn-8xgp1vo-gpje.googlevideo.com/videoplayback?expire=1720768875&ei=C4WQZqKzKaaAkucPkf6C-AQ&ip=70.104.195.206&id=o-AD57GvUsxRl3fud_tnaV6_GKHg1h-_1fsTxCYVGQUthy&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=T5&mm=31%2C29&mn=sn-8xgp1vo-gpje%2Csn-8xgp1vo-p5qe7&ms=au%2Crdu&mv=m&mvi=2&pl=20&initcwndbps=993750&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=838858&dur=51.780&lmt=1720110204389267&mt=1720746786&fvip=6&keepalive=yes&c=IOS&txp=6308224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAJQ-onVlhBSOQbPTixLlQnRnh_Nwn1-hV-F6uOWQjiIWAiEA_kZf6UMYd3LfbGg18BgWWD1IoP3ZwCS0obO4NKkX4JI%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIgAbaDOzMlJfH_2z9YUOqTKoJXhVlLrQWKfQei3zfwlSoCIQCHtXGe-cGSZ6RL2o3wrnSd6CqSW1QHAq4-FRDE6gcBFg%3D%3D"
+[download] Destination: Pay_attention_to_these_small_details_in_the_kitchen_the_sink_design_is_a_major_highlight_kitchen-[8gRcNBUcI8o].f140.m4a
+[download] 100% of  819.20KiB in 00:00:00 at 1.28MiB/s
+[Merger] Merging formats into "Pay_attention_to_these_small_details_in_the_kitchen_the_sink_design_is_a_major_highlight_kitchen-[8gRcNBUcI8o].mp4"
+[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:Pay_attention_to_these_small_details_in_the_kitchen_the_sink_design_is_a_major_highlight_kitchen-[8gRcNBUcI8o].f614.mp4" -i "file:Pay_attention_to_these_small_details_in_the_kitchen_the_sink_design_is_a_major_highlight_kitchen-[8gRcNBUcI8o].f140.m4a" -c copy -map 0:v:0 -map 1:a:0 -movflags +faststart "file:Pay_attention_to_these_small_details_in_the_kitchen_the_sink_design_is_a_major_highlight_kitchen-[8gRcNBUcI8o].temp.mp4"
+Deleting original file Pay_attention_to_these_small_details_in_the_kitchen_the_sink_design_is_a_major_highlight_kitchen-[8gRcNBUcI8o].f140.m4a (pass -k to keep)
+Deleting original file Pay_attention_to_these_small_details_in_the_kitchen_the_sink_design_is_a_major_highlight_kitchen-[8gRcNBUcI8o].f614.mp4 (pass -k to keep)
+[Metadata] Adding metadata to "Pay_attention_to_these_small_details_in_the_kitchen_the_sink_design_is_a_major_highlight_kitchen-[8gRcNBUcI8o].mp4"
+[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:Pay_attention_to_these_small_details_in_the_kitchen_the_sink_design_is_a_major_highlight_kitchen-[8gRcNBUcI8o].mp4" -map 0 -dn -ignore_unknown -c copy -write_id3v1 1 -metadata "title=Pay attention to these small details in the kitchen; the sink design is a major highlight!#kitchen #" -metadata "date=20240704" -metadata "description=For inquiries, message us here:
+WhatsApp: +65 8859 2174
+Email: homecraftdesigner.official@gmail.com
+
+Follow our social media for more design ideas and inspiration:
+Instagram: www.instagram.com/homecraft.designer
+Tiktok: www.tiktok.com/@homecraft.designe
+Facebook: www.facebook.com/homecraftdesigners
+
+#SmallKitchenDesign #KitchenStorageIdeas #CustomCabinets #KitchenRenovation #SpaceSavingTips #KitchenHacks #SmallKitchenOrganization #ModernKitchenDesign #EfficientKitchen #KitchenRemodel #DIYKitchen #KitchenTransformation #KitchenDesignTips" -metadata "synopsis=For inquiries, message us here:
+WhatsApp: +65 8859 2174
+Email: homecraftdesigner.official@gmail.com
+
+Follow our social media for more design ideas and inspiration:
+Instagram: www.instagram.com/homecraft.designer
+Tiktok: www.tiktok.com/@homecraft.designe
+Facebook: www.facebook.com/homecraftdesigners
+
+#SmallKitchenDesign #KitchenStorageIdeas #CustomCabinets #KitchenRenovation #SpaceSavingTips #KitchenHacks #SmallKitchenOrganization #ModernKitchenDesign #EfficientKitchen #KitchenRemodel #DIYKitchen #KitchenTransformation #KitchenDesignTips" -metadata "purl=https://www.youtube.com/watch?v=8gRcNBUcI8o" -metadata "comment=https://www.youtube.com/watch?v=8gRcNBUcI8o" -metadata "artist=Homecraft Designer" -metadata:s:1 "language=eng" -movflags +faststart "file:Pay_attention_to_these_small_details_in_the_kitchen_the_sink_design_is_a_major_highlight_kitchen-[8gRcNBUcI8o].temp.mp4"
+PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded> cd "\\TP-Share\G\shared\jellyfin\shows\downloaded"; yt-dlp --verbose --restrict-filenames --embed-metadata "https://youtube.com/shorts/L1L8kGFCx7I?si=bfCGZoEy3oNxPvdR"
+[debug] Command-line config: ['--verbose', '--restrict-filenames', '--embed-metadata', 'https://youtube.com/shorts/L1L8kGFCx7I?si=bfCGZoEy3oNxPvdR']
+[debug] Encodings: locale cp1252, fs utf-8, pref cp1252, out utf-8, error utf-8, screen utf-8
+[debug] yt-dlp version stable@2024.07.07 from yt-dlp/yt-dlp [b337d2989] (win_exe)
+[debug] Python 3.8.10 (CPython AMD64 64bit) - Windows-10-10.0.22631-SP0 (OpenSSL 1.1.1k  25 Mar 2021)
+[debug] exe versions: ffmpeg 7.0.1-full_build-www.gyan.dev (setts), ffprobe 7.0.1-full_build-www.gyan.dev
+[debug] Optional libraries: Cryptodome-3.20.0, brotli-1.1.0, certifi-2024.07.04, curl_cffi-0.5.10, mutagen-1.47.0, requests-2.32.3, sqlite3-3.35.5, urllib3-2.2.2, websockets-12.0
+[debug] Proxy map: {}
+[debug] Request Handlers: urllib, requests, websockets, curl_cffi
+[debug] Loaded 1834 extractors
+[youtube] Extracting URL: https://youtube.com/shorts/L1L8kGFCx7I?si=bfCGZoEy3oNxPvdR
+[youtube] L1L8kGFCx7I: Downloading webpage
+[youtube] L1L8kGFCx7I: Downloading ios player API JSON
+[youtube] L1L8kGFCx7I: Downloading player 8d9f6215
+WARNING: [youtube] L1L8kGFCx7I: nsig extraction failed: Some formats may be missing
+         n = yFeMyeTV-7SyC8c-JfI ; player = https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/en_US/base.js
+[debug] [youtube] Unable to extract nsig function code (caused by RegexNotFoundError('Unable to extract \x1b[0;94mInitial JS player n function name\x1b[0m; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+WARNING: [youtube] L1L8kGFCx7I: nsig extraction failed: Some formats may be missing
+         n = unDVAC5_fqb0w24qXtr ; player = https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/en_US/base.js
+[youtube] L1L8kGFCx7I: Downloading m3u8 information
+[debug] Sort order given by extractor: quality, res, fps, hdr:12, source, vcodec:vp9.2, channels, acodec, lang, proto
+[debug] Formats sorted by: hasvid, ie_pref, quality, res, fps, hdr:12(7), source, vcodec:vp9.2(10), channels, acodec, lang, proto, size, br, asr, vext, aext, hasaud, id
+[debug] Default format spec: bestvideo*+bestaudio/best
+[info] L1L8kGFCx7I: Downloading 1 format(s): 609+140
+[debug] Invoking hlsnative downloader on "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1720768899/ei/I4WQZqHuJvSDkucPjf-nyA4/ip/70.104.195.206/id/2f52fc906142c7b2/itag/609/source/youtube/requiressl/yes/ratebypass/yes/pfa/1/wft/1/sgovp/clen%3D1786693%3Bdur%3D15.833%3Bgir%3Dyes%3Bitag%3D247%3Blmt%3D1669297055573424/rqh/1/hls_chunk_host/rr2---sn-8xgp1vo-gpjl.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/mh/XF/mm/31,29/mn/sn-8xgp1vo-gpjl,sn-8xgp1vo-p5ql/ms/au,rdu/mv/m/mvi/2/pl/20/initcwndbps/977500/vprv/1/playlist_type/DVR/dover/13/txp/631A224/mt/1720746786/fvip/3/short_key/1/keepalive/yes/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,wft,sgovp,rqh,xpc,vprv,playlist_type/sig/AJfQdSswRQIgNnuxyEG18eHI0G9r93uiKJIGu5RGjDxsY0RMeDXH8k8CIQCPgX6QNb1AY_6gsU2shhuvRuqM_i5_0ef8EgyjQCX1LA%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AHlkHjAwRgIhANR6_oun64-CN74m8HqwztvIEOiL3RYK6Q_7UsX51gMyAiEA62GZLhBMlyJj4vb-FHzTBB-UzNx0TQkfVYEmCld3y74%3D/playlist/index.m3u8"
+[hlsnative] Downloading m3u8 manifest
+[hlsnative] Total fragments: 3
+[download] Destination: This_is_a_must-have_for_all_new_kitchens_Happy_cooking_thanksgiving_thanksgivingdinner_newhome-[L1L8kGFCx7I].f609.mp4
+[debug] File locking is not supported. Proceeding without locking
+[download] 100% of    1.71MiB in 00:00:02 at 835.13KiB/s
+[debug] Invoking http downloader on "https://rr2---sn-8xgp1vo-gpjl.googlevideo.com/videoplayback?expire=1720768899&ei=I4WQZqHuJvSDkucPjf-nyA4&ip=70.104.195.206&id=o-AL1DL7lR7ltp-xpuBZzYUE63q4SUzlquFbgmNcrtGuvP&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=XF&mm=31%2C29&mn=sn-8xgp1vo-gpjl%2Csn-8xgp1vo-p5ql&ms=au%2Crdu&mv=m&mvi=2&pl=20&initcwndbps=977500&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=258233&dur=15.882&lmt=1669297053349865&mt=1720746786&fvip=3&keepalive=yes&c=IOS&txp=6318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgb6XUlXnk1gDKhnunnT9YcHCQAkBGsBTydSsmsu_hQT8CIEel40hvw32VdLYignlIMxHk4WOmxDncE5Eh_eOGKDp8&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIgYZB7iPsHFwiysz649dQgEdo39wzgVVYFnG19r7ba6hYCIQDTL6Sju1WdK8LsNkfKN8yDf66xqn1FWqaJTth1N8ONyA%3D%3D"
+[download] Destination: This_is_a_must-have_for_all_new_kitchens_Happy_cooking_thanksgiving_thanksgivingdinner_newhome-[L1L8kGFCx7I].f140.m4a
+[download] 100% of  252.18KiB in 00:00:00 at 315.29KiB/s
+[Merger] Merging formats into "This_is_a_must-have_for_all_new_kitchens_Happy_cooking_thanksgiving_thanksgivingdinner_newhome-[L1L8kGFCx7I].mp4"
+[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:This_is_a_must-have_for_all_new_kitchens_Happy_cooking_thanksgiving_thanksgivingdinner_newhome-[L1L8kGFCx7I].f609.mp4" -i "file:This_is_a_must-have_for_all_new_kitchens_Happy_cooking_thanksgiving_thanksgivingdinner_newhome-[L1L8kGFCx7I].f140.m4a" -c copy -map 0:v:0 -map 1:a:0 -movflags +faststart "file:This_is_a_must-have_for_all_new_kitchens_Happy_cooking_thanksgiving_thanksgivingdinner_newhome-[L1L8kGFCx7I].temp.mp4"
+Deleting original file This_is_a_must-have_for_all_new_kitchens_Happy_cooking_thanksgiving_thanksgivingdinner_newhome-[L1L8kGFCx7I].f609.mp4 (pass -k to keep)
+Deleting original file This_is_a_must-have_for_all_new_kitchens_Happy_cooking_thanksgiving_thanksgivingdinner_newhome-[L1L8kGFCx7I].f140.m4a (pass -k to keep)
+[Metadata] Adding metadata to "This_is_a_must-have_for_all_new_kitchens_Happy_cooking_thanksgiving_thanksgivingdinner_newhome-[L1L8kGFCx7I].mp4"
+[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:This_is_a_must-have_for_all_new_kitchens_Happy_cooking_thanksgiving_thanksgivingdinner_newhome-[L1L8kGFCx7I].mp4" -map 0 -dn -ignore_unknown -c copy -write_id3v1 1 -metadata "title=This is a must-have for all new kitchens! Happy cooking! #thanksgiving #thanksgivingdinner #newhome" -metadata "date=20221124" -metadata "purl=https://www.youtube.com/watch?v=L1L8kGFCx7I" -metadata "comment=https://www.youtube.com/watch?v=L1L8kGFCx7I" -metadata "artist=Anewgo" -metadata:s:1 "language=eng" -movflags +faststart "file:This_is_a_must-have_for_all_new_kitchens_Happy_cooking_thanksgiving_thanksgivingdinner_newhome-[L1L8kGFCx7I].temp.mp4"
+PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
