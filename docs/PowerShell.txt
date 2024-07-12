@@ -680,3 +680,156 @@ Deleting original file This_is_a_must-have_for_all_new_kitchens_Happy_cooking_th
 [Metadata] Adding metadata to "This_is_a_must-have_for_all_new_kitchens_Happy_cooking_thanksgiving_thanksgivingdinner_newhome-[L1L8kGFCx7I].mp4"
 [debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:This_is_a_must-have_for_all_new_kitchens_Happy_cooking_thanksgiving_thanksgivingdinner_newhome-[L1L8kGFCx7I].mp4" -map 0 -dn -ignore_unknown -c copy -write_id3v1 1 -metadata "title=This is a must-have for all new kitchens! Happy cooking! #thanksgiving #thanksgivingdinner #newhome" -metadata "date=20221124" -metadata "purl=https://www.youtube.com/watch?v=L1L8kGFCx7I" -metadata "comment=https://www.youtube.com/watch?v=L1L8kGFCx7I" -metadata "artist=Anewgo" -metadata:s:1 "language=eng" -movflags +faststart "file:This_is_a_must-have_for_all_new_kitchens_Happy_cooking_thanksgiving_thanksgivingdinner_newhome-[L1L8kGFCx7I].temp.mp4"
 PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Thursday, July 11, 2024 9:21:56 PM
+Thursday, July 11, 2024 9:21:56 PM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Thursday, July 11, 2024 9:21:56 PM
+Thursday, July 11, 2024 9:21:56 PM
+[master 71bfe7b] add all files
+ 1 file changed, 132 insertions(+)
+Thursday, July 11, 2024 9:21:56 PM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.84 KiB | 1.42 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   67548f2..71bfe7b  master -> master
+Thursday, July 11, 2024 9:21:57 PM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Thursday, July 11, 2024 9:21:58 PM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> cd "\\TP-Share\G\shared\jellyfin\shows\downloaded"; yt-dlp --verbose --restrict-filenames --embed-metadata "https://v.redd.it/7tzy4r79tybd1"
+[debug] Command-line config: ['--verbose', '--restrict-filenames', '--embed-metadata', 'https://v.redd.it/7tzy4r79tybd1']
+[debug] Encodings: locale cp1252, fs utf-8, pref cp1252, out utf-8, error utf-8, screen utf-8
+[debug] yt-dlp version stable@2024.07.07 from yt-dlp/yt-dlp [b337d2989] (win_exe)
+[debug] Python 3.8.10 (CPython AMD64 64bit) - Windows-10-10.0.22631-SP0 (OpenSSL 1.1.1k  25 Mar 2021)
+[debug] exe versions: ffmpeg 7.0.1-full_build-www.gyan.dev (setts), ffprobe 7.0.1-full_build-www.gyan.dev
+[debug] Optional libraries: Cryptodome-3.20.0, brotli-1.1.0, certifi-2024.07.04, curl_cffi-0.5.10, mutagen-1.47.0, requests-2.32.3, sqlite3-3.35.5, urllib3-2.2.2, websockets-12.0
+[debug] Proxy map: {}
+[debug] Request Handlers: urllib, requests, websockets, curl_cffi
+[debug] Loaded 1834 extractors
+[generic] Extracting URL: https://v.redd.it/7tzy4r79tybd1
+[generic] 7tzy4r79tybd1: Downloading webpage
+[redirect] Following redirect to https://www.reddit.com/r/Wellthatsucks/comments/1e11hdh/biden_introduces_zelenskyy_as_putin/?rdt=37859
+[Reddit] Extracting URL: https://www.reddit.com/r/Wellthatsucks/comments/1e11hdh/biden_introduces_zelenskyy_as_putin/?rdt=37859
+[Reddit] 1e11hdh: Downloading JSON metadata
+[Reddit] 1e11hdh: Downloading m3u8 information
+[Reddit] 1e11hdh: Downloading MPD manifest
+[debug] Formats sorted by: hasvid, ie_pref, lang, quality, res, fps, hdr:12(7), vcodec:vp9.2(10), channels, acodec, size, br, asr, proto, vext, aext, hasaud, source, id
+[debug] Default format spec: bestvideo*+bestaudio/best
+[info] 7tzy4r79tybd1: Downloading 1 format(s): hls-1043+dash-7
+[debug] Invoking hlsnative downloader on "https://v.redd.it/7tzy4r79tybd1/HLS_720.m3u8"
+[hlsnative] Downloading m3u8 manifest
+[hlsnative] Total fragments: 7
+[download] Destination: Biden_Introduces_Zelenskyy_as_Putin-[7tzy4r79tybd1].fhls-1043.mp4
+[debug] File locking is not supported. Proceeding without locking
+[download] 100% of    3.00MiB in 00:00:02 at 1.19MiB/s
+[debug] Invoking http downloader on "https://v.redd.it/7tzy4r79tybd1/DASH_AUDIO_128.mp4"
+[download] Destination: Biden_Introduces_Zelenskyy_as_Putin-[7tzy4r79tybd1].fdash-7.m4a
+[download] 100% of  472.67KiB in 00:00:00 at 1.84MiB/s
+[Merger] Merging formats into "Biden_Introduces_Zelenskyy_as_Putin-[7tzy4r79tybd1].mp4"
+[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:Biden_Introduces_Zelenskyy_as_Putin-[7tzy4r79tybd1].fhls-1043.mp4" -i "file:Biden_Introduces_Zelenskyy_as_Putin-[7tzy4r79tybd1].fdash-7.m4a" -c copy -map 0:v:0 -map 1:a:0 -movflags +faststart "file:Biden_Introduces_Zelenskyy_as_Putin-[7tzy4r79tybd1].temp.mp4"
+Deleting original file Biden_Introduces_Zelenskyy_as_Putin-[7tzy4r79tybd1].fhls-1043.mp4 (pass -k to keep)
+Deleting original file Biden_Introduces_Zelenskyy_as_Putin-[7tzy4r79tybd1].fdash-7.m4a (pass -k to keep)
+[Metadata] Adding metadata to "Biden_Introduces_Zelenskyy_as_Putin-[7tzy4r79tybd1].mp4"
+[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:Biden_Introduces_Zelenskyy_as_Putin-[7tzy4r79tybd1].mp4" -map 0 -dn -ignore_unknown -c copy -write_id3v1 1 -metadata "title=Biden Introduces Zelenskyy as Putin" -metadata "date=20240711" -metadata "purl=https://www.reddit.com/r/Wellthatsucks/comments/1e11hdh/biden_introduces_zelenskyy_as_putin/?rdt=37859" -metadata "comment=https://www.reddit.com/r/Wellthatsucks/comments/1e11hdh/biden_introduces_zelenskyy_as_putin/?rdt=37859" -metadata "artist=LaylaAva" -movflags +faststart "file:Biden_Introduces_Zelenskyy_as_Putin-[7tzy4r79tybd1].temp.mp4"
+PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded> cd "\\TP-Share\G\shared\jellyfin\shows\downloaded"; yt-dlp --verbose --restrict-filenames --embed-metadata "https://youtu.be/EYCBm0xAWow"
+[debug] Command-line config: ['--verbose', '--restrict-filenames', '--embed-metadata', 'https://youtu.be/EYCBm0xAWow']
+[debug] Encodings: locale cp1252, fs utf-8, pref cp1252, out utf-8, error utf-8, screen utf-8
+[debug] yt-dlp version stable@2024.07.07 from yt-dlp/yt-dlp [b337d2989] (win_exe)
+[debug] Python 3.8.10 (CPython AMD64 64bit) - Windows-10-10.0.22631-SP0 (OpenSSL 1.1.1k  25 Mar 2021)
+[debug] exe versions: ffmpeg 7.0.1-full_build-www.gyan.dev (setts), ffprobe 7.0.1-full_build-www.gyan.dev
+[debug] Optional libraries: Cryptodome-3.20.0, brotli-1.1.0, certifi-2024.07.04, curl_cffi-0.5.10, mutagen-1.47.0, requests-2.32.3, sqlite3-3.35.5, urllib3-2.2.2, websockets-12.0
+[debug] Proxy map: {}
+[debug] Request Handlers: urllib, requests, websockets, curl_cffi
+[debug] Loaded 1834 extractors
+[youtube] Extracting URL: https://youtu.be/EYCBm0xAWow
+[youtube] EYCBm0xAWow: Downloading webpage
+[youtube] EYCBm0xAWow: Downloading ios player API JSON
+[youtube] EYCBm0xAWow: Downloading player 8d9f6215
+WARNING: [youtube] EYCBm0xAWow: nsig extraction failed: Some formats may be missing
+         n = 2hNfbCwEV6PPKJ0l-wG ; player = https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/en_US/base.js
+[debug] [youtube] Unable to extract nsig function code (caused by RegexNotFoundError('Unable to extract \x1b[0;94mInitial JS player n function name\x1b[0m; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+WARNING: [youtube] EYCBm0xAWow: nsig extraction failed: Some formats may be missing
+         n = t6Pg6FJICf_nWx_H-rW ; player = https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/en_US/base.js
+[youtube] EYCBm0xAWow: Downloading m3u8 information
+[debug] Sort order given by extractor: quality, res, fps, hdr:12, source, vcodec:vp9.2, channels, acodec, lang, proto
+[debug] Formats sorted by: hasvid, ie_pref, quality, res, fps, hdr:12(7), source, vcodec:vp9.2(10), channels, acodec, lang, proto, size, br, asr, vext, aext, hasaud, id
+[debug] Default format spec: bestvideo*+bestaudio/best
+[info] EYCBm0xAWow: Downloading 1 format(s): 616+140
+[debug] Invoking hlsnative downloader on "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1720770697/ei/KYyQZvS5DL-AkucPmcyhwAQ/ip/70.104.195.206/id/1180819b4c405a8c/itag/616/source/youtube/requiressl/yes/ratebypass/yes/pfa/1/wft/1/sgovp/clen%3D82355584%3Bdur%3D447.033%3Bgir%3Dyes%3Bitag%3D356%3Blmt%3D1706222690131827/rqh/1/hls_chunk_host/rr1---sn-8xgp1vo-gpjl.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/mh/tn/mm/31,29/mn/sn-8xgp1vo-gpjl,sn-8xgp1vo-p5qs/ms/au,rdu/mv/m/mvi/1/pl/20/initcwndbps/1041250/vprv/1/playlist_type/DVR/dover/13/txp/5532434/mt/1720748727/fvip/4/short_key/1/keepalive/yes/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,wft,sgovp,rqh,xpc,vprv,playlist_type/sig/AJfQdSswRgIhAMmar4LEvK5IoDEvZy-ebLK-u3theLP_ZWyHDaghOvW2AiEA4CxtU0jzCB8mIqmgCVu6-TjpIIqd93YzwZdyShGM9sU%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AHlkHjAwRAIgaJ0NhDHnyxZLj3_Z3MfVWqCxGrkTwG3NJAUVtwiSW6ECIFUWrEITOUsfkwdsyWvvFcGikmmViICZKtZCwJelIfQF/playlist/index.m3u8"
+[hlsnative] Downloading m3u8 manifest
+[hlsnative] Total fragments: 86
+[download] Destination: 5_things_I_wish_I_knew_before_learning_Rust-[EYCBm0xAWow].f616.mp4
+[debug] File locking is not supported. Proceeding without locking
+[download] 100% of   78.61MiB in 00:01:06 at 1.18MiB/s
+[debug] Invoking http downloader on "https://rr1---sn-8xgp1vo-gpjl.googlevideo.com/videoplayback?expire=1720770697&ei=KYyQZvS5DL-AkucPmcyhwAQ&ip=70.104.195.206&id=o-AGAvrHt9DTkm5FtzObSS3c76IdbET5U6vHosn21_Yxaj&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=tn&mm=31%2C29&mn=sn-8xgp1vo-gpjl%2Csn-8xgp1vo-p5qs&ms=au%2Crdu&mv=m&mvi=1&pl=20&initcwndbps=1041250&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=7236507&dur=447.100&lmt=1706220256851465&mt=1720748727&fvip=4&keepalive=yes&c=IOS&txp=5532434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhALUTs9mWNqeOtfTK3pf2avwPa-2H36hQZKqFtskGPh33AiAOyyTP8oCwQ6CvsksOEe3g4JrguBH_eQ5bnq2fMUIEjA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIgful71c9OGVKY84Y2k3cpOi4yd9kNWTvUKdT6XDuk7U8CIQCHRU03L1uI4KJCxOrrGiSQ1YdDBR70qEV5RVnd6MB4sQ%3D%3D"
+[download] Destination: 5_things_I_wish_I_knew_before_learning_Rust-[EYCBm0xAWow].f140.m4a
+[download] 100% of    6.90MiB in 00:00:00 at 7.21MiB/s
+[Merger] Merging formats into "5_things_I_wish_I_knew_before_learning_Rust-[EYCBm0xAWow].mp4"
+[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:5_things_I_wish_I_knew_before_learning_Rust-[EYCBm0xAWow].f616.mp4" -i "file:5_things_I_wish_I_knew_before_learning_Rust-[EYCBm0xAWow].f140.m4a" -c copy -map 0:v:0 -map 1:a:0 -movflags +faststart "file:5_things_I_wish_I_knew_before_learning_Rust-[EYCBm0xAWow].temp.mp4"
+Deleting original file 5_things_I_wish_I_knew_before_learning_Rust-[EYCBm0xAWow].f616.mp4 (pass -k to keep)
+Deleting original file 5_things_I_wish_I_knew_before_learning_Rust-[EYCBm0xAWow].f140.m4a (pass -k to keep)
+[Metadata] Adding metadata to "5_things_I_wish_I_knew_before_learning_Rust-[EYCBm0xAWow].mp4"
+[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:5_things_I_wish_I_knew_before_learning_Rust-[EYCBm0xAWow].mp4" -map 0 -dn -ignore_unknown -c copy -write_id3v1 1 -metadata "title=5 thingsI wish I knew before learning Rust" -metadata "date=20240125" -metadata "description=Ready to dive into Rust programming? Don't start without watching this video! In today's guide, I share 5 crucial insights I wish I had before embarking on my Rust journey. Whether you're a beginner or seasoned developer, these tips will save you time and frustration.
+
+Free Rust cheat sheet: https://letsgetrusty.com/cheatsheet
+
+Resources:
+Harvard CS lectures: https://www.youtube.com/watch?v=IDDmrzzB14M&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4
+Memory management in Rust: https://www.youtube.com/watch?v=NnLdGKoz1ls&list=PLai5B987bZ9BnS7dBlTF9HRop55vYUL7r
+The Cherno: https://www.youtube.com/@TheCherno
+Rust Book Playlist: https://www.youtube.com/watch?v=OX9HJsJUDxA&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8
+Rust By Example: https://doc.rust-lang.org/rust-by-example/
+Rustlings: https://github.com/rust-lang/rustlings
+Idiomatic Rust: https://github.com/mre/idiomatic-rust
+Crust of Rust Playlist: https://www.youtube.com/watch?v=rAl-9HwD858&list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa
+Rust for Rustaceans: https://nostarch.com/rust-rustaceans
+Writing an OS in Rust: https://os.phil-opp.com/
+Embedded Rust Book: https://docs.rust-embedded.org/book/
+Rust and WebAssembly: https://rustwasm.github.io/docs/book/
+Jeremy Chone Axum course: https://www.youtube.com/watch?v=XZtlD_m59sM
+Zero-to-Prod in Rust: https://www.zero2prod.com/
+
+My free Rust course: https://letsgetrusty.com/learn" -metadata "synopsis=Ready to dive into Rust programming? Don't start without watching this video! In today's guide, I share 5 crucial insights I wish I hadbefore embarking on my Rust journey. Whether you're a beginner or seasoned developer, these tips will save you time and frustration.
+
+Free Rust cheat sheet: https://letsgetrusty.com/cheatsheet
+
+Resources:
+Harvard CS lectures: https://www.youtube.com/watch?v=IDDmrzzB14M&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4
+Memory management in Rust: https://www.youtube.com/watch?v=NnLdGKoz1ls&list=PLai5B987bZ9BnS7dBlTF9HRop55vYUL7r
+The Cherno: https://www.youtube.com/@TheCherno
+Rust Book Playlist: https://www.youtube.com/watch?v=OX9HJsJUDxA&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8
+Rust By Example: https://doc.rust-lang.org/rust-by-example/
+Rustlings: https://github.com/rust-lang/rustlings
+Idiomatic Rust: https://github.com/mre/idiomatic-rust
+Crust of Rust Playlist: https://www.youtube.com/watch?v=rAl-9HwD858&list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa
+Rust for Rustaceans: https://nostarch.com/rust-rustaceans
+Writing an OS in Rust: https://os.phil-opp.com/
+Embedded Rust Book: https://docs.rust-embedded.org/book/
+Rust and WebAssembly: https://rustwasm.github.io/docs/book/
+Jeremy Chone Axum course: https://www.youtube.com/watch?v=XZtlD_m59sM
+Zero-to-Prod in Rust: https://www.zero2prod.com/
+
+My free Rust course: https://letsgetrusty.com/learn" -metadata "purl=https://www.youtube.com/watch?v=EYCBm0xAWow" -metadata "comment=https://www.youtube.com/watch?v=EYCBm0xAWow" -metadata "artist=Let's Get Rusty" -metadata:s:1 "language=eng" -movflags +faststart "file:5_things_I_wish_I_knew_before_learning_Rust-[EYCBm0xAWow].temp.mp4"
+PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded>
+PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded>
+PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
