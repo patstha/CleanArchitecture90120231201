@@ -512,3 +512,39 @@ Thursday, July 11, 2024 5:21:34 PM
 Thursday, July 11, 2024 5:21:35 PM
 
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Thursday, July 11, 2024 5:21:43 PM
+Thursday, July 11, 2024 5:21:44 PM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Thursday, July 11, 2024 5:21:44 PM
+Thursday, July 11, 2024 5:21:44 PM
+[master dfef836] add all files
+ 1 file changed, 383 insertions(+), 1 deletion(-)
+Thursday, July 11, 2024 5:21:44 PM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 11.85 KiB | 1.18 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:patstha/CleanArchitecture90120231201.git
+   2a583cd..dfef836  master -> master
+Thursday, July 11, 2024 5:21:45 PM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Thursday, July 11, 2024 5:21:46 PM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
