@@ -307,3 +307,74 @@ Command line alias added: "ffplay"
 Command line alias added: "ffprobe"
 Successfully installed
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Saturday, July 13, 2024 9:41:11 AM
+Saturday, July 13, 2024 9:41:11 AM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Saturday, July 13, 2024 9:41:11 AM
+Saturday, July 13, 2024 9:41:11 AM
+[master d7fedba] add all files
+ 1 file changed, 55 insertions(+)
+Saturday, July 13, 2024 9:41:11 AM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 611 bytes | 611.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   f0e7797..d7fedba  master -> master
+Saturday, July 13, 2024 9:41:13 AM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Saturday, July 13, 2024 9:41:14 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> winget uninstall Gyan.FFmpeg
+No installed package found matching input criteria.
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> winget search ffmpeg
+Name                      Id                           Version    Match           Source
+----------------------------------------------------------------------------------------
+FFmpeg                    Gyan.FFmpeg                  7.0.1                      winget
+FFmpeg (Essentials Build) Gyan.FFmpeg.Essentials       7.0.1      Tag: ffmpeg     winget
+FFmpeg (Shared)           Gyan.FFmpeg.Shared           7.0.1      Tag: ffmpeg     winget
+Wav2Bar                   Picorims.wav2bar             0.3.0      Tag: ffmpeg     winget
+cyanrip                   cyanreg.cyanrip              0.9.3.1    Tag: ffmpeg     winget
+wcap                      mmozeiko.wcap                2022.11.06 Tag: ffmpeg     winget
+y2mp3                     moshfeu.y2mp3                2.6.1      Tag: ffmpeg     winget
+Recode Converter          murgatt.recode-converter     2.0.5      Tag: ffmpeg     winget
+FFmpeg Batch AV Converter eibol.FFmpegBatchAVConverter 2.8.1                      winget
+Videomass                 GianlucaPernigotto.Videomass 3.5.8      Tag: ffmpeg-gui winget
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> winget uninstall Gyan.FFmpeg
+No installed package found matching input criteria.
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> winget install Gyan.FFmpeg.Essentials
+Found FFmpeg (Essentials Build) [Gyan.FFmpeg.Essentials] Version 7.0.1
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://github.com/GyanD/codexffmpeg/releases/download/7.0.1/ffmpeg-7.0.1-essentials_build.zip
+  ██████████████████████████████  87.1 MB / 87.1 MB
+Successfully verified installer hash
+Extracting archive...
+Successfully extracted archive
+Starting package install...
+Path environment variable modified; restart your shell to use the new value.
+Command line alias added: "ffmpeg"
+Command line alias added: "ffplay"
+Command line alias added: "ffprobe"
+Successfully installed
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> ffmpeg
+ffmpeg: The term 'ffmpeg' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
