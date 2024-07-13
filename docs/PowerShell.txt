@@ -362,3 +362,71 @@ Saturday, July 13, 2024 8:45:59 AM
 
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Saturday, July 13, 2024 8:54:26 AM
+Saturday, July 13, 2024 8:54:26 AM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Saturday, July 13, 2024 8:54:27 AM
+Saturday, July 13, 2024 8:54:27 AM
+[master 6697bc3] add all files
+ 1 file changed, 80 insertions(+)
+Saturday, July 13, 2024 8:54:27 AM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.32 KiB | 674.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   ea02173..6697bc3  master -> master
+Saturday, July 13, 2024 8:54:28 AM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Saturday, July 13, 2024 8:54:29 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget upgrade; date; winget upgrade --all --include-unknown; date;
+
+Saturday, July 13, 2024 8:54:31 AM
+Name                                Id                         Version    Available  Source
+-------------------------------------------------------------------------------------------
+PowerShell 7.4.2.0-x64              Microsoft.PowerShell       7.4.2.0    7.4.3.0    winget
+yt-dlp                              yt-dlp.yt-dlp              2024.07.07 2024.07.09 winget
+Microsoft Visual Studio Code (User) Microsoft.VisualStudioCode 1.91.0     1.91.1     winget
+3 upgrades available.
+Saturday, July 13, 2024 8:54:33 AM
+Name                                Id                         Version    Available  Source
+-------------------------------------------------------------------------------------------
+PowerShell 7.4.2.0-x64              Microsoft.PowerShell       7.4.2.0    7.4.3.0    winget
+yt-dlp                              yt-dlp.yt-dlp              2024.07.07 2024.07.09 winget
+Microsoft Visual Studio Code (User) Microsoft.VisualStudioCode 1.91.0     1.91.1     winget
+3 upgrades available.
+
+Installing dependencies:
+This package requires the following dependencies:
+  - Packages
+      Gyan.FFmpeg
+(1/2) Found yt-dlp [yt-dlp.yt-dlp] Version 2024.07.09
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+(1/1) Found FFmpeg [Gyan.FFmpeg] Version 7.0.1
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Successfully verified installer hash
+Extracting archive...
+Successfully extracted archive
+Saturday, July 13, 2024 8:54:48 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
