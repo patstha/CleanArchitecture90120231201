@@ -54,3 +54,201 @@ Saturday, July 13, 2024 9:38:04 AM
 Saturday, July 13, 2024 9:38:05 AM
 
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Saturday, July 13, 2024 9:38:20 AM
+Saturday, July 13, 2024 9:38:20 AM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Saturday, July 13, 2024 9:38:20 AM
+Saturday, July 13, 2024 9:38:20 AM
+[master cb24deb] add all files
+ 1 file changed, 16 insertions(+), 119 deletions(-)
+Saturday, July 13, 2024 9:38:20 AM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 526 bytes | 526.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   9f020ae..cb24deb  master -> master
+Saturday, July 13, 2024 9:38:22 AM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Saturday, July 13, 2024 9:38:23 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> winget uninstall Gyan.FFmpeg
+No installed package found matching input criteria.
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> winget install Gyan.FFmpeg
+Found FFmpeg [Gyan.FFmpeg] Version 7.0.1
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Successfully verified installer hash
+Extracting archive...
+Successfully extracted archive
+Starting package install...
+Command line alias added: "ffmpeg"
+Command line alias added: "ffplay"
+Command line alias added: "ffprobe"
+Successfully installed
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> winget uninstall Gyan.FFmpeg
+No installed package found matching input criteria.
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> winget list
+Name                                                                  Id                                                         Version             Source
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Android Studio                                                        Google.AndroidStudio                                       2024.1.1.11         winget
+Git                                                                   Git.Git                                                    2.45.2              winget
+Lenovo Pen Settings Service                                           ARP\Machine\X64\ISD Tablet Driver                          7.6.1.12
+Microsoft Azure Compute Emulator - v2.9.7                             ARP\Machine\X64\Microsoft Azure Compute Emulator - v2.9.7  2.9.8999.43
+Mozilla Firefox (x64 en-US)                                           Mozilla.Firefox                                            127.0.2             winget
+Mozilla Maintenance Service                                           ARP\Machine\X64\MozillaMaintenanceService                  116.0.2
+AdVenture Capitalist                                                  ARP\Machine\X64\Steam App 346900                           Unknown
+TablePlus 6.1.0                                                       TablePlus.TablePlus                                        6.1.0               winget
+PowerShell 7-x64                                                      Microsoft.PowerShell                                       7.4.3.0             winget
+PowerShell 7.4.2.0-x64                                                Microsoft.PowerShell                                       7.4.2.0             winget
+Microsoft ODBC Driver 17 for SQL Server                               ARP\Machine\X64\{0E0F96AC-80DE-4400-A40C-429D63293651}     17.10.6.1
+7-Zip 24.07 (x64 edition)                                             7zip.7zip                                                  24.07.00.0          winget
+Microsoft .NET SDK 8.0.400-preview.0.24324.5 (x64) from Visual Studio ARP\Machine\X64\{2ACFC252-BB14-4999-9A76-8B72C42A3734}     8.4.24.32405
+Microsoft SQL Server 2019 LocalDB                                     ARP\Machine\X64\{36E492B8-CB83-4DA5-A5D2-D99A8E8228A1}     15.0.4153.1
+Microsoft Azure PowerShell - April 2018                               ARP\Machine\X64\{3BA7CAA9-97BA-4528-B7E1-B640910BB149}     5.7.0.18831
+Microsoft Azure Libraries for .NET – v2.9                             ARP\Machine\X64\{3C188EC3-3DFE-48B1-9C45-D1AF419D534F}     3.0.2310.23
+Microsoft System CLR Types for SQL Server 2019                        Microsoft.CLRTypesSQLServer.2019                           15.0.2000.5         winget
+Azure Data Studio                                                     ARP\Machine\X64\{6591F69E-6588-4980-81ED-C8FCBD7EC4B8}_is1 1.47.0
+Microsoft Visual Studio Installer                                     ARP\Machine\X64\{6F320B93-EE3C-4826-85E0-ADF79F8D4C61}     3.11.2167.20057
+Microsoft OLE DB Driver for SQL Server                                ARP\Machine\X64\{76EB75D2-CCF6-41A9-90B6-922DE9146276}     18.7.4.0
+Microsoft .NET SDK 8.0.303 (x64) from Visual Studio                   ARP\Machine\X64\{8275139B-39D6-40A3-A606-E7C4D8787FE6}     8.3.324.31708
+Microsoft Web Deploy 4.0                                              Microsoft.WebDeploy                                        10.0.8305           winget
+Microsoft Azure Authoring Tools - v2.9.7                              ARP\Machine\X64\{90462BD2-DF5B-449C-A401-FCC1DC264E4E}     2.9.8999.45
+VLC media player                                                      VideoLAN.VLC                                               3.0.20              winget
+IIS 10.0 Express                                                      ARP\Machine\X64\{A43F6F96-4CED-4152-8086-AF954755E324}     10.0.08608
+Microsoft Teams Meeting Add-in for Microsoft Office                   ARP\Machine\X64\{A7AB73A3-CB10-4AA5-9D38-6AEFFBDE4C91}     1.24.14501
+Microsoft Update Health Tools                                         ARP\Machine\X64\{C6FD611E-7EFE-488C-A0E0-974C09EF6473}     5.72.0.0
+Visual Studio Community 2022 Preview                                  Microsoft.VisualStudio.2022.Community.Preview              17.11.0 Preview 3.0 winget
+Visual Studio Community 2022                                          Microsoft.VisualStudio.2022.Community                      17.10.4             winget
+IntelliJ IDEA Community Edition 2024.1.4                              JetBrains.IntelliJIDEA.Community                           2024.1.4            winget
+Microsoft Edge                                                        Microsoft.Edge                                             126.0.2592.102      winget
+Microsoft Edge Update                                                 ARP\Machine\X86\Microsoft Edge Update                      1.3.193.5
+Microsoft Edge WebView2 Runtime                                       Microsoft.EdgeWebView2Runtime                              126.0.2592.102      winget
+Microsoft Help Viewer 2.3                                             ARP\Machine\X86\Microsoft Help Viewer 2.3                  2.3.28307
+OBS Studio                                                            OBSProject.OBSStudio                                       30.1.2              winget
+PyCharm Community Edition 2024.1.4                                    JetBrains.PyCharm.Community                                2024.1.4            winget
+RustRover 2024.1.3                                                    JetBrains.RustRover.EAP                                    241.17011.175       winget
+Steam                                                                 Valve.Steam                                                2.10.91.91          winget
+Microsoft SQL Server Management Studio - 20.1                         Microsoft.SQLServerManagementStudio                        20.1                winget
+Microsoft SQL Server Management Studio - 19.2                         Microsoft.SQLServerManagementStudio                        19.2                winget
+vs_CoreEditorFonts                                                    ARP\Machine\X86\{1851460E-0E63-4117-B5BA-25A2F045801B}     17.7.40001
+Python Launcher                                                       Python.Launcher                                            3.12.0              winget
+Python Launcher                                                       Python.Launcher                                            < 3.12.0            winget
+Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.40.33810    Microsoft.VCRedist.2015+.x86                               14.40.33810.0       winget
+Epic Online Services                                                  ARP\Machine\X86\{57A956AB-4BCC-45C6-9B40-957E4E125568}     2.0.44.0
+Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.40.33810    Microsoft.VCRedist.2015+.x64                               14.40.33810.0       winget
+Windows Software Development Kit - Windows 10.0.22621.3233            ARP\Machine\X86\{71684ad3-afc2-4a65-9d45-92ef58510f18}     10.1.22621.3233
+Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40664          Microsoft.VCRedist.2013.x86                                12.0.40664.0        winget
+Epic Games Launcher                                                   EpicGames.EpicGamesLauncher                                1.3.93.0            winget
+Windows SDK AddOn                                                     ARP\Machine\X86\{F1E37C98-16B7-421F-BA33-6C5B5400012A}     10.1.0.0
+Microsoft .NET SDK 9.0.100-preview.6.24328.19 (x64)                   Microsoft.DotNet.SDK.Preview                               9.0.100-preview.6.… winget
+Microsoft Visual Studio Tools for Applications 2019                   ARP\Machine\X86\{f3fbabb4-bcfb-45eb-8fff-9b784fd68c38}     16.0.31110
+Bitwarden                                                             Bitwarden.Bitwarden                                        2024.6.4            winget
+Standard Notes 3.194.13                                               StandardNotes.StandardNotes                                3.194.13            winget
+Signal 7.15.0                                                         OpenWhisperSystems.Signal                                  7.15.0              winget
+FFmpeg                                                                Gyan.FFmpeg                                                7.0.1               winget
+OP Auto Clicker                                                       OPAutoClicker.OPAutoClicker                                1.0.0.2             winget
+Rustup: the Rust toolchain installer                                  Rustlang.Rustup                                            1.27.1              winget
+Vivaldi                                                               ARP\User\X64\Vivaldi                                       6.8.3381.46
+Obsidian                                                              Obsidian.Obsidian                                          1.6.5               winget
+yt-dlp                                                                yt-dlp.yt-dlp                                              2024.07.09          winget
+Python 3.11.9 (64-bit)                                                Python.Python.3.11                                         3.11.9              winget
+PowerToys (Preview) x64                                               Microsoft.PowerToys                                        0.82.0              winget
+Microsoft Visual Studio Code (User)                                   Microsoft.VisualStudioCode                                 1.91.1              winget
+SmartAudio 3                                                          MSIX\22094SynapticsIncorporate.SmartAudio3_1.0.85.0_x64__… 1.0.85.0
+Dolby Audio                                                           MSIX\DolbyLaboratories.DolbyAudio_3.20500.501.0_x64__rz1t… 3.20500.501.0
+DuckDuckGo                                                            DuckDuckGo.DesktopBrowser                                  0.84.0.0            winget
+Microsoft Teams                                                       Microsoft.Teams                                            24152.415.2975.367  winget
+Cortana                                                               MSIX\Microsoft.549981C3F5F10_4.2308.1005.0_x64__8wekyb3d8… 4.2308.1005.0
+App Installer                                                         Microsoft.AppInstaller                                     1.23.1911.0         winget
+Get Help                                                              MSIX\Microsoft.GetHelp_10.2403.20861.0_x64__8wekyb3d8bbwe  10.2403.20861.0
+Microsoft Tips                                                        MSIX\Microsoft.Getstarted_10.2312.1.0_x64__8wekyb3d8bbwe   10.2312.1.0
+HEIF Image Extensions                                                 MSIX\Microsoft.HEIFImageExtension_1.1.861.0_x64__8wekyb3d… 1.1.861.0
+Ink.Handwriting.Main.en-US.1.0                                        MSIX\Microsoft.Ink.Handwriting.Main.en-US.1.0.1_0.237.110… 0.237.110.0
+Ink.Handwriting.en-US.1.0                                             MSIX\Microsoft.Ink.Handwriting.en-US.1.0_0.237.110.0_x64_… 0.237.110.0
+Ink.Handwriting.en-US.1.0                                             MSIX\Microsoft.Ink.Handwriting.en-US.1.0_0.237.110.0_x86_… 0.237.110.0
+Microsoft Edge                                                        MSIX\Microsoft.MicrosoftEdge.Stable_126.0.2592.102_neutra… 126.0.2592.102
+PC Manager                                                            MSIX\Microsoft.MicrosoftPCManager_3.12.1.0_x64__8wekyb3d8… 3.12.1.0
+Solitaire & Casual Games                                              MSIX\Microsoft.MicrosoftSolitaireCollection_4.20.6270.0_x… 4.20.6270.0
+Microsoft Sticky Notes                                                MSIX\Microsoft.MicrosoftStickyNotes_6.0.2.0_x64__8wekyb3d… 6.0.2.0
+Mixed Reality Portal                                                  MSIX\Microsoft.MixedReality.Portal_2000.21051.1282.0_x64_… 2000.21051.1282.0
+Microsoft .Net Native Framework Package 2.0                           MSIX\Microsoft.NET.Native.Framework.2.0_2.0.27427.0_x64__… 2.0.27427.0
+Microsoft .Net Native Framework Package 2.0                           MSIX\Microsoft.NET.Native.Framework.2.0_2.0.27427.0_x86__… 2.0.27427.0
+Microsoft .Net Native Framework Package 2.2                           MSIX\Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x64__… 2.2.29512.0
+Microsoft .Net Native Framework Package 2.2                           MSIX\Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x86__… 2.2.29512.0
+Microsoft .Net Native Runtime Package 2.0                             MSIX\Microsoft.NET.Native.Runtime.2.0_2.0.25709.0_x64__8w… 2.0.25709.0
+Microsoft .Net Native Runtime Package 2.0                             MSIX\Microsoft.NET.Native.Runtime.2.0_2.0.25709.0_x86__8w… 2.0.25709.0
+Microsoft .Net Native Runtime Package 2.2                             MSIX\Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x64__8w… 2.2.28604.0
+Microsoft .Net Native Runtime Package 2.2                             MSIX\Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x86__8w… 2.2.28604.0
+Outlook for Windows                                                   MSIX\Microsoft.OutlookForWindows_1.2023.1011.100_x64__8we… 1.2023.1011.100
+Paint                                                                 MSIX\Microsoft.Paint_11.2404.1020.0_x64__8wekyb3d8bbwe     11.2404.1020.0
+Microsoft People                                                      MSIX\Microsoft.People_10.2202.100.0_x64__8wekyb3d8bbwe     10.2202.100.0
+Power Automate                                                        MSIX\Microsoft.PowerAutomateDesktop_11.2406.410.0_x64__8w… 11.2406.410.0
+PowerToys FileLocksmith Context Menu                                  MSIX\Microsoft.PowerToys.FileLocksmithContextMenu_1.0.0.0… 1.0.0.0
+PowerToys ImageResizer Context Menu                                   MSIX\Microsoft.PowerToys.ImageResizerContextMenu_0.75.1.0… 0.75.1.0
+PowerToys PowerRename Context Menu                                    MSIX\Microsoft.PowerToys.PowerRenameContextMenu_0.75.1.0_… 0.75.1.0
+Raw Image Extension                                                   MSIX\Microsoft.RawImageExtension_2.3.1221.0_x64__8wekyb3d… 2.3.1221.0
+Snipping Tool                                                         MSIX\Microsoft.ScreenSketch_11.2405.32.0_x64__8wekyb3d8bb… 11.2405.32.0
+Windows Security                                                      MSIX\Microsoft.SecHealthUI_1000.25992.9000.0_x64__8wekyb3… 1000.25992.9000.0
+Microsoft Engagement Framework                                        MSIX\Microsoft.Services.Store.Engagement_10.0.23012.0_x64… 10.0.23012.0
+Microsoft Engagement Framework                                        MSIX\Microsoft.Services.Store.Engagement_10.0.23012.0_x86… 10.0.23012.0
+Store Experience Host                                                 MSIX\Microsoft.StorePurchaseApp_22403.1401.1.0_x64__8weky… 22403.1401.1.0
+Microsoft Teams Play Together                                         MSIX\Microsoft.TeamsXboxGameBarWidget_1.0.22.0_x64__8weky… 1.0.22.0
+Microsoft.UI.Xaml.2.4                                                 MSIX\Microsoft.UI.Xaml.2.4_2.42007.9001.0_x86__8wekyb3d8b… 2.42007.9001.0
+Microsoft.UI.Xaml.2.7                                                 Microsoft.UI.Xaml.2.7                                      7.2208.15002.0      winget
+Microsoft.UI.Xaml.2.7                                                 Microsoft.UI.Xaml.2.7                                      7.2208.15002.0      winget
+Microsoft.UI.Xaml.2.8                                                 Microsoft.UI.Xaml.2.8                                      8.2310.30001.0      winget
+Microsoft.UI.Xaml.2.8                                                 Microsoft.UI.Xaml.2.8                                      8.2310.30001.0      winget
+Microsoft Visual C++ Runtime Package                                  MSIX\Microsoft.VCLibs.120.00_12.0.21005.1_x64__8wekyb3d8b… 12.0.21005.1
+Microsoft Visual C++ Runtime Package                                  MSIX\Microsoft.VCLibs.120.00_12.0.21005.1_x86__8wekyb3d8b… 12.0.21005.1
+Microsoft Visual C++ 2015 UWP Desktop Runtime Package                 Microsoft.VCLibs.Desktop.14                                14.0.33728.0        winget
+Microsoft Visual C++ 2015 UWP Desktop Runtime Package                 Microsoft.VCLibs.Desktop.14                                14.0.33728.0        winget
+Microsoft Visual C++ 2015 UWP Runtime Package                         MSIX\Microsoft.VCLibs.140.00_14.0.33519.0_x64__8wekyb3d8b… 14.0.33519.0
+Microsoft Visual C++ 2015 UWP Runtime Package                         MSIX\Microsoft.VCLibs.140.00_14.0.33519.0_x86__8wekyb3d8b… 14.0.33519.0
+VP9 Video Extensions                                                  MSIX\Microsoft.VP9VideoExtensions_1.1.451.0_x64__8wekyb3d… 1.1.451.0
+Web Media Extensions                                                  MSIX\Microsoft.WebMediaExtensions_1.1.1295.0_x64__8wekyb3… 1.1.1295.0
+Webp Image Extensions                                                 MSIX\Microsoft.WebpImageExtension_1.1.1711.0_x64__8wekyb3… 1.1.1711.0
+Dev Home GitHub Extension (Preview)                                   MSIX\Microsoft.Windows.DevHomeGitHubExtension_0.1500.533.… 0.1500.533.0
+Dev Home (Preview)                                                    Microsoft.DevHome                                          0.1501.533.0        winget
+Microsoft Photos                                                      MSIX\Microsoft.Windows.Photos_2024.11070.3017.0_x64__8wek… 2024.11070.3017.0
+Windows Clock                                                         MSIX\Microsoft.WindowsAlarms_11.2403.8.0_x64__8wekyb3d8bb… 11.2403.8.0
+Microsoft.WindowsAppRuntime.1.3                                       MSIX\Microsoft.WindowsAppRuntime.1.3_3000.934.1904.0_x64_… 3000.934.1904.0
+Microsoft.WindowsAppRuntime.1.3                                       MSIX\Microsoft.WindowsAppRuntime.1.3_3000.934.1904.0_x86_… 3000.934.1904.0
+WindowsAppRuntime.1.4                                                 MSIX\Microsoft.WindowsAppRuntime.1.4_4000.1227.1637.0_x64… 4000.1227.1637.0
+WindowsAppRuntime.1.4                                                 MSIX\Microsoft.WindowsAppRuntime.1.4_4000.1227.1637.0_x86… 4000.1227.1637.0
+WindowsAppRuntime.1.5                                                 MSIX\Microsoft.WindowsAppRuntime.1.5_5001.178.1908.0_x64_… 5001.178.1908.0
+WindowsAppRuntime.1.5                                                 MSIX\Microsoft.WindowsAppRuntime.1.5_5001.178.1908.0_x86_… 5001.178.1908.0
+Windows Calculator                                                    MSIX\Microsoft.WindowsCalculator_11.2405.2.0_x64__8wekyb3… 11.2405.2.0
+Windows Camera                                                        MSIX\Microsoft.WindowsCamera_2024.2405.19.0_x64__8wekyb3d… 2024.2405.19.0
+Feedback Hub                                                          MSIX\Microsoft.WindowsFeedbackHub_1.2405.21481.0_x64__8we… 1.2405.21481.0
+Windows Maps                                                          MSIX\Microsoft.WindowsMaps_11.2403.4.0_x64__8wekyb3d8bbwe  11.2403.4.0
+Windows Notepad                                                       MSIX\Microsoft.WindowsNotepad_11.2405.13.0_x64__8wekyb3d8… 11.2405.13.0
+Windows Scan                                                          MSIX\Microsoft.WindowsScan_6.3.9654.17133_x64__8wekyb3d8b… 6.3.9654.17133
+Windows Sound Recorder                                                MSIX\Microsoft.WindowsSoundRecorder_11.2405.0.0_x64__8wek… 11.2405.0.0
+Microsoft Store                                                       MSIX\Microsoft.WindowsStore_22405.1401.9.0_x64__8wekyb3d8… 22405.1401.9.0
+Windows Terminal                                                      Microsoft.WindowsTerminal                                  1.20.11781.0        winget
+Windows Package Manager Source (platform)                             MSIX\Microsoft.Winget.Platform.Source_2023.1102.1838.719_… 2023.1102.1838.719
+Windows Package Manager Source (winget) V2                            MSIX\Microsoft.Winget.Source_2024.713.328.48_neutral__8we… 2024.713.328.48
+Xbox Identity Provider                                                MSIX\Microsoft.XboxIdentityProvider_12.113.31003.0_x64__8… 12.113.31003.0
+Microsoft Teams (personal)                                            Microsoft.Teams.Free                                       24151.2105.2943.21… winget
+Windows Web Experience Pack                                           MSIX\MicrosoftWindows.Client.WebExperience_524.16300.20.0… 524.16300.20.0
+Cross Device Experience Host                                          MSIX\MicrosoftWindows.CrossDevice_1.24061.40.0_x64__cw5n1… 1.24061.40.0
+Mail and Calendar                                                     MSIX\microsoft.windowscommunicationsapps_16005.14326.2199… 16005.14326.21998.0
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
