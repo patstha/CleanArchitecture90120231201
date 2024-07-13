@@ -124,3 +124,161 @@ Deleting original file How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].f140.m4a (pas
 🎨: Mr. Mass https://youtube.com/c/MysteryGiftMovie
 🎵: freesound.org" -metadata "purl=https://www.youtube.com/watch?v=PaVjQFMg7L0" -metadata "comment=https://www.youtube.com/watch?v=PaVjQFMg7L0" -metadata "artist=Kyle Hill" -metadata:s:1 "language=eng" -movflags +faststart "file:How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].temp.mp4"
 PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Friday, July 12, 2024 9:09:19 PM
+Friday, July 12, 2024 9:09:19 PM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Friday, July 12, 2024 9:09:19 PM
+Friday, July 12, 2024 9:09:19 PM
+[master c7769f6] add all files
+ 1 file changed, 93 insertions(+), 802 deletions(-)
+Friday, July 12, 2024 9:09:19 PM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.29 KiB | 780.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   0ab8a84..c7769f6  master -> master
+Friday, July 12, 2024 9:09:20 PM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Friday, July 12, 2024 9:09:21 PM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> cd "\\TP-Share\G\shared\jellyfin\shows\downloaded"; yt-dlp --verbose --restrict-filenames --embed-metadata "https://youtu.be/PaVjQFMg7L0"
+[debug] Command-line config: ['--verbose', '--restrict-filenames', '--embed-metadata', 'https://youtu.be/PaVjQFMg7L0']
+[debug] Encodings: locale cp1252, fs utf-8, pref cp1252, out utf-8, error utf-8, screen utf-8
+[debug] yt-dlp version stable@2024.07.07 from yt-dlp/yt-dlp [b337d2989] (win_exe)
+[debug] Python 3.8.10 (CPython AMD64 64bit) - Windows-10-10.0.22631-SP0 (OpenSSL 1.1.1k  25 Mar 2021)
+[debug] exe versions: ffmpeg 7.0.1-full_build-www.gyan.dev (setts), ffprobe 7.0.1-full_build-www.gyan.dev
+[debug] Optional libraries: Cryptodome-3.20.0, brotli-1.1.0, certifi-2024.07.04, curl_cffi-0.5.10, mutagen-1.47.0, requests-2.32.3, sqlite3-3.35.5, urllib3-2.2.2, websockets-12.0
+[debug] Proxy map: {}
+[debug] Request Handlers: urllib, requests, websockets, curl_cffi
+[debug] Loaded 1834 extractors
+[youtube] Extracting URL: https://youtu.be/PaVjQFMg7L0
+[youtube] PaVjQFMg7L0: Downloading webpage
+[youtube] PaVjQFMg7L0: Downloading ios player API JSON
+[youtube] PaVjQFMg7L0: Downloading player 8d9f6215
+WARNING: [youtube] PaVjQFMg7L0: nsig extraction failed: Some formats may be missing
+         n = apB-sDfckEbd3ePpMFk ; player = https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/en_US/base.js
+[debug] [youtube] Unable to extract nsig function code (caused by RegexNotFoundError('Unable to extract \x1b[0;94mInitial JS player n function name\x1b[0m; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+WARNING: [youtube] PaVjQFMg7L0: nsig extraction failed: Some formats may be missing
+         n = jDX7wDj-vmooWEkMEHV ; player = https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/en_US/base.js
+[youtube] PaVjQFMg7L0: Downloading m3u8 information
+[debug] Sort order given by extractor: quality, res, fps, hdr:12, source, vcodec:vp9.2, channels, acodec, lang, proto
+[debug] Formats sorted by: hasvid, ie_pref, quality, res, fps, hdr:12(7), source, vcodec:vp9.2(10), channels, acodec, lang, proto, size, br, asr, vext, aext, hasaud, id
+[debug] Default format spec: bestvideo*+bestaudio/best
+[info] Testing format 616
+[hlsnative] Downloading m3u8 manifest
+[hlsnative] Total fragments: 180
+[download] Destination: \\TP-Share\G\shared\jellyfin\shows\downloaded\tmpejv3a57g.tmp
+[debug] File locking is not supported. Proceeding without locking
+[download] 100% of    712.00B in 00:00:00 at 2.44KiB/s
+[info] PaVjQFMg7L0: Downloading 1 format(s): 616+140
+[download] How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].mp4 has already been downloaded
+[Metadata] Adding metadata to "How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].mp4"
+[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].mp4" -i "file:How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].meta" -map 0 -dn -ignore_unknown -c copy -map_metadata 1 -write_id3v1 1 -metadata "title=How A.I. Killed the Internet." -metadata "date=20240711" -metadata "description=Generative A.I is the nuclear bomb of the Information Age. If the Internet doesn’t feel as creative or fun or interesting as you remember it, you’re not alone. The so-called ‘Dead Internet Theory’ explains why. The rise of artificially generated content killed the internet. How did this happen? Why? And… Is it still possible to stop it?
+
+00:00 Intro
+01:50 Dead Internet Theory
+11:41 Unforeseen Consequences
+
+💪 JOIN [THE FACILITY] for members-only live streams, behind-the-scenes posts, and the official Discord: https://www.patreon.com/kylehill
+
+👕 NUCLEAR WASTE WARNING MERCH OUT NOW! https://shop.kylehill.net
+
+🎥 SUB TO THE GAMING CHANNEL: https://www.youtube.com/channel/UCfTNPE8mXGBZPC1nfVtOJTw
+
+✅ MANDATORY LIKE, SUBSCRIBE, AND TURN ON NOTIFICATIONS
+
+📲 FOLLOW ME ON SOCIETY-RUINING SOCIAL MEDIA:
+📷 https://www.instagram.com/sci_Phile/
+
+😎: Kyle
+🎬: Charles Shattuck
+🎞: Kevin Onofreo
+✂: Nate Berger
+🤖: @clairemax
+🎨: Thorsten Denk https://www.z1mt.com/
+🎼:  @mey
+🎹: bensound.com
+🎨: Mr. Mass https://youtube.com/c/MysteryGiftMovie
+🎵: freesound.org" -metadata "synopsis=Generative A.I is the nuclear bomb of the Information Age. If the Internet doesn’t feel as creative or fun or interesting as you remember it, you’re not alone. The so-called ‘Dead Internet Theory’ explains why. The rise of artificially generated content killed the internet. How did this happen? Why? And… Is it still possible to stop it?
+
+00:00 Intro
+01:50 Dead Internet Theory
+11:41 Unforeseen Consequences
+
+💪 JOIN [THE FACILITY] for members-only live streams, behind-the-scenes posts, and the official Discord: https://www.patreon.com/kylehill
+
+👕 NUCLEAR WASTE WARNING MERCH OUT NOW! https://shop.kylehill.net
+
+🎥 SUB TO THE GAMING CHANNEL: https://www.youtube.com/channel/UCfTNPE8mXGBZPC1nfVtOJTw
+
+✅ MANDATORY LIKE, SUBSCRIBE, AND TURN ON NOTIFICATIONS
+
+📲 FOLLOW ME ON SOCIETY-RUINING SOCIAL MEDIA:
+📷 https://www.instagram.com/sci_Phile/
+
+😎: Kyle
+🎬: Charles Shattuck
+🎞: Kevin Onofreo
+✂: Nate Berger
+🤖: @clairemax
+🎨: Thorsten Denk https://www.z1mt.com/
+🎼:  @mey
+🎹: bensound.com
+🎨: Mr. Mass https://youtube.com/c/MysteryGiftMovie
+🎵: freesound.org" -metadata "purl=https://www.youtube.com/watch?v=PaVjQFMg7L0" -metadata "comment=https://www.youtube.com/watch?v=PaVjQFMg7L0" -metadata "artist=Kyle Hill" -metadata:s:1 "language=eng" -movflags +faststart "file:How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].temp.mp4"
+PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded> cd "\\TP-Share\G\shared\jellyfin\shows\downloaded"; yt-dlp --verbose --restrict-filenames --embed-metadata "https://youtu.be/YtMxF4BeiyY"
+[debug] Command-line config: ['--verbose', '--restrict-filenames', '--embed-metadata', 'https://youtu.be/YtMxF4BeiyY']
+[debug] Encodings: locale cp1252, fs utf-8, pref cp1252, out utf-8, error utf-8, screen utf-8
+[debug] yt-dlp version stable@2024.07.07 from yt-dlp/yt-dlp [b337d2989] (win_exe)
+[debug] Python 3.8.10 (CPython AMD64 64bit) - Windows-10-10.0.22631-SP0 (OpenSSL 1.1.1k  25 Mar 2021)
+[debug] exe versions: ffmpeg 7.0.1-full_build-www.gyan.dev (setts), ffprobe 7.0.1-full_build-www.gyan.dev
+[debug] Optional libraries: Cryptodome-3.20.0, brotli-1.1.0, certifi-2024.07.04, curl_cffi-0.5.10, mutagen-1.47.0, requests-2.32.3, sqlite3-3.35.5, urllib3-2.2.2, websockets-12.0
+[debug] Proxy map: {}
+[debug] Request Handlers: urllib, requests, websockets, curl_cffi
+[debug] Loaded 1834 extractors
+[youtube] Extracting URL: https://youtu.be/YtMxF4BeiyY
+[youtube] YtMxF4BeiyY: Downloading webpage
+[youtube] YtMxF4BeiyY: Downloading ios player API JSON
+[youtube] YtMxF4BeiyY: Downloading player 8d9f6215
+WARNING: [youtube] YtMxF4BeiyY: nsig extraction failed: Some formats may be missing
+         n = z7fOIMNU1JUiWDyE_nT ; player = https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/en_US/base.js
+[debug] [youtube] Unable to extract nsig function code (caused by RegexNotFoundError('Unable to extract \x1b[0;94mInitial JS player n function name\x1b[0m; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+WARNING: [youtube] YtMxF4BeiyY: nsig extraction failed: Some formats may be missing
+         n = --U8YsNpSFkzs9KHQMZ ; player = https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/en_US/base.js
+[youtube] YtMxF4BeiyY: Downloading m3u8 information
+[debug] Sort order given by extractor: quality, res, fps, hdr:12, source, vcodec:vp9.2, channels, acodec, lang, proto
+[debug] Formats sorted by: hasvid, ie_pref, quality, res, fps, hdr:12(7), source, vcodec:vp9.2(10), channels, acodec, lang, proto, size, br, asr, vext, aext, hasaud, id
+[debug] Default format spec: bestvideo*+bestaudio/best
+[info] YtMxF4BeiyY: Downloading 1 format(s): 136+140
+[debug] Invoking http downloader on "https://rr5---sn-8xgp1vo-gpje.googlevideo.com/videoplayback?expire=1720895217&ei=kXKSZt_SMoKKkucPxIi-iAQ&ip=70.104.195.206&id=o-AB_QJhi4cuh-g-NF6-aSBBnjwDgn2IllnwavcSlXeLhN&itag=136&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=pw&mm=31%2C29&mn=sn-8xgp1vo-gpje%2Csn-8xgp1vo-p5qy&ms=au%2Crdu&mv=m&mvi=5&pl=20&initcwndbps=1162500&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&gir=yes&clen=27965878&dur=982.033&lmt=1686536361723475&mt=1720873531&fvip=4&keepalive=yes&c=IOS&txp=6219224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAJ0dTL_6YjVWmu1DS-fpQnNBRzVyWf3LIkE0p-BshTakAiEA5z457LXNBdaIQADYNmThngxHRQ8jGm9payJGbH-UqlM%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRAIgUZn8_bq8kl0ZaBdF1c6v9BqzQ-8W5fpf5D529dI3VVACIGBWALjEJ-y7mYcQLFId-r9Gbh2cGVpcdD7glAvjYuMH"
+[debug] File locking is not supported. Proceeding without locking
+[download] Destination: How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].f136.mp4
+[download] 100% of   26.67MiB in 00:00:03 at 8.46MiB/s
+[debug] Invoking http downloader on "https://rr5---sn-8xgp1vo-gpje.googlevideo.com/videoplayback?expire=1720895217&ei=kXKSZt_SMoKKkucPxIi-iAQ&ip=70.104.195.206&id=o-AB_QJhi4cuh-g-NF6-aSBBnjwDgn2IllnwavcSlXeLhN&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=pw&mm=31%2C29&mn=sn-8xgp1vo-gpje%2Csn-8xgp1vo-p5qy&ms=au%2Crdu&mv=m&mvi=5&pl=20&initcwndbps=1162500&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=15895486&dur=982.134&lmt=1686536466467938&mt=1720873531&fvip=4&keepalive=yes&c=IOS&txp=6218224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAJd2BKoMO8TEd836qEtvPLrD5iIr5BO5ttHIqoHhtN6YAiB7oC-EkwHrMGJxB16kWtR0b2qagc3fiKnVkKai-iCseA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRAIgUZn8_bq8kl0ZaBdF1c6v9BqzQ-8W5fpf5D529dI3VVACIGBWALjEJ-y7mYcQLFId-r9Gbh2cGVpcdD7glAvjYuMH"
+[download] Destination: How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].f140.m4a
+[download] 100% of   15.16MiB in 00:00:03 at 4.13MiB/s
+[Merger] Merging formats into "How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].mp4"
+[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].f136.mp4" -i "file:How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].f140.m4a" -c copy -map 0:v:0 -map 1:a:0 -movflags +faststart "file:How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].temp.mp4"
+Deleting original file How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].f136.mp4 (pass -k to keep)
+Deleting original file How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].f140.m4a (pass -k to keep)
+[Metadata] Adding metadata to "How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].mp4"
+[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].mp4" -map 0 -dn -ignore_unknown -c copy -write_id3v1 1 -metadata "title=How to install and run Syncthing as a Windows service" -metadata "date=20230612" -metadata "description=This video gives a short demonstration of how to install and run Syncthing as a Windows service. The advantage of installing as a Windows service is that Syncthing will synchronize folders even when no users are logged on." -metadata "synopsis=This video gives a short demonstration of how to install and run Syncthing as a Windows service. The advantage of installing as a Windows service is that Syncthing will synchronize folders even when no users are logged on." -metadata "purl=https://www.youtube.com/watch?v=YtMxF4BeiyY" -metadata "comment=https://www.youtube.com/watch?v=YtMxF4BeiyY" -metadata "artist=Bill Stewart" -metadata:s:1 "language=eng" -movflags +faststart "file:How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].temp.mp4"
+PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
