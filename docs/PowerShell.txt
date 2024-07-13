@@ -307,3 +307,124 @@ Video: Vitalii Makhnovets" -metadata "purl=https://www.youtube.com/watch?v=DeE_g
 PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded>
 PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded>
 PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Saturday, July 13, 2024 10:10:09 AM
+Saturday, July 13, 2024 10:10:09 AM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Saturday, July 13, 2024 10:10:09 AM
+Saturday, July 13, 2024 10:10:09 AM
+[master e6644b8] add all files
+ 1 file changed, 128 insertions(+), 235 deletions(-)
+Saturday, July 13, 2024 10:10:09 AM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 4.25 KiB | 2.12 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   883e39a..e6644b8  master -> master
+Saturday, July 13, 2024 10:10:11 AM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Saturday, July 13, 2024 10:10:12 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> cd "\\TP-Share\G\shared\jellyfin\shows\downloaded"; yt-dlp --verbose --restrict-filenames --embed-metadata "https://www.youtube.com/watch?v=vummKkiwgRo"
+[debug] Command-line config: ['--verbose', '--restrict-filenames', '--embed-metadata', 'https://www.youtube.com/watch?v=vummKkiwgRo']
+[debug] Encodings: locale cp1252, fs utf-8, pref cp1252, out utf-8, error utf-8, screen utf-8
+[debug] yt-dlp version stable@2024.07.09 from yt-dlp/yt-dlp [7ead7332a] (win_exe)
+[debug] Python 3.8.10 (CPython AMD64 64bit) - Windows-10-10.0.22631-SP0 (OpenSSL 1.1.1k  25 Mar 2021)
+[debug] exe versions: ffmpeg 7.0.1-essentials_build-www.gyan.dev (setts), ffprobe 7.0.1-essentials_build-www.gyan.dev
+[debug] Optional libraries: Cryptodome-3.20.0, brotli-1.1.0, certifi-2024.07.04, curl_cffi-0.5.10, mutagen-1.47.0, requests-2.32.3, sqlite3-3.35.5, urllib3-2.2.2, websockets-12.0
+[debug] Proxy map: {}
+[debug] Request Handlers: urllib, requests, websockets, curl_cffi
+[debug] Loaded 1834 extractors
+[youtube] Extracting URL: https://www.youtube.com/watch?v=vummKkiwgRo
+[youtube] vummKkiwgRo: Downloading webpage
+[youtube] vummKkiwgRo: Downloading ios player API JSON
+[debug] Loading youtube-nsig.8d9f6215 from cache
+[debug] [youtube] Decrypted nsig Dy2su7A2p2XRcsPoijV => XEwuaQqT-cCvTg
+[debug] Loading youtube-nsig.8d9f6215 from cache
+[debug] [youtube] Decrypted nsig A5dZt0wrP-gL4DuM5uV => xPt4-Z3qkAMGyA
+[youtube] vummKkiwgRo: Downloading m3u8 information
+[debug] Sort order given by extractor: quality, res, fps, hdr:12, source, vcodec:vp9.2, channels, acodec, lang, proto
+[debug] Formats sorted by: hasvid, ie_pref, quality, res, fps, hdr:12(7), source, vcodec:vp9.2(10), channels, acodec, lang, proto, size, br, asr, vext, aext, hasaud, id
+[debug] Default format spec: bestvideo*+bestaudio/best
+[info] vummKkiwgRo: Downloading 1 format(s): 313+251
+[debug] Invoking http downloader on "https://rr1---sn-8xgp1vo-gpje.googlevideo.com/videoplayback?expire=1720901493&ei=FYuSZp7yL_mFkucP46ux0Ag&ip=70.104.195.206&id=o-AJHfnLcd4esN4FgTB2I3aTBZeVPO9In8AySRb_kuqdrw&itag=313&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C271%2C278%2C313&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=c3&mm=31%2C29&mn=sn-8xgp1vo-gpje%2Csn-8xgp1vo-p5ql&ms=au%2Crdu&mv=m&mvi=1&pl=20&initcwndbps=1025000&bui=AXc671KkXHSAM_3AYZdm_8a8vuwc69lP2JZZ-uDo8zQIJ5dDlOwjUZnS6QC9RkAGNWWDAQ2Cs_9kMCT9&spc=NO7bAZg6kVMt1SXjuxPYteqAuQVhuwtglqPK4A9d55UflfCZq28Ji_ImnBx9&vprv=1&svpuc=1&mime=video%2Fwebm&ns=YkBTWJJH0nGdLuXMoDGv-3IQ&rqh=1&gir=yes&clen=499426345&dur=535.668&lmt=1720817090603450&mt=1720879523&fvip=3&keepalive=yes&c=WEB&sefc=1&txp=630F224&n=xPt4-Z3qkAMGyA&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAPPeFq9ByXd4hYIGNMJZLOfWPqvpXJTvyaJ2RgfYcMNYAiEAp9Rw4vggGxMnmmZve8kkJV2JODvZK_NKM-SXy_SfhGk%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRgIhAOUS5Dfrs0wXS0SFkNeB3oiTHsLuH3SGlbY27O_9GRFyAiEAjKuFzPCebhVSuCupnzZlH7g4CHtRZFFSou2CzHm6upc%3D"
+[debug] File locking is not supported. Proceeding without locking
+[download] Destination: The_World_s_Most_Underrated_High-Speed_Rail_System_Korea_Train_Express-[vummKkiwgRo].f313.webm
+[download] 100% of  476.29MiB in 00:00:52 at 9.13MiB/s
+[debug] Invoking http downloader on "https://rr1---sn-8xgp1vo-gpje.googlevideo.com/videoplayback?expire=1720901493&ei=FYuSZp7yL_mFkucP46ux0Ag&ip=70.104.195.206&id=o-AJHfnLcd4esN4FgTB2I3aTBZeVPO9In8AySRb_kuqdrw&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=c3&mm=31%2C29&mn=sn-8xgp1vo-gpje%2Csn-8xgp1vo-p5ql&ms=au%2Crdu&mv=m&mvi=1&pl=20&initcwndbps=1025000&bui=AXc671KkXHSAM_3AYZdm_8a8vuwc69lP2JZZ-uDo8zQIJ5dDlOwjUZnS6QC9RkAGNWWDAQ2Cs_9kMCT9&spc=NO7bAZg6kVMt1SXjuxPYteqAuQVhuwtglqPK4A9d55UflfCZq28Ji_ImnBx9&vprv=1&svpuc=1&mime=audio%2Fwebm&ns=YkBTWJJH0nGdLuXMoDGv-3IQ&rqh=1&gir=yes&clen=9245070&dur=535.701&lmt=1720817113901017&mt=1720879523&fvip=3&keepalive=yes&c=WEB&sefc=1&txp=6308224&n=xPt4-Z3qkAMGyA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgPdyT9xSZREynhieGZ-LoOgdNwj1RMiQpTtO7xIYW6tkCICQZ-E02Qm-PtYi46dPZt4WTuwZKS26liqD8O-V4vRcr&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRgIhAOUS5Dfrs0wXS0SFkNeB3oiTHsLuH3SGlbY27O_9GRFyAiEAjKuFzPCebhVSuCupnzZlH7g4CHtRZFFSou2CzHm6upc%3D"
+[download] Destination: The_World_s_Most_Underrated_High-Speed_Rail_System_Korea_Train_Express-[vummKkiwgRo].f251.webm
+[download] 100% of    8.82MiB in 00:00:00 at 9.67MiB/s
+[Merger] Merging formats into "The_World_s_Most_Underrated_High-Speed_Rail_System_Korea_Train_Express-[vummKkiwgRo].webm"
+[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:The_World_s_Most_Underrated_High-Speed_Rail_System_Korea_Train_Express-[vummKkiwgRo].f313.webm" -i "file:The_World_s_Most_Underrated_High-Speed_Rail_System_Korea_Train_Express-[vummKkiwgRo].f251.webm" -c copy -map 0:v:0 -map 1:a:0 -movflags +faststart "file:The_World_s_Most_Underrated_High-Speed_Rail_System_Korea_Train_Express-[vummKkiwgRo].temp.webm"
+Deleting original file The_World_s_Most_Underrated_High-Speed_Rail_System_Korea_Train_Express-[vummKkiwgRo].f251.webm (pass -k to keep)
+Deleting original file The_World_s_Most_Underrated_High-Speed_Rail_System_Korea_Train_Express-[vummKkiwgRo].f313.webm (pass -k to keep)
+[Metadata] Adding metadata to "The_World_s_Most_Underrated_High-Speed_Rail_System_Korea_Train_Express-[vummKkiwgRo].webm"
+[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:The_World_s_Most_Underrated_High-Speed_Rail_System_Korea_Train_Express-[vummKkiwgRo].webm" -map 0 -dn -ignore_unknown -c copy -write_id3v11 -metadata "title=The World's Most Underrated High-Speed Rail System? | Korea Train Express" -metadata "date=20240713" -metadata "description=Watch this video ad-free on Nebula: https://nebula.tv/videos/rmtransit-the-worlds-most-underrated-highspeed-rail-system-korea-gtx
+
+When people think about high-speed rail in Asia, most jump to Japan or China as the first country that comes to mind, but South Korea actually has a very impressive system that's growing quickly. Let's check it out!
+
+Support the Channel and Get Exclusive Content: https://www.patreon.com/rmtransit
+
+My Blog: https://reecemartin.ca
+Twitter: https://twitter.com/RM_Transit
+Instagram: https://instagram.com/rm_transit
+Mastodon: https://masto.canadiancivil.com/@reece
+Bluesky: https://bsky.app/profile/rmtransit.bsky.social
+Threads: https://www.threads.net/@rm_transit
+
+Community Discord Server: https://discord.gg/jfz3fqT
+
+Music from Epidemic Sound: https://share.epidemicsound.com/nptgfg
+Map Data © OpenStreetMap contributors
+Nexa from Fontfabric.com" -metadata "synopsis=Watch this video ad-free on Nebula: https://nebula.tv/videos/rmtransit-the-worlds-most-underrated-highspeed-rail-system-korea-gtx
+
+When people think about high-speed rail in Asia, most jump to Japan or China as the first country that comes to mind, but South Korea actually has a very impressive system that's growing quickly. Let's check it out!
+
+Support the Channel and Get Exclusive Content: https://www.patreon.com/rmtransit
+
+My Blog: https://reecemartin.ca
+Twitter: https://twitter.com/RM_Transit
+Instagram: https://instagram.com/rm_transit
+Mastodon: https://masto.canadiancivil.com/@reece
+Bluesky: https://bsky.app/profile/rmtransit.bsky.social
+Threads: https://www.threads.net/@rm_transit
+
+Community Discord Server: https://discord.gg/jfz3fqT
+
+Music from Epidemic Sound: https://share.epidemicsound.com/nptgfg
+Map Data © OpenStreetMap contributors
+Nexa from Fontfabric.com" -metadata "purl=https://www.youtube.com/watch?v=vummKkiwgRo" -metadata "comment=https://www.youtube.com/watch?v=vummKkiwgRo" -metadata "artist=RMTransit" -metadata:s:1 "language=eng"-movflags +faststart "file:The_World_s_Most_Underrated_High-Speed_Rail_System_Korea_Train_Express-[vummKkiwgRo].temp.webm"
+ERROR: [WinError 32] The process cannot access the file because it is being used by another process: 'The_World_s_Most_Underrated_High-Speed_Rail_System_Korea_Train_Express-[vummKkiwgRo].temp.webm' -> 'The_World_s_Most_Underrated_High-Speed_Rail_System_Korea_Train_Express-[vummKkiwgRo].webm'
+Traceback (most recent call last):
+  File "yt_dlp\YoutubeDL.py", line 1622, in wrapper
+  File "yt_dlp\YoutubeDL.py", line 1778, in __extract_info
+  File "yt_dlp\YoutubeDL.py", line 1837, in process_ie_result
+  File "yt_dlp\YoutubeDL.py", line 3011, in process_video_result
+  File "yt_dlp\YoutubeDL.py", line 179, in wrapper
+  File "yt_dlp\YoutubeDL.py", line 3556, in process_info
+  File "yt_dlp\YoutubeDL.py", line 3738, in post_process
+  File "yt_dlp\YoutubeDL.py", line 3720, in run_all_pps
+  File "yt_dlp\YoutubeDL.py", line 3698, in run_pp
+  File "yt_dlp\postprocessor\common.py", line 23, in run
+  File "yt_dlp\postprocessor\common.py", line 128, in wrapper
+  File "yt_dlp\postprocessor\ffmpeg.py", line 716, in run
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'The_World_s_Most_Underrated_High-Speed_Rail_System_Korea_Train_Express-[vummKkiwgRo].temp.webm' -> 'The_World_s_Most_Underrated_High-Speed_Rail_System_Korea_Train_Express-[vummKkiwgRo].webm'
+
+PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
