@@ -428,3 +428,62 @@ Traceback (most recent call last):
 PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'The_World_s_Most_Underrated_High-Speed_Rail_System_Korea_Train_Express-[vummKkiwgRo].temp.webm' -> 'The_World_s_Most_Underrated_High-Speed_Rail_System_Korea_Train_Express-[vummKkiwgRo].webm'
 
 PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Saturday, July 13, 2024 10:15:51 AM
+Saturday, July 13, 2024 10:15:51 AM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Saturday, July 13, 2024 10:15:51 AM
+Saturday, July 13, 2024 10:15:51 AM
+[master e366c31] add all files
+ 1 file changed, 121 insertions(+)
+Saturday, July 13, 2024 10:15:51 AM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.60 KiB | 889.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   e6644b8..e366c31  master -> master
+Saturday, July 13, 2024 10:15:52 AM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Saturday, July 13, 2024 10:15:53 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Saturday, July 13, 2024 10:16:16 AM
+Saturday, July 13, 2024 10:16:16 AM
+On branch master
+nothing to commit, working tree clean
+Saturday, July 13, 2024 10:16:16 AM
+Saturday, July 13, 2024 10:16:16 AM
+On branch master
+nothing to commit, working tree clean
+Saturday, July 13, 2024 10:16:16 AM
+Everything up-to-date
+Saturday, July 13, 2024 10:16:17 AM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Saturday, July 13, 2024 10:16:18 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
