@@ -1,646 +1,121 @@
-PowerShell 7.4.2
+PowerShell 7.4.3
+PS C:\Users\kushal> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
 
-   A new PowerShell stable release is available: v7.4.3
-   Upgrade now, or check out the release page at:
-     https://aka.ms/PowerShell-Release?tag=v7.4.3
-
-PS C:\Users\kushal> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Friday, July 12, 2024 8:58:34 PM
-Friday, July 12, 2024 8:58:35 PM
-On branch master
-nothing to commit, working tree clean
-Friday, July 12, 2024 8:58:35 PM
-Friday, July 12, 2024 8:58:35 PM
-On branch master
-nothing to commit, working tree clean
-Friday, July 12, 2024 8:58:35 PM
-Everything up-to-date
-Friday, July 12, 2024 8:58:36 PM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Friday, July 12, 2024 8:58:37 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> cd "\\TP-Share\G\shared\jellyfin\shows\downloaded"; yt-dlp --verbose --restrict-filenames --embed-metadata "https://youtu.be/PaVjQFMg7L0"
-[debug] Command-line config: ['--verbose', '--restrict-filenames', '--embed-metadata', 'https://youtu.be/PaVjQFMg7L0']
-[debug] Encodings: locale cp1252, fs utf-8, pref cp1252, out utf-8, error utf-8, screen utf-8
-[debug] yt-dlp version stable@2024.07.07 from yt-dlp/yt-dlp [b337d2989] (win_exe)
-[debug] Python 3.8.10 (CPython AMD64 64bit) - Windows-10-10.0.22631-SP0 (OpenSSL 1.1.1k  25 Mar 2021)
-[debug] exe versions: ffmpeg 7.0.1-full_build-www.gyan.dev (setts), ffprobe 7.0.1-full_build-www.gyan.dev
-[debug] Optional libraries: Cryptodome-3.20.0, brotli-1.1.0, certifi-2024.07.04, curl_cffi-0.5.10, mutagen-1.47.0, requests-2.32.3, sqlite3-3.35.5, urllib3-2.2.2, websockets-12.0
-[debug] Proxy map: {}
-[debug] Request Handlers: urllib, requests, websockets, curl_cffi
-[debug] Loaded 1834 extractors
-[youtube] Extracting URL: https://youtu.be/PaVjQFMg7L0
-[youtube] PaVjQFMg7L0: Downloading webpage
-[youtube] PaVjQFMg7L0: Downloading ios player API JSON
-[youtube] PaVjQFMg7L0: Downloading player 8d9f6215
-WARNING: [youtube] PaVjQFMg7L0: nsig extraction failed: Some formats may be missing
-         n = u1UIKbb6FIH4MF9BdaI ; player = https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/en_US/base.js
-[debug] [youtube] Unable to extract nsig function code (caused by RegexNotFoundError('Unable to extract \x1b[0;94mInitial JS player n function name\x1b[0m; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
-WARNING: [youtube] PaVjQFMg7L0: nsig extraction failed: Some formats may be missing
-         n = OUU9OuNNxiqlJSpWRMo ; player = https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/en_US/base.js
-[youtube] PaVjQFMg7L0: Downloading m3u8 information
-[debug] Sort order given by extractor: quality, res, fps, hdr:12, source, vcodec:vp9.2, channels, acodec, lang, proto
-[debug] Formats sorted by: hasvid, ie_pref, quality, res, fps, hdr:12(7), source, vcodec:vp9.2(10), channels, acodec, lang, proto, size, br, asr, vext, aext, hasaud, id
-[debug] Default format spec: bestvideo*+bestaudio/best
-[info] Testing format 616
-[hlsnative] Downloading m3u8 manifest
-[hlsnative] Total fragments: 180
-[download] Destination: \\TP-Share\G\shared\jellyfin\shows\downloaded\tmpnptb82sm.tmp
-[debug] File locking is not supported. Proceeding without locking
-[download] 100% of    712.00B in 00:00:00 at 1.11KiB/s
-[info] PaVjQFMg7L0: Downloading 1 format(s): 616+140
-[debug] Invoking hlsnative downloader on "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1720853931/ei/S9GRZumGB9KAkucP-L-GoAQ/ip/70.104.195.206/id/3da563405320ecbd/itag/616/source/youtube/requiressl/yes/ratebypass/yes/pfa/1/wft/1/sgovp/clen%3D463371841%3Bdur%3D973.471%3Bgir%3Dyes%3Bitag%3D356%3Blmt%3D1720828059578200/rqh/1/hls_chunk_host/rr1---sn-8xgp1vo-gpjl.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/mh/wy/mm/31,29/mn/sn-8xgp1vo-gpjl,sn-8xgp1vo-p5qe/ms/au,rdu/mv/m/mvi/1/pl/20/initcwndbps/1097500/vprv/1/playlist_type/DVR/dover/13/txp/4432434/mt/1720831997/fvip/2/short_key/1/keepalive/yes/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,wft,sgovp,rqh,xpc,vprv,playlist_type/sig/AJfQdSswRQIhAMpMUyMxhtRHLqcfIjqDkZ7kCcQ2QPzY9jJRc3wNq5IwAiAEcrr0UOYGm8VDT0esJHA3LNYUkrMp2L2-YmReBoubPw%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AHlkHjAwRgIhAP9KC_uUNZfMLhVi9_jeov5bU-NryGTAJtSf5Bs3iOorAiEAxuLat6m8CTF-wY8ziu4wokwt4MBBFctWpio_hUbgDcE%3D/playlist/index.m3u8"
-[hlsnative] Downloading m3u8 manifest
-[hlsnative] Total fragments: 180
-[download] Destination: How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].f616.mp4
-[download] 100% of  442.02MiB in 00:03:34 at 2.06MiB/s
-[debug] Invoking http downloader on "https://rr1---sn-8xgp1vo-gpjl.googlevideo.com/videoplayback?expire=1720853931&ei=S9GRZumGB9KAkucP-L-GoAQ&ip=70.104.195.206&id=o-AB0SqXyr5Wh8ZR3CnxqxzWJNgVS6JN-oWfuCkdAsNojc&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=wy&mm=31%2C29&mn=sn-8xgp1vo-gpjl%2Csn-8xgp1vo-p5qe&ms=au%2Crdu&mv=m&mvi=1&pl=20&initcwndbps=1097500&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=15756144&dur=973.519&lmt=1720822953684812&mt=1720831997&fvip=2&keepalive=yes&c=IOS&txp=4432434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAMVm11FwaP6yiuZV8FchxNe2VHcmRT56TsuZMI1j4UzvAiAqzvcN909RX_s3bkNinhW_rV_zQ9_R-VxhpzJGV-yBpg%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAN3rZjFIrQlBzePUzmSBQ3yQnHieO9rxdsQrPUpyloSCAiAvyCTPmTE8TYHw7BwwCt7Hy8OenyydPPoZLJNMNO3oAA%3D%3D"
-[download] Destination: How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].f140.m4a
-[download] 100% of   15.03MiB in 00:00:01 at 11.13MiB/s
-[Merger] Merging formats into "How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].mp4"
-[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].f616.mp4" -i "file:How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].f140.m4a" -c copy -map 0:v:0 -map 1:a:0 -movflags +faststart "file:How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].temp.mp4"
-Deleting original file How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].f616.mp4 (pass -k to keep)
-Deleting original file How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].f140.m4a (pass -k to keep)
-[Metadata] Adding metadata to "How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].mp4"
-[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].mp4" -i "file:How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].meta" -map 0 -dn -ignore_unknown -c copy -map_metadata 1 -write_id3v1 1 -metadata "title=How A.I. Killed the Internet." -metadata "date=20240711" -metadata "description=Generative A.I is the nuclear bomb of the Information Age. If the Internet doesn’t feel as creative or fun or interesting as you remember it, you’re not alone. The so-called ‘Dead Internet Theory’ explains why. The rise of artificially generated content killed the internet. How did this happen? Why? And… Is it still possible to stop it?
-
-00:00 Intro
-01:50 Dead Internet Theory
-11:41 Unforeseen Consequences
-
-💪 JOIN [THE FACILITY] for members-only live streams, behind-the-scenes posts, and the official Discord: https://www.patreon.com/kylehill
-
-👕 NUCLEAR WASTE WARNING MERCH OUT NOW! https://shop.kylehill.net
-
-🎥 SUB TO THE GAMING CHANNEL: https://www.youtube.com/channel/UCfTNPE8mXGBZPC1nfVtOJTw
-
-✅ MANDATORY LIKE, SUBSCRIBE, AND TURN ON NOTIFICATIONS
-
-📲 FOLLOW ME ON SOCIETY-RUINING SOCIAL MEDIA:
-📷 https://www.instagram.com/sci_Phile/
-
-😎: Kyle
-🎬: Charles Shattuck
-🎞: Kevin Onofreo
-✂: Nate Berger
-🤖: @clairemax
-🎨: Thorsten Denk https://www.z1mt.com/
-🎼:  @mey
-🎹: bensound.com
-🎨: Mr. Mass https://youtube.com/c/MysteryGiftMovie
-🎵: freesound.org" -metadata "synopsis=Generative A.I is the nuclear bomb of the Information Age. If the Internet doesn’t feel as creative or fun or interesting as you remember it, you’re not alone. The so-called ‘Dead Internet Theory’ explains why. The rise of artificially generated content killed the internet. How did this happen? Why? And… Is it still possible to stop it?
-
-00:00 Intro
-01:50 Dead Internet Theory
-11:41 Unforeseen Consequences
-
-💪 JOIN [THE FACILITY] for members-only live streams, behind-the-scenes posts, and the official Discord: https://www.patreon.com/kylehill
-
-👕 NUCLEAR WASTE WARNING MERCH OUT NOW! https://shop.kylehill.net
-
-🎥 SUB TO THE GAMING CHANNEL: https://www.youtube.com/channel/UCfTNPE8mXGBZPC1nfVtOJTw
-
-✅ MANDATORY LIKE, SUBSCRIBE, AND TURN ON NOTIFICATIONS
-
-📲 FOLLOW ME ON SOCIETY-RUINING SOCIAL MEDIA:
-📷 https://www.instagram.com/sci_Phile/
-
-😎: Kyle
-🎬: Charles Shattuck
-🎞: Kevin Onofreo
-✂: Nate Berger
-🤖: @clairemax
-🎨: Thorsten Denk https://www.z1mt.com/
-🎼:  @mey
-🎹: bensound.com
-🎨: Mr. Mass https://youtube.com/c/MysteryGiftMovie
-🎵: freesound.org" -metadata "purl=https://www.youtube.com/watch?v=PaVjQFMg7L0" -metadata "comment=https://www.youtube.com/watch?v=PaVjQFMg7L0" -metadata "artist=Kyle Hill" -metadata:s:1 "language=eng" -movflags +faststart "file:How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].temp.mp4"
-PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Friday, July 12, 2024 9:09:19 PM
-Friday, July 12, 2024 9:09:19 PM
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   docs/PowerShell.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Friday, July 12, 2024 9:09:19 PM
-Friday, July 12, 2024 9:09:19 PM
-[master c7769f6] add all files
- 1 file changed, 93 insertions(+), 802 deletions(-)
-Friday, July 12, 2024 9:09:19 PM
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 2.29 KiB | 780.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To github.com:patstha/CleanArchitecture90120231201.git
-   0ab8a84..c7769f6  master -> master
-Friday, July 12, 2024 9:09:20 PM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Friday, July 12, 2024 9:09:21 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> cd "\\TP-Share\G\shared\jellyfin\shows\downloaded"; yt-dlp --verbose --restrict-filenames --embed-metadata "https://youtu.be/PaVjQFMg7L0"
-[debug] Command-line config: ['--verbose', '--restrict-filenames', '--embed-metadata', 'https://youtu.be/PaVjQFMg7L0']
-[debug] Encodings: locale cp1252, fs utf-8, pref cp1252, out utf-8, error utf-8, screen utf-8
-[debug] yt-dlp version stable@2024.07.07 from yt-dlp/yt-dlp [b337d2989] (win_exe)
-[debug] Python 3.8.10 (CPython AMD64 64bit) - Windows-10-10.0.22631-SP0 (OpenSSL 1.1.1k  25 Mar 2021)
-[debug] exe versions: ffmpeg 7.0.1-full_build-www.gyan.dev (setts), ffprobe 7.0.1-full_build-www.gyan.dev
-[debug] Optional libraries: Cryptodome-3.20.0, brotli-1.1.0, certifi-2024.07.04, curl_cffi-0.5.10, mutagen-1.47.0, requests-2.32.3, sqlite3-3.35.5, urllib3-2.2.2, websockets-12.0
-[debug] Proxy map: {}
-[debug] Request Handlers: urllib, requests, websockets, curl_cffi
-[debug] Loaded 1834 extractors
-[youtube] Extracting URL: https://youtu.be/PaVjQFMg7L0
-[youtube] PaVjQFMg7L0: Downloading webpage
-[youtube] PaVjQFMg7L0: Downloading ios player API JSON
-[youtube] PaVjQFMg7L0: Downloading player 8d9f6215
-WARNING: [youtube] PaVjQFMg7L0: nsig extraction failed: Some formats may be missing
-         n = apB-sDfckEbd3ePpMFk ; player = https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/en_US/base.js
-[debug] [youtube] Unable to extract nsig function code (caused by RegexNotFoundError('Unable to extract \x1b[0;94mInitial JS player n function name\x1b[0m; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
-WARNING: [youtube] PaVjQFMg7L0: nsig extraction failed: Some formats may be missing
-         n = jDX7wDj-vmooWEkMEHV ; player = https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/en_US/base.js
-[youtube] PaVjQFMg7L0: Downloading m3u8 information
-[debug] Sort order given by extractor: quality, res, fps, hdr:12, source, vcodec:vp9.2, channels, acodec, lang, proto
-[debug] Formats sorted by: hasvid, ie_pref, quality, res, fps, hdr:12(7), source, vcodec:vp9.2(10), channels, acodec, lang, proto, size, br, asr, vext, aext, hasaud, id
-[debug] Default format spec: bestvideo*+bestaudio/best
-[info] Testing format 616
-[hlsnative] Downloading m3u8 manifest
-[hlsnative] Total fragments: 180
-[download] Destination: \\TP-Share\G\shared\jellyfin\shows\downloaded\tmpejv3a57g.tmp
-[debug] File locking is not supported. Proceeding without locking
-[download] 100% of    712.00B in 00:00:00 at 2.44KiB/s
-[info] PaVjQFMg7L0: Downloading 1 format(s): 616+140
-[download] How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].mp4 has already been downloaded
-[Metadata] Adding metadata to "How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].mp4"
-[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].mp4" -i "file:How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].meta" -map 0 -dn -ignore_unknown -c copy -map_metadata 1 -write_id3v1 1 -metadata "title=How A.I. Killed the Internet." -metadata "date=20240711" -metadata "description=Generative A.I is the nuclear bomb of the Information Age. If the Internet doesn’t feel as creative or fun or interesting as you remember it, you’re not alone. The so-called ‘Dead Internet Theory’ explains why. The rise of artificially generated content killed the internet. How did this happen? Why? And… Is it still possible to stop it?
-
-00:00 Intro
-01:50 Dead Internet Theory
-11:41 Unforeseen Consequences
-
-💪 JOIN [THE FACILITY] for members-only live streams, behind-the-scenes posts, and the official Discord: https://www.patreon.com/kylehill
-
-👕 NUCLEAR WASTE WARNING MERCH OUT NOW! https://shop.kylehill.net
-
-🎥 SUB TO THE GAMING CHANNEL: https://www.youtube.com/channel/UCfTNPE8mXGBZPC1nfVtOJTw
-
-✅ MANDATORY LIKE, SUBSCRIBE, AND TURN ON NOTIFICATIONS
-
-📲 FOLLOW ME ON SOCIETY-RUINING SOCIAL MEDIA:
-📷 https://www.instagram.com/sci_Phile/
-
-😎: Kyle
-🎬: Charles Shattuck
-🎞: Kevin Onofreo
-✂: Nate Berger
-🤖: @clairemax
-🎨: Thorsten Denk https://www.z1mt.com/
-🎼:  @mey
-🎹: bensound.com
-🎨: Mr. Mass https://youtube.com/c/MysteryGiftMovie
-🎵: freesound.org" -metadata "synopsis=Generative A.I is the nuclear bomb of the Information Age. If the Internet doesn’t feel as creative or fun or interesting as you remember it, you’re not alone. The so-called ‘Dead Internet Theory’ explains why. The rise of artificially generated content killed the internet. How did this happen? Why? And… Is it still possible to stop it?
-
-00:00 Intro
-01:50 Dead Internet Theory
-11:41 Unforeseen Consequences
-
-💪 JOIN [THE FACILITY] for members-only live streams, behind-the-scenes posts, and the official Discord: https://www.patreon.com/kylehill
-
-👕 NUCLEAR WASTE WARNING MERCH OUT NOW! https://shop.kylehill.net
-
-🎥 SUB TO THE GAMING CHANNEL: https://www.youtube.com/channel/UCfTNPE8mXGBZPC1nfVtOJTw
-
-✅ MANDATORY LIKE, SUBSCRIBE, AND TURN ON NOTIFICATIONS
-
-📲 FOLLOW ME ON SOCIETY-RUINING SOCIAL MEDIA:
-📷 https://www.instagram.com/sci_Phile/
-
-😎: Kyle
-🎬: Charles Shattuck
-🎞: Kevin Onofreo
-✂: Nate Berger
-🤖: @clairemax
-🎨: Thorsten Denk https://www.z1mt.com/
-🎼:  @mey
-🎹: bensound.com
-🎨: Mr. Mass https://youtube.com/c/MysteryGiftMovie
-🎵: freesound.org" -metadata "purl=https://www.youtube.com/watch?v=PaVjQFMg7L0" -metadata "comment=https://www.youtube.com/watch?v=PaVjQFMg7L0" -metadata "artist=Kyle Hill" -metadata:s:1 "language=eng" -movflags +faststart "file:How_A.I._Killed_the_Internet.-[PaVjQFMg7L0].temp.mp4"
-PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded> cd "\\TP-Share\G\shared\jellyfin\shows\downloaded"; yt-dlp --verbose --restrict-filenames --embed-metadata "https://youtu.be/YtMxF4BeiyY"
-[debug] Command-line config: ['--verbose', '--restrict-filenames', '--embed-metadata', 'https://youtu.be/YtMxF4BeiyY']
-[debug] Encodings: locale cp1252, fs utf-8, pref cp1252, out utf-8, error utf-8, screen utf-8
-[debug] yt-dlp version stable@2024.07.07 from yt-dlp/yt-dlp [b337d2989] (win_exe)
-[debug] Python 3.8.10 (CPython AMD64 64bit) - Windows-10-10.0.22631-SP0 (OpenSSL 1.1.1k  25 Mar 2021)
-[debug] exe versions: ffmpeg 7.0.1-full_build-www.gyan.dev (setts), ffprobe 7.0.1-full_build-www.gyan.dev
-[debug] Optional libraries: Cryptodome-3.20.0, brotli-1.1.0, certifi-2024.07.04, curl_cffi-0.5.10, mutagen-1.47.0, requests-2.32.3, sqlite3-3.35.5, urllib3-2.2.2, websockets-12.0
-[debug] Proxy map: {}
-[debug] Request Handlers: urllib, requests, websockets, curl_cffi
-[debug] Loaded 1834 extractors
-[youtube] Extracting URL: https://youtu.be/YtMxF4BeiyY
-[youtube] YtMxF4BeiyY: Downloading webpage
-[youtube] YtMxF4BeiyY: Downloading ios player API JSON
-[youtube] YtMxF4BeiyY: Downloading player 8d9f6215
-WARNING: [youtube] YtMxF4BeiyY: nsig extraction failed: Some formats may be missing
-         n = z7fOIMNU1JUiWDyE_nT ; player = https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/en_US/base.js
-[debug] [youtube] Unable to extract nsig function code (caused by RegexNotFoundError('Unable to extract \x1b[0;94mInitial JS player n function name\x1b[0m; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
-WARNING: [youtube] YtMxF4BeiyY: nsig extraction failed: Some formats may be missing
-         n = --U8YsNpSFkzs9KHQMZ ; player = https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/en_US/base.js
-[youtube] YtMxF4BeiyY: Downloading m3u8 information
-[debug] Sort order given by extractor: quality, res, fps, hdr:12, source, vcodec:vp9.2, channels, acodec, lang, proto
-[debug] Formats sorted by: hasvid, ie_pref, quality, res, fps, hdr:12(7), source, vcodec:vp9.2(10), channels, acodec, lang, proto, size, br, asr, vext, aext, hasaud, id
-[debug] Default format spec: bestvideo*+bestaudio/best
-[info] YtMxF4BeiyY: Downloading 1 format(s): 136+140
-[debug] Invoking http downloader on "https://rr5---sn-8xgp1vo-gpje.googlevideo.com/videoplayback?expire=1720895217&ei=kXKSZt_SMoKKkucPxIi-iAQ&ip=70.104.195.206&id=o-AB_QJhi4cuh-g-NF6-aSBBnjwDgn2IllnwavcSlXeLhN&itag=136&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=pw&mm=31%2C29&mn=sn-8xgp1vo-gpje%2Csn-8xgp1vo-p5qy&ms=au%2Crdu&mv=m&mvi=5&pl=20&initcwndbps=1162500&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&gir=yes&clen=27965878&dur=982.033&lmt=1686536361723475&mt=1720873531&fvip=4&keepalive=yes&c=IOS&txp=6219224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAJ0dTL_6YjVWmu1DS-fpQnNBRzVyWf3LIkE0p-BshTakAiEA5z457LXNBdaIQADYNmThngxHRQ8jGm9payJGbH-UqlM%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRAIgUZn8_bq8kl0ZaBdF1c6v9BqzQ-8W5fpf5D529dI3VVACIGBWALjEJ-y7mYcQLFId-r9Gbh2cGVpcdD7glAvjYuMH"
-[debug] File locking is not supported. Proceeding without locking
-[download] Destination: How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].f136.mp4
-[download] 100% of   26.67MiB in 00:00:03 at 8.46MiB/s
-[debug] Invoking http downloader on "https://rr5---sn-8xgp1vo-gpje.googlevideo.com/videoplayback?expire=1720895217&ei=kXKSZt_SMoKKkucPxIi-iAQ&ip=70.104.195.206&id=o-AB_QJhi4cuh-g-NF6-aSBBnjwDgn2IllnwavcSlXeLhN&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=pw&mm=31%2C29&mn=sn-8xgp1vo-gpje%2Csn-8xgp1vo-p5qy&ms=au%2Crdu&mv=m&mvi=5&pl=20&initcwndbps=1162500&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=15895486&dur=982.134&lmt=1686536466467938&mt=1720873531&fvip=4&keepalive=yes&c=IOS&txp=6218224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAJd2BKoMO8TEd836qEtvPLrD5iIr5BO5ttHIqoHhtN6YAiB7oC-EkwHrMGJxB16kWtR0b2qagc3fiKnVkKai-iCseA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRAIgUZn8_bq8kl0ZaBdF1c6v9BqzQ-8W5fpf5D529dI3VVACIGBWALjEJ-y7mYcQLFId-r9Gbh2cGVpcdD7glAvjYuMH"
-[download] Destination: How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].f140.m4a
-[download] 100% of   15.16MiB in 00:00:03 at 4.13MiB/s
-[Merger] Merging formats into "How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].mp4"
-[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].f136.mp4" -i "file:How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].f140.m4a" -c copy -map 0:v:0 -map 1:a:0 -movflags +faststart "file:How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].temp.mp4"
-Deleting original file How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].f136.mp4 (pass -k to keep)
-Deleting original file How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].f140.m4a (pass -k to keep)
-[Metadata] Adding metadata to "How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].mp4"
-[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i "file:How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].mp4" -map 0 -dn -ignore_unknown -c copy -write_id3v1 1 -metadata "title=How to install and run Syncthing as a Windows service" -metadata "date=20230612" -metadata "description=This video gives a short demonstration of how to install and run Syncthing as a Windows service. The advantage of installing as a Windows service is that Syncthing will synchronize folders even when no users are logged on." -metadata "synopsis=This video gives a short demonstration of how to install and run Syncthing as a Windows service. The advantage of installing as a Windows service is that Syncthing will synchronize folders even when no users are logged on." -metadata "purl=https://www.youtube.com/watch?v=YtMxF4BeiyY" -metadata "comment=https://www.youtube.com/watch?v=YtMxF4BeiyY" -metadata "artist=Bill Stewart" -metadata:s:1 "language=eng" -movflags +faststart "file:How_to_install_and_run_Syncthing_as_a_Windows_service-[YtMxF4BeiyY].temp.mp4"
-PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 13, 2024 8:27:59 AM
-Saturday, July 13, 2024 8:27:59 AM
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   docs/PowerShell.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Saturday, July 13, 2024 8:27:59 AM
-Saturday, July 13, 2024 8:27:59 AM
-[master ea02173] add all files
- 1 file changed, 158 insertions(+)
-Saturday, July 13, 2024 8:27:59 AM
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 5.59 KiB | 2.80 MiB/s, done.
-Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-To github.com:patstha/CleanArchitecture90120231201.git
-   c7769f6..ea02173  master -> master
-Saturday, July 13, 2024 8:28:01 AM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Saturday, July 13, 2024 8:28:01 AM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget upgrade; date; winget upgrade --all --include-unknown; date;
-
-Saturday, July 13, 2024 8:43:04 AM
-Name                                               Id                           Version                   Available                  Source
--------------------------------------------------------------------------------------------------------------------------------------------
-Microsoft .NET SDK 9.0.100-preview.5.24307.3 (x64) Microsoft.DotNet.SDK.Preview 9.0.100-preview.5.24307.3 9.0.100-preview.6.24328.19 winget
-PowerShell 7.4.2.0-x64                             Microsoft.PowerShell         7.4.2.0                   7.4.3.0                    winget
-yt-dlp                                             yt-dlp.yt-dlp                2024.07.07                2024.07.09                 winget
-Microsoft Visual Studio Code (User)                Microsoft.VisualStudioCode   1.91.0                    1.91.1                     winget
-4 upgrades available.
-Saturday, July 13, 2024 8:43:14 AM
-Name                                               Id                           Version                   Available                  Source
--------------------------------------------------------------------------------------------------------------------------------------------
-Microsoft .NET SDK 9.0.100-preview.5.24307.3 (x64) Microsoft.DotNet.SDK.Preview 9.0.100-preview.5.24307.3 9.0.100-preview.6.24328.19 winget
-PowerShell 7.4.2.0-x64                             Microsoft.PowerShell         7.4.2.0                   7.4.3.0                    winget
-yt-dlp                                             yt-dlp.yt-dlp                2024.07.07                2024.07.09                 winget
-Microsoft Visual Studio Code (User)                Microsoft.VisualStudioCode   1.91.0                    1.91.1                     winget
-4 upgrades available.
-
-Installing dependencies:
-This package requires the following dependencies:
-  - Packages
-      Gyan.FFmpeg
-(1/3) Found Microsoft .NET SDK 9.0 Preview [Microsoft.DotNet.SDK.Preview] Version 9.0.100-preview.6.24328.19
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://dotnetcli.azureedge.net/dotnet/Sdk/9.0.100-preview.6.24328.19/dotnet-sdk-9.0.100-preview.6.24328.19-win-x64.exe
-  ██████████████████████████████   211 MB /  211 MB
-Successfully verified installer hash
-Starting package install...
-Successfully installed
-
-(2/3) Found yt-dlp [yt-dlp.yt-dlp] Version 2024.07.09
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-(1/1) Found FFmpeg [Gyan.FFmpeg] Version 7.0.1
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Successfully verified installer hash
-Extracting archive...
-Successfully extracted archive
-Saturday, July 13, 2024 8:45:59 AM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 13, 2024 8:54:26 AM
-Saturday, July 13, 2024 8:54:26 AM
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   docs/PowerShell.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Saturday, July 13, 2024 8:54:27 AM
-Saturday, July 13, 2024 8:54:27 AM
-[master 6697bc3] add all files
- 1 file changed, 80 insertions(+)
-Saturday, July 13, 2024 8:54:27 AM
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 1.32 KiB | 674.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To github.com:patstha/CleanArchitecture90120231201.git
-   ea02173..6697bc3  master -> master
-Saturday, July 13, 2024 8:54:28 AM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Saturday, July 13, 2024 8:54:29 AM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget upgrade; date; winget upgrade --all --include-unknown; date;
-
-Saturday, July 13, 2024 8:54:31 AM
-Name                                Id                         Version    Available  Source
--------------------------------------------------------------------------------------------
-PowerShell 7.4.2.0-x64              Microsoft.PowerShell       7.4.2.0    7.4.3.0    winget
-yt-dlp                              yt-dlp.yt-dlp              2024.07.07 2024.07.09 winget
-Microsoft Visual Studio Code (User) Microsoft.VisualStudioCode 1.91.0     1.91.1     winget
-3 upgrades available.
-Saturday, July 13, 2024 8:54:33 AM
-Name                                Id                         Version    Available  Source
--------------------------------------------------------------------------------------------
-PowerShell 7.4.2.0-x64              Microsoft.PowerShell       7.4.2.0    7.4.3.0    winget
-yt-dlp                              yt-dlp.yt-dlp              2024.07.07 2024.07.09 winget
-Microsoft Visual Studio Code (User) Microsoft.VisualStudioCode 1.91.0     1.91.1     winget
-3 upgrades available.
-
-Installing dependencies:
-This package requires the following dependencies:
-  - Packages
-      Gyan.FFmpeg
-(1/2) Found yt-dlp [yt-dlp.yt-dlp] Version 2024.07.09
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-(1/1) Found FFmpeg [Gyan.FFmpeg] Version 7.0.1
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Successfully verified installer hash
-Extracting archive...
-Successfully extracted archive
-Saturday, July 13, 2024 8:54:48 AM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 13, 2024 8:55:04 AM
-Saturday, July 13, 2024 8:55:04 AM
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   docs/PowerShell.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Saturday, July 13, 2024 8:55:04 AM
-Saturday, July 13, 2024 8:55:04 AM
-[master 2357131] add all files
- 1 file changed, 68 insertions(+)
-Saturday, July 13, 2024 8:55:05 AM
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 668 bytes | 334.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To github.com:patstha/CleanArchitecture90120231201.git
-   6697bc3..2357131  master -> master
-Saturday, July 13, 2024 8:55:06 AM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Saturday, July 13, 2024 8:55:07 AM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> yt-dlp --version
-2024.07.07
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 13, 2024 8:55:36 AM
-Saturday, July 13, 2024 8:55:36 AM
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   docs/PowerShell.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Saturday, July 13, 2024 8:55:36 AM
-Saturday, July 13, 2024 8:55:37 AM
-[master 273871c] add all files
- 1 file changed, 38 insertions(+)
-Saturday, July 13, 2024 8:55:37 AM
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 530 bytes | 530.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To github.com:patstha/CleanArchitecture90120231201.git
-   2357131..273871c  master -> master
-Saturday, July 13, 2024 8:55:38 AM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Saturday, July 13, 2024 8:55:39 AM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-Microsoft Windows [Version 10.0.22631.3880]
-(c) Microsoft Corporation. All rights reserved.
-
-C:\Windows\System32>yt-dlp --version
-2024.07.07
-
-C:\Windows\System32>winget upgrade
-Name                                Id                         Version    Available  Source
--------------------------------------------------------------------------------------------
-PowerShell 7.4.2.0-x64              Microsoft.PowerShell       7.4.2.0    7.4.3.0    winget
-yt-dlp                              yt-dlp.yt-dlp              2024.07.07 2024.07.09 winget
-Microsoft Visual Studio Code (User) Microsoft.VisualStudioCode 1.91.0     1.91.1     winget
-3 upgrades available.
-
-C:\Windows\System32>winget upgrade --all --include-unknown
-Name                                Id                         Version    Available  Source
--------------------------------------------------------------------------------------------
-PowerShell 7.4.2.0-x64              Microsoft.PowerShell       7.4.2.0    7.4.3.0    winget
-yt-dlp                              yt-dlp.yt-dlp              2024.07.07 2024.07.09 winget
-Microsoft Visual Studio Code (User) Microsoft.VisualStudioCode 1.91.0     1.91.1     winget
-3 upgrades available.
-
-Installing dependencies:
-This package requires the following dependencies:
-  - Packages
-      Gyan.FFmpeg
-(1/2) Found yt-dlp [yt-dlp.yt-dlp] Version 2024.07.09
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-(1/1) Found FFmpeg [Gyan.FFmpeg] Version 7.0.1
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Successfully verified installer hash
-Extracting archive...
-Successfully extracted archive
-
-C:\Windows\System32>
-C:\Windows\System32>winget upgrade
-Name                                Id                         Version    Available  Source
--------------------------------------------------------------------------------------------
-PowerShell 7.4.2.0-x64              Microsoft.PowerShell       7.4.2.0    7.4.3.0    winget
-yt-dlp                              yt-dlp.yt-dlp              2024.07.07 2024.07.09 winget
-Microsoft Visual Studio Code (User) Microsoft.VisualStudioCode 1.91.0     1.91.1     winget
-3 upgrades available.
-
-C:\Windows\System32>winget uninstall yt-dlp.yt-dlp
-Found yt-dlp [yt-dlp.yt-dlp]
-Starting package uninstall...
-Successfully uninstalled
-
-C:\Windows\System32>winget install yt-dlp.yt-dlp
-Found yt-dlp [yt-dlp.yt-dlp] Version 2024.07.09
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-This package requires the following dependencies:
-  - Packages
-      Gyan.FFmpeg
-(1/1) Found FFmpeg [Gyan.FFmpeg] Version 7.0.1
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Successfully verified installer hash
-Extracting archive...
-Successfully extracted archive
-Starting package install...
-Command line alias added: "ffmpeg"
-Command line alias added: "ffplay"
-Command line alias added: "ffprobe"
-Successfully installed
-
-Downloading https://github.com/yt-dlp/yt-dlp/releases/download/2024.07.09/yt-dlp.exe
-  ██████████████████████████████  17.8 MB / 17.8 MB
-Successfully verified installer hash
-Starting package install...
-Command line alias added: "yt-dlp"
-Path environment variable modified; restart your shell to use the new value.
-Successfully installed
-
-C:\Windows\System32>winget upgrade
-Name                                Id                         Version Available Source
----------------------------------------------------------------------------------------
-PowerShell 7.4.2.0-x64              Microsoft.PowerShell       7.4.2.0 7.4.3.0   winget
-Microsoft Visual Studio Code (User) Microsoft.VisualStudioCode 1.91.0  1.91.1    winget
-2 upgrades available.
-
-C:\Windows\System32>winget upgrade --all --include-unknown
-Name                                Id                         Version Available Source
----------------------------------------------------------------------------------------
-PowerShell 7.4.2.0-x64              Microsoft.PowerShell       7.4.2.0 7.4.3.0   winget
-Microsoft Visual Studio Code (User) Microsoft.VisualStudioCode 1.91.0  1.91.1    winget
-2 upgrades available.
-
-(1/1) Found Microsoft Visual Studio Code [Microsoft.VisualStudioCode] Version 1.91.1
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://vscode.download.prss.microsoft.com/dbazure/download/stable/f1e16e1e6214d7c44d078b1f0607b2388f29d729/VSCodeUserSetup-x64-1.91.1.exe
-  ██████████████████████████████  94.9 MB / 94.9 MB
-Successfully verified installer hash
-Starting package install...
-Successfully installed
-
-
-C:\Windows\System32>yt-dlp --version
-2024.07.09
-
-C:\Windows\System32>winget upgrade
-Name                   Id                   Version Available Source
---------------------------------------------------------------------
-PowerShell 7.4.2.0-x64 Microsoft.PowerShell 7.4.2.0 7.4.3.0   winget
-1 upgrades available.
-
-C:\Windows\System32>winget upgrade --all --include-unknown
-Name                   Id                   Version Available Source
---------------------------------------------------------------------
-PowerShell 7.4.2.0-x64 Microsoft.PowerShell 7.4.2.0 7.4.3.0   winget
-1 upgrades available.
-
-C:\Windows\System32>winget upgrade --id Microsoft.Winget.Source
-No installed package found matching input criteria.
-
-C:\Windows\System32>winget install Microsoft.PowerShell --version 7.4.3.0
-Found PowerShell [Microsoft.PowerShell] Version 7.4.3.0
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://github.com/PowerShell/PowerShell/releases/download/v7.4.3/PowerShell-7.4.3-win-x64.msi
-  ██████████████████████████████   103 MB /  103 MB
-Successfully verified installer hash
-Starting package install...
-Successfully installed
-
-C:\Windows\System32>winget source update
+Saturday, July 13, 2024 9:07:27 AM
 Updating all sources...
 Updating source: msstore...
 Done
 Updating source: winget...
 Done
-
-C:\Windows\System32>winget upgrade --id Microsoft.Winget.Source
+Saturday, July 13, 2024 9:07:27 AM
 No installed package found matching input criteria.
+Saturday, July 13, 2024 9:07:30 AM
+No installed package found matching input criteria.
+Saturday, July 13, 2024 9:07:33 AM
 
-C:\Windows\System32>
+PS C:\Users\kushal> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Saturday, July 13, 2024 9:07:37 AM
+Saturday, July 13, 2024 9:07:37 AM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Saturday, July 13, 2024 9:07:37 AM
+Saturday, July 13, 2024 9:07:37 AM
+[master 34d664c] add all files
+ 1 file changed, 176 insertions(+)
+Saturday, July 13, 2024 9:07:37 AM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.29 KiB | 660.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   273871c..34d664c  master -> master
+Saturday, July 13, 2024 9:07:38 AM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Saturday, July 13, 2024 9:07:39 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> npm --version
+npm: The term 'npm' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Saturday, July 13, 2024 9:08:01 AM
+Saturday, July 13, 2024 9:08:01 AM
+On branch master
+nothing to commit, working tree clean
+Saturday, July 13, 2024 9:08:01 AM
+Saturday, July 13, 2024 9:08:01 AM
+On branch master
+nothing to commit, working tree clean
+Saturday, July 13, 2024 9:08:01 AM
+Everything up-to-date
+Saturday, July 13, 2024 9:08:02 AM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Saturday, July 13, 2024 9:08:03 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> cd "\\TP-Share\G\shared\jellyfin\shows\downloaded"; yt-dlp --verbose --restrict-filenames --embed-metadata "https://www.youtube.com/watch?v=DeE_gLl3j94"
+[debug] Command-line config: ['--verbose', '--restrict-filenames', '--embed-metadata', 'https://www.youtube.com/watch?v=DeE_gLl3j94']
+[debug] Encodings: locale cp1252, fs utf-8, pref cp1252, out utf-8, error utf-8, screen utf-8
+[debug] yt-dlp version stable@2024.07.09 from yt-dlp/yt-dlp [7ead7332a] (win_exe)
+[debug] Python 3.8.10 (CPython AMD64 64bit) - Windows-10-10.0.22631-SP0 (OpenSSL 1.1.1k  25 Mar 2021)
+[debug] exe versions: none
+[debug] Optional libraries: Cryptodome-3.20.0, brotli-1.1.0, certifi-2024.07.04, curl_cffi-0.5.10, mutagen-1.47.0, requests-2.32.3, sqlite3-3.35.5, urllib3-2.2.2, websockets-12.0
+[debug] Proxy map: {}
+[debug] Request Handlers: urllib, requests, websockets, curl_cffi
+[debug] Loaded 1834 extractors
+[youtube] Extracting URL: https://www.youtube.com/watch?v=DeE_gLl3j94
+[youtube] DeE_gLl3j94: Downloading webpage
+[youtube] DeE_gLl3j94: Downloading ios player API JSON
+[youtube] DeE_gLl3j94: Downloading player 8d9f6215
+[debug] Saving youtube-nsig.8d9f6215 to cache
+[debug] [youtube] Decrypted nsig _klWIAWxEHSp95b5SE7 => dls8r65Dec48fA
+[debug] Loading youtube-nsig.8d9f6215 from cache
+[debug] [youtube] Decrypted nsig yXf8v0anhqyXCh-5Bjm => EEfhr9vyi_4kCA
+[youtube] DeE_gLl3j94: Downloading m3u8 information
+[debug] Sort order given by extractor: quality, res, fps, hdr:12, source, vcodec:vp9.2, channels, acodec, lang, proto
+[debug] Formats sorted by: hasvid, ie_pref, quality, res, fps, hdr:12(7), source, vcodec:vp9.2(10), channels, acodec, lang, proto, size, br, asr, vext, aext, hasaud, id
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+[debug] Default format spec: best/bestvideo+bestaudio
+[info] DeE_gLl3j94: Downloading 1 format(s): 18
+[debug] Invoking http downloader on "https://rr6---sn-8xgp1vo-gpje.googlevideo.com/videoplayback?expire=1720898699&ei=K4CSZufqNJ-GkucPzpC44A8&ip=70.104.195.206&id=o-AJnZsnyG5vGftszjpkgPCOsFdFMB14A39bq6dEVtkqj6&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=oW&mm=31%2C29&mn=sn-8xgp1vo-gpje%2Csn-8xgp1vo-p5qe7&ms=au%2Crdu&mv=m&mvi=6&pl=20&initcwndbps=1053750&bui=AXc671I903xp8HaOgfKFzo1oWlTBIczbniLnPcpcYP_tbmFAcG6W-Z31OjvghiZnG49V-2i0dNaVwEyg&spc=NO7bAXZkA7vZwKkTXohSfOajdF4t01Xis6avpdXec6fNSqw4bauJOKUhtvv0&vprv=1&svpuc=1&mime=video%2Fmp4&ns=OtDfA92sL6TEv2fnZdW4SRcQ&rqh=1&gir=yes&clen=47472899&ratebypass=yes&dur=900.957&lmt=1720845370014031&mt=1720876631&fvip=5&c=WEB&sefc=1&txp=4438434&n=dls8r65Dec48fA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIhAIbsCsqPC38x78LKxArimicqRHtsHDl-IsHCOHsXROHOAiBHFpiLM3SGN5WF3EDz_gGCT7N6z8-6-UY94ilX5ce7CQ%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIgd4lNH0YGinEFlcMg4enDjlB_qn7AoZ3LujiHbGTIeiMCIQCWEmptfLFiNB8NMnFhTsxI-lxfLf1nntV-TwkAbodA8g%3D%3D"
+[debug] File locking is not supported. Proceeding without locking
+[download] Destination: Scam_Warning_-_MSI_Exposes_600_000+_Warranty_Records-[DeE_gLl3j94].mp4
+[download] 100% of   45.27MiB in 00:00:07 at 5.72MiB/s
+[Metadata] Adding metadata to "Scam_Warning_-_MSI_Exposes_600_000+_Warranty_Records-[DeE_gLl3j94].mp4"
+ERROR: Postprocessing: ffmpeg not found. Please install or provide the path using --ffmpeg-location
+Traceback (most recent call last):
+  File "yt_dlp\YoutubeDL.py", line 3556, in process_info
+  File "yt_dlp\YoutubeDL.py", line 3738, in post_process
+  File "yt_dlp\YoutubeDL.py", line 3720, in run_all_pps
+  File "yt_dlp\YoutubeDL.py", line 3698, in run_pp
+  File "yt_dlp\postprocessor\common.py", line 23, in run
+  File "yt_dlp\postprocessor\common.py", line 128, in wrapper
+  File "yt_dlp\postprocessor\ffmpeg.py", line 712, in run
+  File "yt_dlp\postprocessor\ffmpeg.py", line 330, in run_ffmpeg_multiple_files
+  File "yt_dlp\postprocessor\ffmpeg.py", line 335, in real_run_ffmpeg
+  File "yt_dlp\postprocessor\ffmpeg.py", line 233, in check_version
+yt_dlp.postprocessor.ffmpeg.FFmpegPostProcessorError: ffmpeg not found. Please install or provide the path using --ffmpeg-location
+
+PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
