@@ -119,3 +119,80 @@ Traceback (most recent call last):
 yt_dlp.postprocessor.ffmpeg.FFmpegPostProcessorError: ffmpeg not found. Please install or provide the path using --ffmpeg-location
 
 PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Saturday, July 13, 2024 9:28:05 AM
+Saturday, July 13, 2024 9:28:05 AM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Saturday, July 13, 2024 9:28:05 AM
+Saturday, July 13, 2024 9:28:05 AM
+[master 7b92243] add all files
+ 1 file changed, 80 insertions(+), 605 deletions(-)
+Saturday, July 13, 2024 9:28:05 AM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.13 KiB | 1.06 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   34d664c..7b92243  master -> master
+Saturday, July 13, 2024 9:28:07 AM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Saturday, July 13, 2024 9:28:08 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> cd "\\TP-Share\G\shared\jellyfin\shows\downloaded"; yt-dlp --verbose --restrict-filenames --embed-metadata "https://www.youtube.com/watch?v=DeE_gLl3j94"
+[debug] Command-line config: ['--verbose', '--restrict-filenames', '--embed-metadata', 'https://www.youtube.com/watch?v=DeE_gLl3j94']
+[debug] Encodings: locale cp1252, fs utf-8, pref cp1252, out utf-8, error utf-8, screen utf-8
+[debug] yt-dlp version stable@2024.07.09 from yt-dlp/yt-dlp [7ead7332a] (win_exe)
+[debug] Python 3.8.10 (CPython AMD64 64bit) - Windows-10-10.0.22631-SP0 (OpenSSL 1.1.1k  25 Mar 2021)
+[debug] exe versions: none
+[debug] Optional libraries: Cryptodome-3.20.0, brotli-1.1.0, certifi-2024.07.04, curl_cffi-0.5.10, mutagen-1.47.0, requests-2.32.3, sqlite3-3.35.5, urllib3-2.2.2, websockets-12.0
+[debug] Proxy map: {}
+[debug] Request Handlers: urllib, requests, websockets, curl_cffi
+[debug] Loaded 1834 extractors
+[youtube] Extracting URL: https://www.youtube.com/watch?v=DeE_gLl3j94
+[youtube] DeE_gLl3j94: Downloading webpage
+[youtube] DeE_gLl3j94: Downloading ios player API JSON
+[debug] Loading youtube-nsig.8d9f6215 from cache
+[debug] [youtube] Decrypted nsig LLtPSeBvKvwbGbZG-Q4 => Kx404YRvu3TedA
+[debug] Loading youtube-nsig.8d9f6215 from cache
+[debug] [youtube] Decrypted nsig i0mXSyx35yRyAR_XCU8 => w1P1Ju0zMplUDw
+[youtube] DeE_gLl3j94: Downloading m3u8 information
+[debug] Sort order given by extractor: quality, res, fps, hdr:12, source, vcodec:vp9.2, channels, acodec, lang, proto
+[debug] Formats sorted by: hasvid, ie_pref, quality, res, fps, hdr:12(7), source, vcodec:vp9.2(10), channels, acodec, lang, proto, size, br, asr, vext, aext, hasaud, id
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+[debug] Default format spec: best/bestvideo+bestaudio
+[info] DeE_gLl3j94: Downloading 1 format(s): 18
+[debug] Invoking http downloader on "https://rr6---sn-8xgp1vo-gpje.googlevideo.com/videoplayback?expire=1720898893&ei=7YCSZtSDHpyEkucP65KcyAQ&ip=70.104.195.206&id=o-AETdfeaZhXDolAErf160vlZaCNiaGlaAnnHDlZf3mMRl&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=oW&mm=31%2C29&mn=sn-8xgp1vo-gpje%2Csn-8xgp1vo-p5qe7&ms=au%2Crdu&mv=m&mvi=6&pl=20&initcwndbps=1061250&bui=AXc671LnYo8-HcpJ6sQjLhUd5gxiJ0JjtpeozezwgpVUvVKEDtV_iYlWWxBe3pQwkNMAaI1xlYaUT8Re&spc=NO7bAUyf4mQ5YfYbT-D5pAvSLo7KS1CKnNPn_yjyuin3CqLQrvnFdsDLj3Fn-RQ&vprv=1&svpuc=1&mime=video%2Fmp4&ns=-D4MrllC9c_1UH-IHNHCKi4Q&rqh=1&gir=yes&clen=47472899&ratebypass=yes&dur=900.957&lmt=1720845370014031&mt=1720876875&fvip=5&c=WEB&sefc=1&txp=4438434&n=Kx404YRvu3TedA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRgIhAPiwg7P5mHF_g2C8E0L_ja5R5h7vqyH2fwSv2XiEJM9LAiEAyQE7KMGjGZTpOs8VXYQ9XxPjfmF2RrorSUE6fR03QkE%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRgIhAOEcXj_0JFobJdV4G70VxP2Gqxl1YtFfF2Beo_Vye0DaAiEA2fLgfNiAg98t0SkiQPOHb0UcCCrLz9ORCv3TITsYAwc%3D"
+[download] Scam_Warning_-_MSI_Exposes_600_000+_Warranty_Records-[DeE_gLl3j94].mp4 has already been downloaded
+[download] 100% of   45.27MiB
+[Metadata] Adding metadata to "Scam_Warning_-_MSI_Exposes_600_000+_Warranty_Records-[DeE_gLl3j94].mp4"
+ERROR: Postprocessing: ffmpeg not found. Please install or provide the path using --ffmpeg-location
+Traceback (most recent call last):
+  File "yt_dlp\YoutubeDL.py", line 3556, in process_info
+  File "yt_dlp\YoutubeDL.py", line 3738, in post_process
+  File "yt_dlp\YoutubeDL.py", line 3720, in run_all_pps
+  File "yt_dlp\YoutubeDL.py", line 3698, in run_pp
+  File "yt_dlp\postprocessor\common.py", line 23, in run
+  File "yt_dlp\postprocessor\common.py", line 128, in wrapper
+  File "yt_dlp\postprocessor\ffmpeg.py", line 712, in run
+  File "yt_dlp\postprocessor\ffmpeg.py", line 330, in run_ffmpeg_multiple_files
+  File "yt_dlp\postprocessor\ffmpeg.py", line 335, in real_run_ffmpeg
+  File "yt_dlp\postprocessor\ffmpeg.py", line 233, in check_version
+yt_dlp.postprocessor.ffmpeg.FFmpegPostProcessorError: ffmpeg not found. Please install or provide the path using --ffmpeg-location
+
+PS Microsoft.PowerShell.Core\FileSystem::\\TP-Share\G\shared\jellyfin\shows\downloaded> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
