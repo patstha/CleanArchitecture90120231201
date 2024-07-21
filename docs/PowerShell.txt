@@ -407,3 +407,126 @@ Saturday, July 20, 2024 4:23:21 PM
 
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Saturday, July 20, 2024 5:27:07 PM
+Saturday, July 20, 2024 5:27:07 PM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Saturday, July 20, 2024 5:27:07 PM
+Saturday, July 20, 2024 5:27:07 PM
+[master 506c63b] add all files
+ 1 file changed, 37 insertions(+)
+Saturday, July 20, 2024 5:27:07 PM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 507 bytes | 253.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   aa0e7de..506c63b  master -> master
+Saturday, July 20, 2024 5:27:09 PM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Saturday, July 20, 2024 5:27:10 PM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
+
+Sunday, July 21, 2024 6:32:40 AM
+Updating all sources...
+Updating source: msstore...
+Done
+Updating source: winget...
+Done
+Sunday, July 21, 2024 6:32:41 AM
+Name       Id                        Version    Available  Source
+-----------------------------------------------------------------
+yt-dlp     yt-dlp.yt-dlp             2024.07.09 2024.07.16 winget
+DuckDuckGo DuckDuckGo.DesktopBrowser 0.85.4.0   0.85.5.0   winget
+2 upgrades available.
+Sunday, July 21, 2024 6:32:45 AM
+Name       Id                        Version    Available  Source
+-----------------------------------------------------------------
+yt-dlp     yt-dlp.yt-dlp             2024.07.09 2024.07.16 winget
+DuckDuckGo DuckDuckGo.DesktopBrowser 0.85.4.0   0.85.5.0   winget
+2 upgrades available.
+
+Installing dependencies:
+This package requires the following dependencies:
+  - Packages
+      Gyan.FFmpeg
+(1/2) Found yt-dlp [yt-dlp.yt-dlp] Version 2024.07.16
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+(1/1) Found FFmpeg [Gyan.FFmpeg] Version 7.0.1
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Successfully verified installer hash
+Extracting archive...
+Successfully extracted archive
+Sunday, July 21, 2024 6:33:06 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> winget uninstall Gyan.FFmpeg
+No installed package found matching input criteria.
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> winget uninstall yt-dlp
+Found yt-dlp [yt-dlp.yt-dlp]
+Starting package uninstall...
+Successfully uninstalled
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
+
+Sunday, July 21, 2024 6:33:41 AM
+Updating all sources...
+Updating source: msstore...
+Done
+Updating source: winget...
+Done
+Sunday, July 21, 2024 6:33:42 AM
+Name       Id                        Version  Available Source
+--------------------------------------------------------------
+DuckDuckGo DuckDuckGo.DesktopBrowser 0.85.4.0 0.85.5.0  winget
+1 upgrades available.
+Sunday, July 21, 2024 6:33:44 AM
+Name       Id                        Version  Available Source
+--------------------------------------------------------------
+DuckDuckGo DuckDuckGo.DesktopBrowser 0.85.4.0 0.85.5.0  winget
+1 upgrades available.
+
+(1/1) Found DuckDuckGo [DuckDuckGo.DesktopBrowser] Version 0.85.5.0
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Successfully verified installer hash
+Starting package install...
+  ██████████████████████████████  100%
+Successfully installed
+
+Sunday, July 21, 2024 6:36:24 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
+
+Sunday, July 21, 2024 6:48:40 AM
+Updating all sources...
+Updating source: msstore...
+Done
+Updating source: winget...
+Done
+Sunday, July 21, 2024 6:48:41 AM
+No installed package found matching input criteria.
+Sunday, July 21, 2024 6:48:45 AM
+No installed package found matching input criteria.
+Sunday, July 21, 2024 6:48:49 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
