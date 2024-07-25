@@ -1,30 +1,19 @@
 PowerShell 7.4.3
+PS C:\Users\kushal>
+PS C:\Users\kushal>
 PS C:\Users\kushal> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
 
-Monday, July 15, 2024 9:02:56 PM
-Monday, July 15, 2024 9:02:56 PM
+Sunday, July 21, 2024 7:51:43 PM
+Sunday, July 21, 2024 7:51:43 PM
 On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   docs/PowerShell.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Monday, July 15, 2024 9:02:56 PM
-Monday, July 15, 2024 9:02:56 PM
-[master eae9323] add all files
- 1 file changed, 36 insertions(+)
-Monday, July 15, 2024 9:02:57 PM
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 501 bytes | 250.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To github.com:patstha/CleanArchitecture90120231201.git
-   a8fddd4..eae9323  master -> master
-Monday, July 15, 2024 9:02:58 PM
+nothing to commit, working tree clean
+Sunday, July 21, 2024 7:51:44 PM
+Sunday, July 21, 2024 7:51:44 PM
+On branch master
+nothing to commit, working tree clean
+Sunday, July 21, 2024 7:51:44 PM
+Everything up-to-date
+Sunday, July 21, 2024 7:51:45 PM
 * remote origin
   Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
   Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
@@ -33,296 +22,100 @@ Monday, July 15, 2024 9:02:58 PM
     master tracked
   Local ref configured for 'git push':
     master pushes to master (up to date)
-Monday, July 15, 2024 9:02:59 PM
+Sunday, July 21, 2024 7:51:46 PM
 
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
 
-Monday, July 15, 2024 9:03:05 PM
+Sunday, July 21, 2024 7:51:50 PM
+Updating all sources...
+Updating source: msstore...
+Done
+Updating source: winget...
+Done
+Sunday, July 21, 2024 7:51:51 PM
+No installed package found matching input criteria.
+Sunday, July 21, 2024 7:51:54 PM
+No installed package found matching input criteria.
+Sunday, July 21, 2024 7:51:58 PM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
+
+Monday, July 22, 2024 5:13:27 AM
 Updating all sources...
 Updating source: msstore...
 Done
 Updating source: winget...
   ██████████████████████████████  100%
 Done
-Monday, July 15, 2024 9:03:08 PM
-Name                    Id                   Version Available Source
----------------------------------------------------------------------
-OBS Studio              OBSProject.OBSStudio 30.1.2  30.2.0    winget
-PowerToys (Preview) x64 Microsoft.PowerToys  0.82.0  0.82.1    winget
-2 upgrades available.
-Monday, July 15, 2024 9:03:12 PM
-Name                    Id                   Version Available Source
----------------------------------------------------------------------
-OBS Studio              OBSProject.OBSStudio 30.1.2  30.2.0    winget
-PowerToys (Preview) x64 Microsoft.PowerToys  0.82.0  0.82.1    winget
-2 upgrades available.
+Monday, July 22, 2024 5:13:30 AM
+No installed package found matching input criteria.
+Monday, July 22, 2024 5:13:32 AM
+No installed package found matching input criteria.
+Monday, July 22, 2024 5:13:37 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
+
+Thursday, July 25, 2024 10:47:44 AM
+Updating all sources...
+Updating source: msstore...
+Done
+Updating source: winget...
+  ██████████████████████████████  100%
+Done
+Thursday, July 25, 2024 10:47:47 AM
+Name                        Id                      Version      Available    Source
+------------------------------------------------------------------------------------
+Mozilla Firefox (x64 en-US) Mozilla.Firefox         128.0        128.0.2      winget
+PowerShell 7-x64            Microsoft.PowerShell    7.4.3.0      7.4.4.0      winget
+OBS Studio                  OBSProject.OBSStudio    30.2.0       30.2.2       winget
+RustRover 242.19890.39      JetBrains.RustRover.EAP 242.19890.39 242.19890.43 winget
+4 upgrades available.
+Thursday, July 25, 2024 10:47:51 AM
+Name                        Id                      Version      Available    Source
+------------------------------------------------------------------------------------
+Mozilla Firefox (x64 en-US) Mozilla.Firefox         128.0        128.0.2      winget
+PowerShell 7-x64            Microsoft.PowerShell    7.4.3.0      7.4.4.0      winget
+OBS Studio                  OBSProject.OBSStudio    30.2.0       30.2.2       winget
+RustRover 242.19890.39      JetBrains.RustRover.EAP 242.19890.39 242.19890.43 winget
+4 upgrades available.
 
 Installing dependencies:
 This package requires the following dependencies:
   - Packages
       Microsoft.VCRedist.2015+.x64
-(1/2) Found OBS Studio [OBSProject.OBSStudio] Version 30.2.0
+(1/4) Found Mozilla Firefox [Mozilla.Firefox] Version 128.0.2
 This application is licensed to you by its owner.
 Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://github.com/obsproject/obs-studio/releases/download/30.2.0/OBS-Studio-30.2.0-Windows-Installer.exe
-  ██████████████████████████████   133 MB /  133 MB
+Downloading https://download-installer.cdn.mozilla.net/pub/firefox/releases/128.0.2/win64/en-US/Firefox%20Setup%20128.0.2.exe
+  ██████████████████████████████  62.8 MB / 62.8 MB
 Successfully verified installer hash
 Starting package install...
 Successfully installed
 
-(2/2) Found PowerToys (Preview) [Microsoft.PowerToys] Version 0.82.1
+(2/4) Found PowerShell [Microsoft.PowerShell] Version 7.4.4.0
 This application is licensed to you by its owner.
 Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://github.com/microsoft/PowerToys/releases/download/v0.82.1/PowerToysUserSetup-0.82.1-x64.exe
-  ██████████████████████████████   257 MB /  257 MB
+Downloading https://github.com/PowerShell/PowerShell/releases/download/v7.4.4/PowerShell-7.4.4-win-x64.msi
+  ██████████████████████████████   103 MB /  103 MB
 Successfully verified installer hash
 Starting package install...
-Successfully installed
+Installation abandoned
 
-Monday, July 15, 2024 9:05:32 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
-
-Monday, July 15, 2024 9:08:29 PM
-Updating all sources...
-Updating source: msstore...
-Done
-Updating source: winget...
-Done
-Monday, July 15, 2024 9:08:30 PM
-No installed package found matching input criteria.
-Monday, July 15, 2024 9:08:32 PM
-No installed package found matching input criteria.
-Monday, July 15, 2024 9:08:35 PM
-
+Cancelled
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
 
-Monday, July 15, 2024 9:08:45 PM
-Monday, July 15, 2024 9:08:45 PM
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   docs/PowerShell.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Monday, July 15, 2024 9:08:45 PM
-Monday, July 15, 2024 9:08:45 PM
-[master 331b060] add all files
- 1 file changed, 68 insertions(+), 531 deletions(-)
-Monday, July 15, 2024 9:08:45 PM
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 1.11 KiB | 103.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To github.com:patstha/CleanArchitecture90120231201.git
-   eae9323..331b060  master -> master
-Monday, July 15, 2024 9:08:47 PM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Monday, July 15, 2024 9:08:48 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
-
-Tuesday, July 16, 2024 7:18:26 PM
-Updating all sources...
-Updating source: msstore...
-Done
-Updating source: winget...
-  ██████████████████████████████  100%
-Done
-Tuesday, July 16, 2024 7:18:29 PM
-Name      Id                  Version  Available Source
--------------------------------------------------------
-Bitwarden Bitwarden.Bitwarden 2024.6.4 2024.7.0  winget
-1 upgrades available.
-Tuesday, July 16, 2024 7:18:33 PM
-Name      Id                  Version  Available Source
--------------------------------------------------------
-Bitwarden Bitwarden.Bitwarden 2024.6.4 2024.7.0  winget
-1 upgrades available.
-
-(1/1) Found Bitwarden [Bitwarden.Bitwarden] Version 2024.7.0
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://github.com/bitwarden/clients/releases/download/desktop-v2024.7.0/Bitwarden-Installer-2024.7.0.exe
-  ██████████████████████████████   714 KB /  714 KB
-Successfully verified installer hash
-Starting package install...
-Successfully installed
-
-Tuesday, July 16, 2024 7:18:49 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> dotnet --info
-.NET SDK:
- Version:           9.0.100-preview.6.24328.19
- Commit:            ef4c241666
- Workload version:  9.0.100-manifests.bbb3781c
- MSBuild version:   17.11.0-preview-24318-05+4a45d5633
-
-Runtime Environment:
- OS Name:     Windows
- OS Version:  10.0.22631
- OS Platform: Windows
- RID:         win-x64
- Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
-
-.NET workloads installed:
-Configured to use loose manifests when installing new manifests.
- [aspire]
-   Installation Source: VS 17.11.35103.136, VS 17.10.35027.167
-   Manifest Version:    8.0.1/8.0.100
-   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
-   Install Type:        FileBased
-
-
-Host:
-  Version:      9.0.0-preview.6.24327.7
-  Architecture: x64
-  Commit:       static
-
-.NET SDKs installed:
-  8.0.303 [C:\Program Files\dotnet\sdk]
-  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
-  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
-
-.NET runtimes installed:
-  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-
-Other architectures found:
-  x86   [C:\Program Files (x86)\dotnet]
-    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
-
-Environment variables:
-  Not set
-
-global.json file:
-  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
-
-Learn more:
-  https://aka.ms/dotnet/info
-
-Download .NET:
-  https://aka.ms/dotnet/download
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
-
-Saturday, July 20, 2024 3:55:58 PM
-Updating all sources...
-Updating source: msstore...
-Done
-Updating source: winget...
-  ██████████████████████████████  100%
-Done
-Saturday, July 20, 2024 3:56:16 PM
-Name                                          Id                                  Version       Available    Source
--------------------------------------------------------------------------------------------------------------------
-RustRover 2024.1.3                            JetBrains.RustRover.EAP             241.17011.175 242.19890.39 winget
-Microsoft SQL Server Management Studio - 20.1 Microsoft.SQLServerManagementStudio 20.1          20.2         winget
-Signal 7.15.0                                 OpenWhisperSystems.Signal           7.15.0        7.16.0       winget
-Obsidian                                      Obsidian.Obsidian                   1.6.5         1.6.7        winget
-yt-dlp                                        yt-dlp.yt-dlp                       2024.07.09    2024.07.16   winget
-DuckDuckGo                                    DuckDuckGo.DesktopBrowser           0.85.4.0      0.85.5.0     winget
-6 upgrades available.
-Saturday, July 20, 2024 3:56:41 PM
-Name                                          Id                                  Version       Available    Source
--------------------------------------------------------------------------------------------------------------------
-RustRover 2024.1.3                            JetBrains.RustRover.EAP             241.17011.175 242.19890.39 winget
-Microsoft SQL Server Management Studio - 20.1 Microsoft.SQLServerManagementStudio 20.1          20.2         winget
-Signal 7.15.0                                 OpenWhisperSystems.Signal           7.15.0        7.16.0       winget
-Obsidian                                      Obsidian.Obsidian                   1.6.5         1.6.7        winget
-yt-dlp                                        yt-dlp.yt-dlp                       2024.07.09    2024.07.16   winget
-DuckDuckGo                                    DuckDuckGo.DesktopBrowser           0.85.4.0      0.85.5.0     winget
-6 upgrades available.
-
-Installing dependencies:
-This package requires the following dependencies:
-  - Packages
-      Gyan.FFmpeg
-(1/6) Found RustRover (EAP) [JetBrains.RustRover.EAP] Version 242.19890.39
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://download.jetbrains.com/rustrover/RustRover-242.19890.39.exe
-  ██████████████████████████████   584 MB /  584 MB
-Successfully verified installer hash
-Starting package uninstall...
-Successfully uninstalled
-Starting package install...
-Successfully installed
-
-(2/6) Found Microsoft SQL Server Management Studio [Microsoft.SQLServerManagementStudio] Version 20.2
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://download.microsoft.com/download/9/b/e/9bee9f00-2ee2-429a-9462-c9bc1ce14c28/SSMS-Setup-ENU.exe
-  ██████████████████████████████   473 MB /  473 MB
-Successfully verified installer hash
-Starting package install...
-Successfully installed
-
-(3/6) Found Signal [OpenWhisperSystems.Signal] Version 7.16.0
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://updates.signal.org/desktop/signal-desktop-win-7.16.0.exe
-  ██████████████████████████████   124 MB /  124 MB
-Successfully verified installer hash
-Starting package install...
-Successfully installed
-
-(4/6) Found Obsidian [Obsidian.Obsidian] Version 1.6.7
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://github.com/obsidianmd/obsidian-releases/releases/download/v1.6.7/Obsidian-1.6.7.exe
-  ██████████████████████████████   235 MB /  235 MB
-Successfully verified installer hash
-Starting package install...
-Successfully installed
-
-(5/6) Found yt-dlp [yt-dlp.yt-dlp] Version 2024.07.16
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-(1/1) Found FFmpeg [Gyan.FFmpeg] Version 7.0.1
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Successfully verified installer hash
-Extracting archive...
-Successfully extracted archive
-Saturday, July 20, 2024 4:20:04 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 20, 2024 4:22:51 PM
-Saturday, July 20, 2024 4:22:51 PM
+Thursday, July 25, 2024 10:57:28 AM
+Thursday, July 25, 2024 10:57:28 AM
 On branch master
 nothing to commit, working tree clean
-Saturday, July 20, 2024 4:22:51 PM
-Saturday, July 20, 2024 4:22:52 PM
+Thursday, July 25, 2024 10:57:28 AM
+Thursday, July 25, 2024 10:57:28 AM
 On branch master
 nothing to commit, working tree clean
-Saturday, July 20, 2024 4:22:52 PM
+Thursday, July 25, 2024 10:57:28 AM
 Everything up-to-date
-Saturday, July 20, 2024 4:22:53 PM
+Thursday, July 25, 2024 10:57:29 AM
 * remote origin
   Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
   Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
@@ -331,202 +124,6 @@ Saturday, July 20, 2024 4:22:53 PM
     master tracked
   Local ref configured for 'git push':
     master pushes to master (up to date)
-Saturday, July 20, 2024 4:22:54 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 20, 2024 4:23:02 PM
-Saturday, July 20, 2024 4:23:02 PM
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   docs/PowerShell.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Saturday, July 20, 2024 4:23:03 PM
-Saturday, July 20, 2024 4:23:03 PM
-[master 35c4dd3] add all files
- 1 file changed, 238 insertions(+)
-Saturday, July 20, 2024 4:23:03 PM
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 3.18 KiB | 542.00 KiB/s, done.
-Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-To github.com:patstha/CleanArchitecture90120231201.git
-   331b060..35c4dd3  master -> master
-Saturday, July 20, 2024 4:23:05 PM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Saturday, July 20, 2024 4:23:06 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 20, 2024 4:23:19 PM
-Saturday, July 20, 2024 4:23:19 PM
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   docs/PowerShell.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Saturday, July 20, 2024 4:23:19 PM
-Saturday, July 20, 2024 4:23:19 PM
-[master aa0e7de] add all files
- 1 file changed, 36 insertions(+)
-Saturday, July 20, 2024 4:23:19 PM
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 573 bytes | 286.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To github.com:patstha/CleanArchitecture90120231201.git
-   35c4dd3..aa0e7de  master -> master
-Saturday, July 20, 2024 4:23:20 PM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Saturday, July 20, 2024 4:23:21 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 20, 2024 5:27:07 PM
-Saturday, July 20, 2024 5:27:07 PM
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   docs/PowerShell.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Saturday, July 20, 2024 5:27:07 PM
-Saturday, July 20, 2024 5:27:07 PM
-[master 506c63b] add all files
- 1 file changed, 37 insertions(+)
-Saturday, July 20, 2024 5:27:07 PM
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 507 bytes | 253.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To github.com:patstha/CleanArchitecture90120231201.git
-   aa0e7de..506c63b  master -> master
-Saturday, July 20, 2024 5:27:09 PM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Saturday, July 20, 2024 5:27:10 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
-
-Sunday, July 21, 2024 6:32:40 AM
-Updating all sources...
-Updating source: msstore...
-Done
-Updating source: winget...
-Done
-Sunday, July 21, 2024 6:32:41 AM
-Name       Id                        Version    Available  Source
------------------------------------------------------------------
-yt-dlp     yt-dlp.yt-dlp             2024.07.09 2024.07.16 winget
-DuckDuckGo DuckDuckGo.DesktopBrowser 0.85.4.0   0.85.5.0   winget
-2 upgrades available.
-Sunday, July 21, 2024 6:32:45 AM
-Name       Id                        Version    Available  Source
------------------------------------------------------------------
-yt-dlp     yt-dlp.yt-dlp             2024.07.09 2024.07.16 winget
-DuckDuckGo DuckDuckGo.DesktopBrowser 0.85.4.0   0.85.5.0   winget
-2 upgrades available.
-
-Installing dependencies:
-This package requires the following dependencies:
-  - Packages
-      Gyan.FFmpeg
-(1/2) Found yt-dlp [yt-dlp.yt-dlp] Version 2024.07.16
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-(1/1) Found FFmpeg [Gyan.FFmpeg] Version 7.0.1
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Successfully verified installer hash
-Extracting archive...
-Successfully extracted archive
-Sunday, July 21, 2024 6:33:06 AM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> winget uninstall Gyan.FFmpeg
-No installed package found matching input criteria.
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> winget uninstall yt-dlp
-Found yt-dlp [yt-dlp.yt-dlp]
-Starting package uninstall...
-Successfully uninstalled
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
-
-Sunday, July 21, 2024 6:33:41 AM
-Updating all sources...
-Updating source: msstore...
-Done
-Updating source: winget...
-Done
-Sunday, July 21, 2024 6:33:42 AM
-Name       Id                        Version  Available Source
---------------------------------------------------------------
-DuckDuckGo DuckDuckGo.DesktopBrowser 0.85.4.0 0.85.5.0  winget
-1 upgrades available.
-Sunday, July 21, 2024 6:33:44 AM
-Name       Id                        Version  Available Source
---------------------------------------------------------------
-DuckDuckGo DuckDuckGo.DesktopBrowser 0.85.4.0 0.85.5.0  winget
-1 upgrades available.
-
-(1/1) Found DuckDuckGo [DuckDuckGo.DesktopBrowser] Version 0.85.5.0
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Successfully verified installer hash
-Starting package install...
-  ██████████████████████████████  100%
-Successfully installed
-
-Sunday, July 21, 2024 6:36:24 AM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
-
-Sunday, July 21, 2024 6:48:40 AM
-Updating all sources...
-Updating source: msstore...
-Done
-Updating source: winget...
-Done
-Sunday, July 21, 2024 6:48:41 AM
-No installed package found matching input criteria.
-Sunday, July 21, 2024 6:48:45 AM
-No installed package found matching input criteria.
-Sunday, July 21, 2024 6:48:49 AM
+Thursday, July 25, 2024 10:57:30 AM
 
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
