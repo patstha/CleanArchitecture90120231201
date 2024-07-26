@@ -1,34 +1,30 @@
-Windows PowerShell
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
-
+PowerShell 7.4.4
 PS C:\Users\kushal> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
 
-Thursday, July 25, 2024 10:58:56 AM
-Thursday, July 25, 2024 10:58:56 AM
+Friday, July 26, 2024 2:40:30 PM
+Friday, July 26, 2024 2:40:30 PM
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   docs/PowerShell.txt
+        modified:   docs/GPU-Z Sensor Log.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
-Thursday, July 25, 2024 10:58:56 AM
-Thursday, July 25, 2024 10:58:56 AM
-[master 4d7b3f8] add all files
- 1 file changed, 36 insertions(+)
-Thursday, July 25, 2024 10:58:56 AM
+Friday, July 26, 2024 2:40:31 PM
+Friday, July 26, 2024 2:40:31 PM
+[master 046be92] add all files
+ 1 file changed, 9783 insertions(+)
+Friday, July 26, 2024 2:40:31 PM
 Enumerating objects: 7, done.
 Counting objects: 100% (7/7), done.
 Delta compression using up to 8 threads
 Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 887 bytes | 887.00 KiB/s, done.
+Writing objects: 100% (4/4), 157.69 KiB | 2.16 MiB/s, done.
 Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To github.com:patstha/CleanArchitecture90120231201.git
-   c7dfb65..4d7b3f8  master -> master
-Thursday, July 25, 2024 10:58:58 AM
+   32bdf10..046be92  master -> master
+Friday, July 26, 2024 2:40:33 PM
 * remote origin
   Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
   Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
@@ -37,71 +33,123 @@ Thursday, July 25, 2024 10:58:58 AM
     master tracked
   Local ref configured for 'git push':
     master pushes to master (up to date)
-Thursday, July 25, 2024 10:58:59 AM
+Friday, July 26, 2024 2:40:35 PM
 
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Friday, July 26, 2024 2:50:54 PM
+Friday, July 26, 2024 2:50:54 PM
+On branch master
+nothing to commit, working tree clean
+Friday, July 26, 2024 2:50:55 PM
+Friday, July 26, 2024 2:50:55 PM
+On branch master
+nothing to commit, working tree clean
+Friday, July 26, 2024 2:50:55 PM
+Everything up-to-date
+Friday, July 26, 2024 2:50:56 PM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Friday, July 26, 2024 2:50:57 PM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Friday, July 26, 2024 2:51:00 PM
+Friday, July 26, 2024 2:51:00 PM
+On branch master
+nothing to commit, working tree clean
+Friday, July 26, 2024 2:51:00 PM
+Friday, July 26, 2024 2:51:00 PM
+On branch master
+nothing to commit, working tree clean
+Friday, July 26, 2024 2:51:00 PM
+Everything up-to-date
+Friday, July 26, 2024 2:51:01 PM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Friday, July 26, 2024 2:51:01 PM
 
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
 
-Thursday, July 25, 2024 10:59:15 AM
-Updating all sources...
-Updating source: msstore...
-Done
-Updating source: winget...
-Done
-Thursday, July 25, 2024 10:59:16 AM
-Name                   Id                      Version      Available    Source
--------------------------------------------------------------------------------
-OBS Studio             OBSProject.OBSStudio    30.2.0       30.2.2       winget
-RustRover 242.19890.39 JetBrains.RustRover.EAP 242.19890.39 242.19890.43 winget
-2 upgrades available.
-Thursday, July 25, 2024 10:59:19 AM
-Name                   Id                      Version      Available    Source
--------------------------------------------------------------------------------
-OBS Studio             OBSProject.OBSStudio    30.2.0       30.2.2       winget
-RustRover 242.19890.39 JetBrains.RustRover.EAP 242.19890.39 242.19890.43 winget
-2 upgrades available.
-
-Installing dependencies:
-This package requires the following dependencies:
-  - Packages
-      Microsoft.VCRedist.2015+.x64
-(1/2) Found OBS Studio [OBSProject.OBSStudio] Version 30.2.2
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://github.com/obsproject/obs-studio/releases/download/30.2.2/OBS-Studio-30.2.2-Windows-Installer.exe
-  ██████████████████████████████   133 MB /  133 MB
-Successfully verified installer hash
-Starting package install...
-Successfully installed
-
-(2/2) Found RustRover (EAP) [JetBrains.RustRover.EAP] Version 242.19890.43
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://download.jetbrains.com/rustrover/RustRover-242.19890.43.exe
-  ██████████████████████████████   584 MB /  584 MB
-Successfully verified installer hash
-Starting package uninstall...
-Successfully uninstalled
-Starting package install...
-Successfully installed
-
-Thursday, July 25, 2024 11:02:34 AM
-
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
-
-Thursday, July 25, 2024 11:13:56 AM
+Friday, July 26, 2024 2:51:04 PM
 Updating all sources...
 Updating source: msstore...
 Done
 Updating source: winget...
   ██████████████████████████████  100%
 Done
-Thursday, July 25, 2024 11:13:59 AM
-No installed package found matching input criteria.
-Thursday, July 25, 2024 11:14:02 AM
-No installed package found matching input criteria.
-Thursday, July 25, 2024 11:14:05 AM
+Friday, July 26, 2024 2:51:08 PM
+Name                            Id                                    Version        Available     Source
+---------------------------------------------------------------------------------------------------------
+Visual Studio Community 2022    Microsoft.VisualStudio.2022.Community 17.10.4        17.10.5       winget
+Microsoft Edge WebView2 Runtime Microsoft.EdgeWebView2Runtime         126.0.2592.113 127.0.2651.74 winget
+2 upgrades available.
+Friday, July 26, 2024 2:51:12 PM
+Name                            Id                                    Version        Available     Source
+---------------------------------------------------------------------------------------------------------
+Visual Studio Community 2022    Microsoft.VisualStudio.2022.Community 17.10.4        17.10.5       winget
+Microsoft Edge WebView2 Runtime Microsoft.EdgeWebView2Runtime         126.0.2592.113 127.0.2651.74 winget
+2 upgrades available.
 
+(1/2) Found Visual Studio Community 2022 [Microsoft.VisualStudio.2022.Community] Version 17.10.5
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://download.visualstudio.microsoft.com/download/pr/11917f82-1030-4dda-a768-f0da3c4623a9/743269f3c5a5db5ae8791c51d075fb0813dac5366219983459ba6e482e96c7a2/vs_Community.exe
+  ██████████████████████████████  3.81 MB / 3.81 MB
+Successfully verified installer hash
+Starting package install...
+The installer will request to run as administrator, expect a prompt.
+Successfully installed
 
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
+(2/2) Found Microsoft Edge WebView2 Runtime [Microsoft.EdgeWebView2Runtime] Version 127.0.2651.74
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/061b913c-6137-4ef5-878f-8d113d2d9625/MicrosoftEdgeWebView2RuntimeInstallerX64.exe
+  ██████████████████████████████   169 MB /  169 MB
+Successfully verified installer hash
+Starting package install...
+The installer will request to run as administrator, expect a prompt.
+Successfully installed
+
+Friday, July 26, 2024 2:54:32 PM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Friday, July 26, 2024 4:33:54 PM
+Friday, July 26, 2024 4:33:54 PM
+On branch master
+nothing to commit, working tree clean
+Friday, July 26, 2024 4:33:54 PM
+Friday, July 26, 2024 4:33:54 PM
+On branch master
+nothing to commit, working tree clean
+Friday, July 26, 2024 4:33:54 PM
+Everything up-to-date
+Friday, July 26, 2024 4:33:55 PM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Friday, July 26, 2024 4:33:56 PM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
