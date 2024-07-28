@@ -1,30 +1,31 @@
 PowerShell 7.4.4
 PS C:\Users\kushal> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
 
-Friday, July 26, 2024 2:40:30 PM
-Friday, July 26, 2024 2:40:30 PM
+Saturday, July 27, 2024 12:07:07 PM
+Saturday, July 27, 2024 12:07:07 PM
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
         modified:   docs/GPU-Z Sensor Log.txt
+        modified:   docs/PowerShell.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
-Friday, July 26, 2024 2:40:31 PM
-Friday, July 26, 2024 2:40:31 PM
-[master 046be92] add all files
- 1 file changed, 9783 insertions(+)
-Friday, July 26, 2024 2:40:31 PM
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
+Saturday, July 27, 2024 12:07:08 PM
+Saturday, July 27, 2024 12:07:08 PM
+[master c4c0ca7] add all files
+ 2 files changed, 716 insertions(+)
+Saturday, July 27, 2024 12:07:08 PM
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
 Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 157.69 KiB | 2.16 MiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 14.43 KiB | 182.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
 To github.com:patstha/CleanArchitecture90120231201.git
-   32bdf10..046be92  master -> master
-Friday, July 26, 2024 2:40:33 PM
+   9e5d248..c4c0ca7  master -> master
+Saturday, July 27, 2024 12:07:10 PM
 * remote origin
   Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
   Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
@@ -33,23 +34,22 @@ Friday, July 26, 2024 2:40:33 PM
     master tracked
   Local ref configured for 'git push':
     master pushes to master (up to date)
-Friday, July 26, 2024 2:40:35 PM
+Saturday, July 27, 2024 12:07:10 PM
 
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
 
-Friday, July 26, 2024 2:50:54 PM
-Friday, July 26, 2024 2:50:54 PM
+Saturday, July 27, 2024 12:07:34 PM
+Saturday, July 27, 2024 12:07:34 PM
 On branch master
 nothing to commit, working tree clean
-Friday, July 26, 2024 2:50:55 PM
-Friday, July 26, 2024 2:50:55 PM
+Saturday, July 27, 2024 12:07:34 PM
+Saturday, July 27, 2024 12:07:34 PM
 On branch master
 nothing to commit, working tree clean
-Friday, July 26, 2024 2:50:55 PM
+Saturday, July 27, 2024 12:07:34 PM
 Everything up-to-date
-Friday, July 26, 2024 2:50:56 PM
+Saturday, July 27, 2024 12:07:35 PM
 * remote origin
   Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
   Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
@@ -58,21 +58,22 @@ Friday, July 26, 2024 2:50:56 PM
     master tracked
   Local ref configured for 'git push':
     master pushes to master (up to date)
-Friday, July 26, 2024 2:50:57 PM
+Saturday, July 27, 2024 12:07:36 PM
 
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
 
-Friday, July 26, 2024 2:51:00 PM
-Friday, July 26, 2024 2:51:00 PM
+Saturday, July 27, 2024 12:07:44 PM
+Saturday, July 27, 2024 12:07:44 PM
 On branch master
 nothing to commit, working tree clean
-Friday, July 26, 2024 2:51:00 PM
-Friday, July 26, 2024 2:51:00 PM
+Saturday, July 27, 2024 12:07:44 PM
+Saturday, July 27, 2024 12:07:44 PM
 On branch master
 nothing to commit, working tree clean
-Friday, July 26, 2024 2:51:00 PM
+Saturday, July 27, 2024 12:07:44 PM
 Everything up-to-date
-Friday, July 26, 2024 2:51:01 PM
+Saturday, July 27, 2024 12:07:45 PM
 * remote origin
   Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
   Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
@@ -81,67 +82,111 @@ Friday, July 26, 2024 2:51:01 PM
     master tracked
   Local ref configured for 'git push':
     master pushes to master (up to date)
-Friday, July 26, 2024 2:51:01 PM
+Saturday, July 27, 2024 12:07:46 PM
 
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
 
-Friday, July 26, 2024 2:51:04 PM
+Saturday, July 27, 2024 12:07:57 PM
 Updating all sources...
 Updating source: msstore...
 Done
 Updating source: winget...
   ██████████████████████████████  100%
 Done
-Friday, July 26, 2024 2:51:08 PM
-Name                            Id                                    Version        Available     Source
----------------------------------------------------------------------------------------------------------
-Visual Studio Community 2022    Microsoft.VisualStudio.2022.Community 17.10.4        17.10.5       winget
-Microsoft Edge WebView2 Runtime Microsoft.EdgeWebView2Runtime         126.0.2592.113 127.0.2651.74 winget
-2 upgrades available.
-Friday, July 26, 2024 2:51:12 PM
-Name                            Id                                    Version        Available     Source
----------------------------------------------------------------------------------------------------------
-Visual Studio Community 2022    Microsoft.VisualStudio.2022.Community 17.10.4        17.10.5       winget
-Microsoft Edge WebView2 Runtime Microsoft.EdgeWebView2Runtime         126.0.2592.113 127.0.2651.74 winget
-2 upgrades available.
+Saturday, July 27, 2024 12:08:01 PM
+Name      Id                  Version  Available Source
+-------------------------------------------------------
+Bitwarden Bitwarden.Bitwarden 2024.7.0 2024.7.1  winget
+1 upgrades available.
+Saturday, July 27, 2024 12:08:05 PM
+Name      Id                  Version  Available Source
+-------------------------------------------------------
+Bitwarden Bitwarden.Bitwarden 2024.7.0 2024.7.1  winget
+1 upgrades available.
 
-(1/2) Found Visual Studio Community 2022 [Microsoft.VisualStudio.2022.Community] Version 17.10.5
+(1/1) Found Bitwarden [Bitwarden.Bitwarden] Version 2024.7.1
 This application is licensed to you by its owner.
 Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://download.visualstudio.microsoft.com/download/pr/11917f82-1030-4dda-a768-f0da3c4623a9/743269f3c5a5db5ae8791c51d075fb0813dac5366219983459ba6e482e96c7a2/vs_Community.exe
-  ██████████████████████████████  3.81 MB / 3.81 MB
+Downloading https://github.com/bitwarden/clients/releases/download/desktop-v2024.7.1/Bitwarden-Installer-2024.7.1.exe
+  ██████████████████████████████   714 KB /  714 KB
 Successfully verified installer hash
 Starting package install...
-The installer will request to run as administrator, expect a prompt.
 Successfully installed
 
-(2/2) Found Microsoft Edge WebView2 Runtime [Microsoft.EdgeWebView2Runtime] Version 127.0.2651.74
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/061b913c-6137-4ef5-878f-8d113d2d9625/MicrosoftEdgeWebView2RuntimeInstallerX64.exe
-  ██████████████████████████████   169 MB /  169 MB
-Successfully verified installer hash
-Starting package install...
-The installer will request to run as administrator, expect a prompt.
-Successfully installed
+Saturday, July 27, 2024 12:08:24 PM
 
-Friday, July 26, 2024 2:54:32 PM
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
 
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+Saturday, July 27, 2024 12:09:39 PM
+.NET SDK:
+ Version:           9.0.100-preview.6.24328.19
+ Commit:            ef4c241666
+ Workload version:  9.0.100-manifests.bbb3781c
+ MSBuild version:   17.11.0-preview-24318-05+4a45d5633
 
-Friday, July 26, 2024 4:33:54 PM
-Friday, July 26, 2024 4:33:54 PM
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.22631
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
+
+.NET workloads installed:
+Configured to use loose manifests when installing new manifests.
+ [aspire]
+   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
+   Manifest Version:    8.0.1/8.0.100
+   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
+   Install Type:        FileBased
+
+
+Host:
+  Version:      9.0.0-preview.6.24327.7
+  Architecture: x64
+  Commit:       static
+
+.NET SDKs installed:
+  8.0.303 [C:\Program Files\dotnet\sdk]
+  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+Saturday, July 27, 2024 12:09:40 PM
+Saturday, July 27, 2024 12:09:40 PM
 On branch master
 nothing to commit, working tree clean
-Friday, July 26, 2024 4:33:54 PM
-Friday, July 26, 2024 4:33:54 PM
+Saturday, July 27, 2024 12:09:40 PM
+Saturday, July 27, 2024 12:09:40 PM
 On branch master
 nothing to commit, working tree clean
-Friday, July 26, 2024 4:33:54 PM
+Saturday, July 27, 2024 12:09:40 PM
 Everything up-to-date
-Friday, July 26, 2024 4:33:55 PM
+Saturday, July 27, 2024 12:09:41 PM
 * remote origin
   Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
   Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
@@ -150,58 +195,80 @@ Friday, July 26, 2024 4:33:55 PM
     master tracked
   Local ref configured for 'git push':
     master pushes to master (up to date)
-Friday, July 26, 2024 4:33:56 PM
+Saturday, July 27, 2024 12:09:42 PM
 
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
 
-Friday, July 26, 2024 4:34:09 PM
-Friday, July 26, 2024 4:34:09 PM
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   docs/PowerShell.txt
+Saturday, July 27, 2024 12:09:50 PM
+.NET SDK:
+ Version:           9.0.100-preview.6.24328.19
+ Commit:            ef4c241666
+ Workload version:  9.0.100-manifests.bbb3781c
+ MSBuild version:   17.11.0-preview-24318-05+4a45d5633
 
-no changes added to commit (use "git add" and/or "git commit -a")
-Friday, July 26, 2024 4:34:09 PM
-Friday, July 26, 2024 4:34:09 PM
-[master 75c5bd7] add all files
- 1 file changed, 105 insertions(+), 57 deletions(-)
-Friday, July 26, 2024 4:34:09 PM
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 1.30 KiB | 445.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To github.com:patstha/CleanArchitecture90120231201.git
-   046be92..75c5bd7  master -> master
-Friday, July 26, 2024 4:34:10 PM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Friday, July 26, 2024 4:34:11 PM
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.22631
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
 
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+.NET workloads installed:
+Configured to use loose manifests when installing new manifests.
+ [aspire]
+   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
+   Manifest Version:    8.0.1/8.0.100
+   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
+   Install Type:        FileBased
 
-Saturday, July 27, 2024 11:55:52 AM
-Saturday, July 27, 2024 11:55:52 AM
+
+Host:
+  Version:      9.0.0-preview.6.24327.7
+  Architecture: x64
+  Commit:       static
+
+.NET SDKs installed:
+  8.0.303 [C:\Program Files\dotnet\sdk]
+  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+Saturday, July 27, 2024 12:09:50 PM
+Saturday, July 27, 2024 12:09:50 PM
 On branch master
 nothing to commit, working tree clean
-Saturday, July 27, 2024 11:55:52 AM
-Saturday, July 27, 2024 11:55:53 AM
+Saturday, July 27, 2024 12:09:51 PM
+Saturday, July 27, 2024 12:09:51 PM
 On branch master
 nothing to commit, working tree clean
-Saturday, July 27, 2024 11:55:53 AM
+Saturday, July 27, 2024 12:09:51 PM
 Everything up-to-date
-Saturday, July 27, 2024 11:55:54 AM
+Saturday, July 27, 2024 12:09:52 PM
 * remote origin
   Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
   Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
@@ -210,21 +277,80 @@ Saturday, July 27, 2024 11:55:54 AM
     master tracked
   Local ref configured for 'git push':
     master pushes to master (up to date)
-Saturday, July 27, 2024 11:55:55 AM
+Saturday, July 27, 2024 12:09:53 PM
 
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
 
-Saturday, July 27, 2024 11:56:32 AM
-Saturday, July 27, 2024 11:56:32 AM
+Saturday, July 27, 2024 12:24:41 PM
+.NET SDK:
+ Version:           9.0.100-preview.6.24328.19
+ Commit:            ef4c241666
+ Workload version:  9.0.100-manifests.bbb3781c
+ MSBuild version:   17.11.0-preview-24318-05+4a45d5633
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.22631
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
+
+.NET workloads installed:
+Configured to use loose manifests when installing new manifests.
+ [aspire]
+   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
+   Manifest Version:    8.0.1/8.0.100
+   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
+   Install Type:        FileBased
+
+
+Host:
+  Version:      9.0.0-preview.6.24327.7
+  Architecture: x64
+  Commit:       static
+
+.NET SDKs installed:
+  8.0.303 [C:\Program Files\dotnet\sdk]
+  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+Saturday, July 27, 2024 12:24:42 PM
+Saturday, July 27, 2024 12:24:42 PM
 On branch master
 nothing to commit, working tree clean
-Saturday, July 27, 2024 11:56:33 AM
-Saturday, July 27, 2024 11:56:33 AM
+Saturday, July 27, 2024 12:24:42 PM
+Saturday, July 27, 2024 12:24:42 PM
 On branch master
 nothing to commit, working tree clean
-Saturday, July 27, 2024 11:56:33 AM
+Saturday, July 27, 2024 12:24:42 PM
 Everything up-to-date
-Saturday, July 27, 2024 11:56:34 AM
+Saturday, July 27, 2024 12:24:43 PM
 * remote origin
   Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
   Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
@@ -233,12 +359,71 @@ Saturday, July 27, 2024 11:56:34 AM
     master tracked
   Local ref configured for 'git push':
     master pushes to master (up to date)
-Saturday, July 27, 2024 11:56:35 AM
+Saturday, July 27, 2024 12:24:44 PM
 
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
 
-Saturday, July 27, 2024 11:56:58 AM
-Saturday, July 27, 2024 11:56:58 AM
+Saturday, July 27, 2024 12:24:59 PM
+.NET SDK:
+ Version:           9.0.100-preview.6.24328.19
+ Commit:            ef4c241666
+ Workload version:  9.0.100-manifests.bbb3781c
+ MSBuild version:   17.11.0-preview-24318-05+4a45d5633
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.22631
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
+
+.NET workloads installed:
+Configured to use loose manifests when installing new manifests.
+ [aspire]
+   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
+   Manifest Version:    8.0.1/8.0.100
+   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
+   Install Type:        FileBased
+
+
+Host:
+  Version:      9.0.0-preview.6.24327.7
+  Architecture: x64
+  Commit:       static
+
+.NET SDKs installed:
+  8.0.303 [C:\Program Files\dotnet\sdk]
+  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+Saturday, July 27, 2024 12:25:00 PM
+Saturday, July 27, 2024 12:25:00 PM
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -246,58 +431,21 @@ Changes not staged for commit:
         modified:   docs/GPU-Z Sensor Log.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
-Saturday, July 27, 2024 11:56:58 AM
-Saturday, July 27, 2024 11:56:59 AM
-[master f7667ad] add all files
- 1 file changed, 14815 insertions(+)
-Saturday, July 27, 2024 11:56:59 AM
+Saturday, July 27, 2024 12:25:01 PM
+Saturday, July 27, 2024 12:25:01 PM
+[master 268726a] add all files
+ 1 file changed, 1043 insertions(+)
+Saturday, July 27, 2024 12:25:01 PM
 Enumerating objects: 7, done.
 Counting objects: 100% (7/7), done.
 Delta compression using up to 8 threads
 Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 378.72 KiB | 2.20 MiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To github.com:patstha/CleanArchitecture90120231201.git
-   75c5bd7..f7667ad  master -> master
-Saturday, July 27, 2024 11:57:01 AM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Saturday, July 27, 2024 11:57:02 AM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 27, 2024 12:05:16 PM
-Saturday, July 27, 2024 12:05:16 PM
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   docs/GPU-Z Sensor Log.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Saturday, July 27, 2024 12:05:16 PM
-Saturday, July 27, 2024 12:05:16 PM
-[master 9e5d248] add all files
- 1 file changed, 7 insertions(+)
-Saturday, July 27, 2024 12:05:17 PM
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 736 bytes | 368.00 KiB/s, done.
+Writing objects: 100% (4/4), 23.49 KiB | 175.00 KiB/s, done.
 Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
 To github.com:patstha/CleanArchitecture90120231201.git
-   f7667ad..9e5d248  master -> master
-Saturday, July 27, 2024 12:05:18 PM
+   c4c0ca7..268726a  master -> master
+Saturday, July 27, 2024 12:25:03 PM
 * remote origin
   Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
   Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
@@ -306,6 +454,170 @@ Saturday, July 27, 2024 12:05:18 PM
     master tracked
   Local ref configured for 'git push':
     master pushes to master (up to date)
-Saturday, July 27, 2024 12:05:19 PM
+Saturday, July 27, 2024 12:25:03 PM
 
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Saturday, July 27, 2024 12:25:08 PM
+.NET SDK:
+ Version:           9.0.100-preview.6.24328.19
+ Commit:            ef4c241666
+ Workload version:  9.0.100-manifests.bbb3781c
+ MSBuild version:   17.11.0-preview-24318-05+4a45d5633
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.22631
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
+
+.NET workloads installed:
+Configured to use loose manifests when installing new manifests.
+ [aspire]
+   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
+   Manifest Version:    8.0.1/8.0.100
+   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
+   Install Type:        FileBased
+
+
+Host:
+  Version:      9.0.0-preview.6.24327.7
+  Architecture: x64
+  Commit:       static
+
+.NET SDKs installed:
+  8.0.303 [C:\Program Files\dotnet\sdk]
+  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+Saturday, July 27, 2024 12:25:09 PM
+Saturday, July 27, 2024 12:25:09 PM
+On branch master
+nothing to commit, working tree clean
+Saturday, July 27, 2024 12:25:09 PM
+Saturday, July 27, 2024 12:25:09 PM
+On branch master
+nothing to commit, working tree clean
+Saturday, July 27, 2024 12:25:09 PM
+Everything up-to-date
+Saturday, July 27, 2024 12:25:10 PM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Saturday, July 27, 2024 12:25:10 PM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Saturday, July 27, 2024 9:19:40 PM
+.NET SDK:
+ Version:           9.0.100-preview.6.24328.19
+ Commit:            ef4c241666
+ Workload version:  9.0.100-manifests.bbb3781c
+ MSBuild version:   17.11.0-preview-24318-05+4a45d5633
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.22631
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
+
+.NET workloads installed:
+Configured to use loose manifests when installing new manifests.
+ [aspire]
+   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
+   Manifest Version:    8.0.1/8.0.100
+   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
+   Install Type:        FileBased
+
+
+Host:
+  Version:      9.0.0-preview.6.24327.7
+  Architecture: x64
+  Commit:       static
+
+.NET SDKs installed:
+  8.0.303 [C:\Program Files\dotnet\sdk]
+  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+Saturday, July 27, 2024 9:19:41 PM
+Saturday, July 27, 2024 9:19:41 PM
+On branch master
+nothing to commit, working tree clean
+Saturday, July 27, 2024 9:19:41 PM
+Saturday, July 27, 2024 9:19:41 PM
+On branch master
+nothing to commit, working tree clean
+Saturday, July 27, 2024 9:19:41 PM
+Everything up-to-date
+Saturday, July 27, 2024 9:19:42 PM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Saturday, July 27, 2024 9:19:43 PM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
