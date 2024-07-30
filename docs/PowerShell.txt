@@ -1,123 +1,9 @@
 PowerShell 7.4.4
-PS C:\Users\kushal> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+PS C:\Users\kushal>
+PS C:\Users\kushal>
+PS C:\Users\kushal> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; gitpush origin --all; date; git remote show origin; date;
 
-Saturday, July 27, 2024 12:07:07 PM
-Saturday, July 27, 2024 12:07:07 PM
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   docs/GPU-Z Sensor Log.txt
-        modified:   docs/PowerShell.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Saturday, July 27, 2024 12:07:08 PM
-Saturday, July 27, 2024 12:07:08 PM
-[master c4c0ca7] add all files
- 2 files changed, 716 insertions(+)
-Saturday, July 27, 2024 12:07:08 PM
-Enumerating objects: 9, done.
-Counting objects: 100% (9/9), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (5/5), done.
-Writing objects: 100% (5/5), 14.43 KiB | 182.00 KiB/s, done.
-Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
-To github.com:patstha/CleanArchitecture90120231201.git
-   9e5d248..c4c0ca7  master -> master
-Saturday, July 27, 2024 12:07:10 PM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Saturday, July 27, 2024 12:07:10 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 27, 2024 12:07:34 PM
-Saturday, July 27, 2024 12:07:34 PM
-On branch master
-nothing to commit, working tree clean
-Saturday, July 27, 2024 12:07:34 PM
-Saturday, July 27, 2024 12:07:34 PM
-On branch master
-nothing to commit, working tree clean
-Saturday, July 27, 2024 12:07:34 PM
-Everything up-to-date
-Saturday, July 27, 2024 12:07:35 PM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Saturday, July 27, 2024 12:07:36 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 27, 2024 12:07:44 PM
-Saturday, July 27, 2024 12:07:44 PM
-On branch master
-nothing to commit, working tree clean
-Saturday, July 27, 2024 12:07:44 PM
-Saturday, July 27, 2024 12:07:44 PM
-On branch master
-nothing to commit, working tree clean
-Saturday, July 27, 2024 12:07:44 PM
-Everything up-to-date
-Saturday, July 27, 2024 12:07:45 PM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Saturday, July 27, 2024 12:07:46 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;
-
-Saturday, July 27, 2024 12:07:57 PM
-Updating all sources...
-Updating source: msstore...
-Done
-Updating source: winget...
-  ██████████████████████████████  100%
-Done
-Saturday, July 27, 2024 12:08:01 PM
-Name      Id                  Version  Available Source
--------------------------------------------------------
-Bitwarden Bitwarden.Bitwarden 2024.7.0 2024.7.1  winget
-1 upgrades available.
-Saturday, July 27, 2024 12:08:05 PM
-Name      Id                  Version  Available Source
--------------------------------------------------------
-Bitwarden Bitwarden.Bitwarden 2024.7.0 2024.7.1  winget
-1 upgrades available.
-
-(1/1) Found Bitwarden [Bitwarden.Bitwarden] Version 2024.7.1
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://github.com/bitwarden/clients/releases/download/desktop-v2024.7.1/Bitwarden-Installer-2024.7.1.exe
-  ██████████████████████████████   714 KB /  714 KB
-Successfully verified installer hash
-Starting package install...
-Successfully installed
-
-Saturday, July 27, 2024 12:08:24 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 27, 2024 12:09:39 PM
+Tuesday, July 30, 2024 1:41:26 PM
 .NET SDK:
  Version:           9.0.100-preview.6.24328.19
  Commit:            ef4c241666
@@ -169,520 +55,15 @@ Environment variables:
   Not set
 
 global.json file:
-  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
+  Not found
 
 Learn more:
   https://aka.ms/dotnet/info
 
 Download .NET:
   https://aka.ms/dotnet/download
-Saturday, July 27, 2024 12:09:40 PM
-Saturday, July 27, 2024 12:09:40 PM
-On branch master
-nothing to commit, working tree clean
-Saturday, July 27, 2024 12:09:40 PM
-Saturday, July 27, 2024 12:09:40 PM
-On branch master
-nothing to commit, working tree clean
-Saturday, July 27, 2024 12:09:40 PM
-Everything up-to-date
-Saturday, July 27, 2024 12:09:41 PM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Saturday, July 27, 2024 12:09:42 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 27, 2024 12:09:50 PM
-.NET SDK:
- Version:           9.0.100-preview.6.24328.19
- Commit:            ef4c241666
- Workload version:  9.0.100-manifests.bbb3781c
- MSBuild version:   17.11.0-preview-24318-05+4a45d5633
-
-Runtime Environment:
- OS Name:     Windows
- OS Version:  10.0.22631
- OS Platform: Windows
- RID:         win-x64
- Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
-
-.NET workloads installed:
-Configured to use loose manifests when installing new manifests.
- [aspire]
-   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
-   Manifest Version:    8.0.1/8.0.100
-   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
-   Install Type:        FileBased
-
-
-Host:
-  Version:      9.0.0-preview.6.24327.7
-  Architecture: x64
-  Commit:       static
-
-.NET SDKs installed:
-  8.0.303 [C:\Program Files\dotnet\sdk]
-  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
-  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
-
-.NET runtimes installed:
-  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-
-Other architectures found:
-  x86   [C:\Program Files (x86)\dotnet]
-    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
-
-Environment variables:
-  Not set
-
-global.json file:
-  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
-
-Learn more:
-  https://aka.ms/dotnet/info
-
-Download .NET:
-  https://aka.ms/dotnet/download
-Saturday, July 27, 2024 12:09:50 PM
-Saturday, July 27, 2024 12:09:50 PM
-On branch master
-nothing to commit, working tree clean
-Saturday, July 27, 2024 12:09:51 PM
-Saturday, July 27, 2024 12:09:51 PM
-On branch master
-nothing to commit, working tree clean
-Saturday, July 27, 2024 12:09:51 PM
-Everything up-to-date
-Saturday, July 27, 2024 12:09:52 PM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Saturday, July 27, 2024 12:09:53 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 27, 2024 12:24:41 PM
-.NET SDK:
- Version:           9.0.100-preview.6.24328.19
- Commit:            ef4c241666
- Workload version:  9.0.100-manifests.bbb3781c
- MSBuild version:   17.11.0-preview-24318-05+4a45d5633
-
-Runtime Environment:
- OS Name:     Windows
- OS Version:  10.0.22631
- OS Platform: Windows
- RID:         win-x64
- Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
-
-.NET workloads installed:
-Configured to use loose manifests when installing new manifests.
- [aspire]
-   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
-   Manifest Version:    8.0.1/8.0.100
-   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
-   Install Type:        FileBased
-
-
-Host:
-  Version:      9.0.0-preview.6.24327.7
-  Architecture: x64
-  Commit:       static
-
-.NET SDKs installed:
-  8.0.303 [C:\Program Files\dotnet\sdk]
-  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
-  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
-
-.NET runtimes installed:
-  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-
-Other architectures found:
-  x86   [C:\Program Files (x86)\dotnet]
-    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
-
-Environment variables:
-  Not set
-
-global.json file:
-  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
-
-Learn more:
-  https://aka.ms/dotnet/info
-
-Download .NET:
-  https://aka.ms/dotnet/download
-Saturday, July 27, 2024 12:24:42 PM
-Saturday, July 27, 2024 12:24:42 PM
-On branch master
-nothing to commit, working tree clean
-Saturday, July 27, 2024 12:24:42 PM
-Saturday, July 27, 2024 12:24:42 PM
-On branch master
-nothing to commit, working tree clean
-Saturday, July 27, 2024 12:24:42 PM
-Everything up-to-date
-Saturday, July 27, 2024 12:24:43 PM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Saturday, July 27, 2024 12:24:44 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 27, 2024 12:24:59 PM
-.NET SDK:
- Version:           9.0.100-preview.6.24328.19
- Commit:            ef4c241666
- Workload version:  9.0.100-manifests.bbb3781c
- MSBuild version:   17.11.0-preview-24318-05+4a45d5633
-
-Runtime Environment:
- OS Name:     Windows
- OS Version:  10.0.22631
- OS Platform: Windows
- RID:         win-x64
- Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
-
-.NET workloads installed:
-Configured to use loose manifests when installing new manifests.
- [aspire]
-   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
-   Manifest Version:    8.0.1/8.0.100
-   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
-   Install Type:        FileBased
-
-
-Host:
-  Version:      9.0.0-preview.6.24327.7
-  Architecture: x64
-  Commit:       static
-
-.NET SDKs installed:
-  8.0.303 [C:\Program Files\dotnet\sdk]
-  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
-  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
-
-.NET runtimes installed:
-  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-
-Other architectures found:
-  x86   [C:\Program Files (x86)\dotnet]
-    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
-
-Environment variables:
-  Not set
-
-global.json file:
-  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
-
-Learn more:
-  https://aka.ms/dotnet/info
-
-Download .NET:
-  https://aka.ms/dotnet/download
-Saturday, July 27, 2024 12:25:00 PM
-Saturday, July 27, 2024 12:25:00 PM
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   docs/GPU-Z Sensor Log.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Saturday, July 27, 2024 12:25:01 PM
-Saturday, July 27, 2024 12:25:01 PM
-[master 268726a] add all files
- 1 file changed, 1043 insertions(+)
-Saturday, July 27, 2024 12:25:01 PM
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 23.49 KiB | 175.00 KiB/s, done.
-Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
-To github.com:patstha/CleanArchitecture90120231201.git
-   c4c0ca7..268726a  master -> master
-Saturday, July 27, 2024 12:25:03 PM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Saturday, July 27, 2024 12:25:03 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 27, 2024 12:25:08 PM
-.NET SDK:
- Version:           9.0.100-preview.6.24328.19
- Commit:            ef4c241666
- Workload version:  9.0.100-manifests.bbb3781c
- MSBuild version:   17.11.0-preview-24318-05+4a45d5633
-
-Runtime Environment:
- OS Name:     Windows
- OS Version:  10.0.22631
- OS Platform: Windows
- RID:         win-x64
- Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
-
-.NET workloads installed:
-Configured to use loose manifests when installing new manifests.
- [aspire]
-   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
-   Manifest Version:    8.0.1/8.0.100
-   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
-   Install Type:        FileBased
-
-
-Host:
-  Version:      9.0.0-preview.6.24327.7
-  Architecture: x64
-  Commit:       static
-
-.NET SDKs installed:
-  8.0.303 [C:\Program Files\dotnet\sdk]
-  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
-  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
-
-.NET runtimes installed:
-  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-
-Other architectures found:
-  x86   [C:\Program Files (x86)\dotnet]
-    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
-
-Environment variables:
-  Not set
-
-global.json file:
-  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
-
-Learn more:
-  https://aka.ms/dotnet/info
-
-Download .NET:
-  https://aka.ms/dotnet/download
-Saturday, July 27, 2024 12:25:09 PM
-Saturday, July 27, 2024 12:25:09 PM
-On branch master
-nothing to commit, working tree clean
-Saturday, July 27, 2024 12:25:09 PM
-Saturday, July 27, 2024 12:25:09 PM
-On branch master
-nothing to commit, working tree clean
-Saturday, July 27, 2024 12:25:09 PM
-Everything up-to-date
-Saturday, July 27, 2024 12:25:10 PM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Saturday, July 27, 2024 12:25:10 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 27, 2024 9:19:40 PM
-.NET SDK:
- Version:           9.0.100-preview.6.24328.19
- Commit:            ef4c241666
- Workload version:  9.0.100-manifests.bbb3781c
- MSBuild version:   17.11.0-preview-24318-05+4a45d5633
-
-Runtime Environment:
- OS Name:     Windows
- OS Version:  10.0.22631
- OS Platform: Windows
- RID:         win-x64
- Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
-
-.NET workloads installed:
-Configured to use loose manifests when installing new manifests.
- [aspire]
-   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
-   Manifest Version:    8.0.1/8.0.100
-   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
-   Install Type:        FileBased
-
-
-Host:
-  Version:      9.0.0-preview.6.24327.7
-  Architecture: x64
-  Commit:       static
-
-.NET SDKs installed:
-  8.0.303 [C:\Program Files\dotnet\sdk]
-  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
-  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
-
-.NET runtimes installed:
-  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-
-Other architectures found:
-  x86   [C:\Program Files (x86)\dotnet]
-    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
-
-Environment variables:
-  Not set
-
-global.json file:
-  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
-
-Learn more:
-  https://aka.ms/dotnet/info
-
-Download .NET:
-  https://aka.ms/dotnet/download
-Saturday, July 27, 2024 9:19:41 PM
-Saturday, July 27, 2024 9:19:41 PM
-On branch master
-nothing to commit, working tree clean
-Saturday, July 27, 2024 9:19:41 PM
-Saturday, July 27, 2024 9:19:41 PM
-On branch master
-nothing to commit, working tree clean
-Saturday, July 27, 2024 9:19:41 PM
-Everything up-to-date
-Saturday, July 27, 2024 9:19:42 PM
-* remote origin
-  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-Saturday, July 27, 2024 9:19:43 PM
-
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
-
-Saturday, July 27, 2024 9:19:53 PM
-.NET SDK:
- Version:           9.0.100-preview.6.24328.19
- Commit:            ef4c241666
- Workload version:  9.0.100-manifests.bbb3781c
- MSBuild version:   17.11.0-preview-24318-05+4a45d5633
-
-Runtime Environment:
- OS Name:     Windows
- OS Version:  10.0.22631
- OS Platform: Windows
- RID:         win-x64
- Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
-
-.NET workloads installed:
-Configured to use loose manifests when installing new manifests.
- [aspire]
-   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
-   Manifest Version:    8.0.1/8.0.100
-   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
-   Install Type:        FileBased
-
-
-Host:
-  Version:      9.0.0-preview.6.24327.7
-  Architecture: x64
-  Commit:       static
-
-.NET SDKs installed:
-  8.0.303 [C:\Program Files\dotnet\sdk]
-  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
-  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
-
-.NET runtimes installed:
-  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-
-Other architectures found:
-  x86   [C:\Program Files (x86)\dotnet]
-    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
-
-Environment variables:
-  Not set
-
-global.json file:
-  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
-
-Learn more:
-  https://aka.ms/dotnet/info
-
-Download .NET:
-  https://aka.ms/dotnet/download
-Saturday, July 27, 2024 9:19:54 PM
-Saturday, July 27, 2024 9:19:54 PM
+Tuesday, July 30, 2024 1:41:27 PM
+Tuesday, July 30, 2024 1:41:27 PM
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -690,21 +71,21 @@ Changes not staged for commit:
         modified:   docs/PowerShell.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
-Saturday, July 27, 2024 9:19:54 PM
-Saturday, July 27, 2024 9:19:54 PM
-[master 164a1ec] add all files
- 1 file changed, 471 insertions(+), 159 deletions(-)
-Saturday, July 27, 2024 9:19:54 PM
+Tuesday, July 30, 2024 1:41:27 PM
+Tuesday, July 30, 2024 1:41:27 PM
+[master 3898fbe] add all files
+ 1 file changed, 95 insertions(+)
+Tuesday, July 30, 2024 1:41:27 PM
 Enumerating objects: 7, done.
 Counting objects: 100% (7/7), done.
 Delta compression using up to 8 threads
 Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 2.62 KiB | 670.00 KiB/s, done.
-Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+Writing objects: 100% (4/4), 629 bytes | 314.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To github.com:patstha/CleanArchitecture90120231201.git
-   268726a..164a1ec  master -> master
-Saturday, July 27, 2024 9:19:55 PM
+   164a1ec..3898fbe  master -> master
+Tuesday, July 30, 2024 1:41:28 PM
 * remote origin
   Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
   Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
@@ -713,6 +94,228 @@ Saturday, July 27, 2024 9:19:55 PM
     master tracked
   Local ref configured for 'git push':
     master pushes to master (up to date)
-Saturday, July 27, 2024 9:19:56 PM
+Tuesday, July 30, 2024 1:41:29 PM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> ssh kushal@kusfedoravm
+The authenticity of host 'kusfedoravm (fe80::e9d4:f8c2:22bf:21a9%14)' can't be established.
+ED25519 key fingerprint is SHA256:aMMRzHfaOIq5UCIfjKOkGckMtnOoE4nHQlulKMer1r0.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'kusfedoravm' (ED25519) to the list of known hosts.
+kushal@kusfedoravm's password:
+Last login: Tue Jul 30 12:04:48 2024 from fe80::975c:f636:bfb:5026%eth0
+kushal@kusfedoravm:~$ sudo echo "Current date and time: $(date)"; time sudo dnf offline-upgrade download && time sudo dnf offline-upgrade reboot;
+[sudo] password for kushal:
+Current date and time: Tue Jul 30 01:41:51 PM EDT 2024
+Fedora 40 - x86_64                                                                                                                                                                69 kB/s |  28 kB     00:00
+Fedora 40 openh264 (From Cisco) - x86_64                                                                                                                                         7.7 kB/s | 989  B     00:00
+Fedora 40 - x86_64 - Updates                                                                                                                                                     298 kB/s |  27 kB     00:00
+Fedora 40 - x86_64 - Updates                                                                                                                                                     3.5 MB/s | 3.4 MB     00:00
+Dependencies resolved.
+=================================================================================================================================================================================================================
+ Package                                                           Architecture                              Version                                            Repository                                  Size
+=================================================================================================================================================================================================================
+Upgrading:
+ curl                                                              x86_64                                    8.6.0-9.fc40                                       updates                                    299 k
+ evince                                                            x86_64                                    46.3.1-1.fc40                                      updates                                    2.0 M
+ evince-djvu                                                       x86_64                                    46.3.1-1.fc40                                      updates                                     30 k
+ evince-libs                                                       x86_64                                    46.3.1-1.fc40                                      updates                                    347 k
+ evince-previewer                                                  x86_64                                    46.3.1-1.fc40                                      updates                                     33 k
+ evince-thumbnailer                                                x86_64                                    46.3.1-1.fc40                                      updates                                     17 k
+ freerdp-libs                                                      x86_64                                    2:3.6.3-1.fc40                                     updates                                    1.4 M
+ libcurl-minimal                                                   x86_64                                    8.6.0-9.fc40                                       updates                                    273 k
+ libwinpr                                                          x86_64                                    2:3.6.3-1.fc40                                     updates                                    383 k
+ nbdkit                                                            x86_64                                    1.38.3-1.fc40                                      updates                                     15 k
+ nbdkit-basic-filters                                              x86_64                                    1.38.3-1.fc40                                      updates                                    331 k
+ nbdkit-basic-plugins                                              x86_64                                    1.38.3-1.fc40                                      updates                                    215 k
+ nbdkit-curl-plugin                                                x86_64                                    1.38.3-1.fc40                                      updates                                     45 k
+ nbdkit-selinux                                                    noarch                                    1.38.3-1.fc40                                      updates                                     29 k
+ nbdkit-server                                                     x86_64                                    1.38.3-1.fc40                                      updates                                    131 k
+ nbdkit-ssh-plugin                                                 x86_64                                    1.38.3-1.fc40                                      updates                                     34 k
+ sane-backends                                                     x86_64                                    1.3.1-1.fc40                                       updates                                    866 k
+ sane-backends-drivers-cameras                                     x86_64                                    1.3.1-1.fc40                                       updates                                    2.9 M
+ sane-backends-drivers-scanners                                    x86_64                                    1.3.1-1.fc40                                       updates                                    2.8 M
+ sane-backends-libs                                                x86_64                                    1.3.1-1.fc40                                       updates                                     48 k
+ selinux-policy                                                    noarch                                    40.26-1.fc40                                       updates                                     60 k
+ selinux-policy-targeted                                           noarch                                    40.26-1.fc40                                       updates                                    6.9 M
+
+Transaction Summary
+=================================================================================================================================================================================================================
+Upgrade  22 Packages
+
+Total download size: 19 M
+DNF will only download packages, install gpg keys, and check the transaction.
+Is this ok [y/N]:
+Operation aborted.
+
+real    0m8.780s
+user    0m0.005s
+sys     0m0.023s
+kushal@kusfedoravm:~$ sudo echo "Current date and time: $(date)"; time sudo dnf offline-upgrade download -y && time sudo dnf offline-upgrade reboot;
+Current date and time: Tue Jul 30 01:42:15 PM EDT 2024
+Fedora 40 - x86_64                                                                                                                                                               140 kB/s |  28 kB     00:00
+Fedora 40 openh264 (From Cisco) - x86_64                                                                                                                                         3.4 kB/s | 989  B     00:00
+Fedora 40 - x86_64 - Updates                                                                                                                                                      79 kB/s |  27 kB     00:00
+Dependencies resolved.
+=================================================================================================================================================================================================================
+ Package                                                           Architecture                              Version                                            Repository                                  Size
+=================================================================================================================================================================================================================
+Upgrading:
+ curl                                                              x86_64                                    8.6.0-9.fc40                                       updates                                    299 k
+ evince                                                            x86_64                                    46.3.1-1.fc40                                      updates                                    2.0 M
+ evince-djvu                                                       x86_64                                    46.3.1-1.fc40                                      updates                                     30 k
+ evince-libs                                                       x86_64                                    46.3.1-1.fc40                                      updates                                    347 k
+ evince-previewer                                                  x86_64                                    46.3.1-1.fc40                                      updates                                     33 k
+ evince-thumbnailer                                                x86_64                                    46.3.1-1.fc40                                      updates                                     17 k
+ freerdp-libs                                                      x86_64                                    2:3.6.3-1.fc40                                     updates                                    1.4 M
+ libcurl-minimal                                                   x86_64                                    8.6.0-9.fc40                                       updates                                    273 k
+ libwinpr                                                          x86_64                                    2:3.6.3-1.fc40                                     updates                                    383 k
+ nbdkit                                                            x86_64                                    1.38.3-1.fc40                                      updates                                     15 k
+ nbdkit-basic-filters                                              x86_64                                    1.38.3-1.fc40                                      updates                                    331 k
+ nbdkit-basic-plugins                                              x86_64                                    1.38.3-1.fc40                                      updates                                    215 k
+ nbdkit-curl-plugin                                                x86_64                                    1.38.3-1.fc40                                      updates                                     45 k
+ nbdkit-selinux                                                    noarch                                    1.38.3-1.fc40                                      updates                                     29 k
+ nbdkit-server                                                     x86_64                                    1.38.3-1.fc40                                      updates                                    131 k
+ nbdkit-ssh-plugin                                                 x86_64                                    1.38.3-1.fc40                                      updates                                     34 k
+ sane-backends                                                     x86_64                                    1.3.1-1.fc40                                       updates                                    866 k
+ sane-backends-drivers-cameras                                     x86_64                                    1.3.1-1.fc40                                       updates                                    2.9 M
+ sane-backends-drivers-scanners                                    x86_64                                    1.3.1-1.fc40                                       updates                                    2.8 M
+ sane-backends-libs                                                x86_64                                    1.3.1-1.fc40                                       updates                                     48 k
+ selinux-policy                                                    noarch                                    40.26-1.fc40                                       updates                                     60 k
+ selinux-policy-targeted                                           noarch                                    40.26-1.fc40                                       updates                                    6.9 M
+
+Transaction Summary
+=================================================================================================================================================================================================================
+Upgrade  22 Packages
+
+Total download size: 19 M
+DNF will only download packages, install gpg keys, and check the transaction.
+Downloading Packages:
+(1/22): evince-djvu-46.3.1-1.fc40.x86_64.rpm                                                                                                                                     157 kB/s |  30 kB     00:00
+(2/22): curl-8.6.0-9.fc40.x86_64.rpm                                                                                                                                             1.1 MB/s | 299 kB     00:00
+(3/22): evince-previewer-46.3.1-1.fc40.x86_64.rpm                                                                                                                                753 kB/s |  33 kB     00:00
+(4/22): evince-thumbnailer-46.3.1-1.fc40.x86_64.rpm                                                                                                                              291 kB/s |  17 kB     00:00
+(5/22): evince-libs-46.3.1-1.fc40.x86_64.rpm                                                                                                                                     1.9 MB/s | 347 kB     00:00
+(6/22): evince-46.3.1-1.fc40.x86_64.rpm                                                                                                                                          4.3 MB/s | 2.0 MB     00:00
+(7/22): libcurl-minimal-8.6.0-9.fc40.x86_64.rpm                                                                                                                                  2.6 MB/s | 273 kB     00:00
+(8/22): libwinpr-3.6.3-1.fc40.x86_64.rpm                                                                                                                                         6.5 MB/s | 383 kB     00:00
+(9/22): nbdkit-1.38.3-1.fc40.x86_64.rpm                                                                                                                                          255 kB/s |  15 kB     00:00
+(10/22): freerdp-libs-3.6.3-1.fc40.x86_64.rpm                                                                                                                                    8.0 MB/s | 1.4 MB     00:00
+(11/22): nbdkit-basic-filters-1.38.3-1.fc40.x86_64.rpm                                                                                                                           5.9 MB/s | 331 kB     00:00
+(12/22): nbdkit-curl-plugin-1.38.3-1.fc40.x86_64.rpm                                                                                                                             1.0 MB/s |  45 kB     00:00
+(13/22): nbdkit-basic-plugins-1.38.3-1.fc40.x86_64.rpm                                                                                                                           3.2 MB/s | 215 kB     00:00
+(14/22): nbdkit-selinux-1.38.3-1.fc40.noarch.rpm                                                                                                                                 842 kB/s |  29 kB     00:00
+(15/22): nbdkit-server-1.38.3-1.fc40.x86_64.rpm                                                                                                                                  3.1 MB/s | 131 kB     00:00
+(16/22): nbdkit-ssh-plugin-1.38.3-1.fc40.x86_64.rpm                                                                                                                              870 kB/s |  34 kB     00:00
+(17/22): sane-backends-1.3.1-1.fc40.x86_64.rpm                                                                                                                                    13 MB/s | 866 kB     00:00
+(18/22): sane-backends-libs-1.3.1-1.fc40.x86_64.rpm                                                                                                                              1.0 MB/s |  48 kB     00:00
+(19/22): selinux-policy-40.26-1.fc40.noarch.rpm                                                                                                                                  1.4 MB/s |  60 kB     00:00
+(20/22): sane-backends-drivers-cameras-1.3.1-1.fc40.x86_64.rpm                                                                                                                    13 MB/s | 2.9 MB     00:00
+(21/22): sane-backends-drivers-scanners-1.3.1-1.fc40.x86_64.rpm                                                                                                                  7.4 MB/s | 2.8 MB     00:00
+(22/22): selinux-policy-targeted-40.26-1.fc40.noarch.rpm                                                                                                                          21 MB/s | 6.9 MB     00:00
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                                                                             13 MB/s |  19 MB     00:01
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Complete!
+Transaction saved to /var/lib/dnf/system-upgrade/system-upgrade-transaction.json.
+Download complete! Use 'dnf offline-upgrade reboot' to start the upgrade.
+To remove cached metadata and transaction use 'dnf offline-upgrade clean'
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing 'dnf clean packages'.
+
+real    0m4.441s
+user    0m0.009s
+sys     0m0.023s
+
+Broadcast message from root@kusfedoravm on pts/2 (Tue 2024-07-30 13:42:19 EDT):
+
+The system will reboot now!
+
+Connection to kusfedoravm closed by remote host.
+Connection to kusfedoravm closed.
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Tuesday, July 30, 2024 1:42:31 PM
+.NET SDK:
+ Version:           9.0.100-preview.6.24328.19
+ Commit:            ef4c241666
+ Workload version:  9.0.100-manifests.bbb3781c
+ MSBuild version:   17.11.0-preview-24318-05+4a45d5633
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.22631
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
+
+.NET workloads installed:
+Configured to use loose manifests when installing new manifests.
+ [aspire]
+   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
+   Manifest Version:    8.0.1/8.0.100
+   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
+   Install Type:        FileBased
+
+
+Host:
+  Version:      9.0.0-preview.6.24327.7
+  Architecture: x64
+  Commit:       static
+
+.NET SDKs installed:
+  8.0.303 [C:\Program Files\dotnet\sdk]
+  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+Tuesday, July 30, 2024 1:42:32 PM
+Tuesday, July 30, 2024 1:42:32 PM
+On branch master
+nothing to commit, working tree clean
+Tuesday, July 30, 2024 1:42:32 PM
+Tuesday, July 30, 2024 1:42:32 PM
+On branch master
+nothing to commit, working tree clean
+Tuesday, July 30, 2024 1:42:32 PM
+Everything up-to-date
+Tuesday, July 30, 2024 1:42:33 PM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Tuesday, July 30, 2024 1:42:33 PM
 
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
