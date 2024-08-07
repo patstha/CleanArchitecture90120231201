@@ -176,3 +176,425 @@ kushal@kusfedoravm:~$ exit
 logout
 Connection to kusfedoravm closed.
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Wednesday, August 7, 2024 5:41:46 AM
+Updating all sources...
+Updating source: msstore...
+Done
+Updating source: winget...
+Done
+Wednesday, August 7, 2024 5:41:46 AM
+No installed package found matching input criteria.
+Wednesday, August 7, 2024 5:41:49 AM
+No installed package found matching input criteria.
+Wednesday, August 7, 2024 5:41:53 AM
+Wednesday, August 7, 2024 5:41:53 AM
+.NET SDK:
+ Version:           9.0.100-preview.6.24328.19
+ Commit:            ef4c241666
+ Workload version:  9.0.100-manifests.bbb3781c
+ MSBuild version:   17.11.0-preview-24318-05+4a45d5633
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.22631
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
+
+.NET workloads installed:
+Configured to use loose manifests when installing new manifests.
+ [aspire]
+   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
+   Manifest Version:    8.0.1/8.0.100
+   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
+   Install Type:        FileBased
+
+
+Host:
+  Version:      9.0.0-preview.6.24327.7
+  Architecture: x64
+  Commit:       static
+
+.NET SDKs installed:
+  8.0.303 [C:\Program Files\dotnet\sdk]
+  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+Wednesday, August 7, 2024 5:41:53 AM
+Wednesday, August 7, 2024 5:41:53 AM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Wednesday, August 7, 2024 5:41:53 AM
+Wednesday, August 7, 2024 5:41:53 AM
+[master 1616525] add all files
+ 1 file changed, 84 insertions(+), 716 deletions(-)
+Wednesday, August 7, 2024 5:41:54 AM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.09 KiB | 556.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   8e0c74e..1616525  master -> master
+Wednesday, August 7, 2024 5:41:55 AM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Wednesday, August 7, 2024 5:41:56 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> cd C:\Users\kushal\src\dotnet; date; git clone git@github.com:sansemmanuel/open-source-crm.git; date;
+
+Wednesday, August 7, 2024 5:47:54 AM
+Cloning into 'open-source-crm'...
+remote: Enumerating objects: 180, done.
+remote: Counting objects: 100% (180/180), done.
+remote: Compressing objects: 100% (120/120), done.
+remote: Total 180 (delta 43), reused 173 (delta 41), pack-reused 0
+Receiving objects: 100% (180/180), 11.29 MiB | 9.79 MiB/s, done.
+Resolving deltas: 100% (43/43), done.
+Wednesday, August 7, 2024 5:47:57 AM
+
+PS C:\Users\kushal\src\dotnet> cd C:\Users\kushal\src\dotnet\open-source-crm\; date; dotnet --info; date; dotnet restore; date; dotnet build; date;
+
+Wednesday, August 7, 2024 5:48:37 AM
+.NET SDK:
+ Version:           9.0.100-preview.6.24328.19
+ Commit:            ef4c241666
+ Workload version:  9.0.100-manifests.bbb3781c
+ MSBuild version:   17.11.0-preview-24318-05+4a45d5633
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.22631
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
+
+.NET workloads installed:
+Configured to use loose manifests when installing new manifests.
+ [aspire]
+   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
+   Manifest Version:    8.0.1/8.0.100
+   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
+   Install Type:        FileBased
+
+
+Host:
+  Version:      9.0.0-preview.6.24327.7
+  Architecture: x64
+  Commit:       static
+
+.NET SDKs installed:
+  8.0.303 [C:\Program Files\dotnet\sdk]
+  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  Not found
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+Wednesday, August 7, 2024 5:48:37 AM
+
+Welcome to .NET 9.0!
+---------------------
+SDK Version: 9.0.100-preview.6.24328.19
+
+Telemetry
+---------
+The .NET tools collect usage data in order to help us improve your experience. It is collected by Microsoft and shared with the community. You can opt-out of telemetry by setting the DOTNET_CLI_TELEMETRY_OPTOUT environment variable to '1' or 'true' using your favorite shell.
+
+Read more about .NET CLI Tools telemetry: https://aka.ms/dotnet-cli-telemetry
+
+----------------
+Installed an ASP.NET Core HTTPS development certificate.
+To trust the certificate, run 'dotnet dev-certs https --trust'
+Learn about HTTPS: https://aka.ms/dotnet-https
+
+----------------
+Write your first app: https://aka.ms/dotnet-hello-world
+Find out what's new: https://aka.ms/dotnet-whats-new
+Explore documentation: https://aka.ms/dotnet-docs
+Report issues and find source on GitHub: https://github.com/dotnet/core
+Use 'dotnet --help' to see available commands or visit: https://aka.ms/dotnet-cli
+--------------------------------------------------------------------------------------
+MSBUILD : error MSB1003: Specify a project or solution file. The current working directory does not contain a project or solution file.
+Wednesday, August 7, 2024 5:48:38 AM
+MSBUILD : error MSB1003: Specify a project or solution file. The current working directory does not contain a project or solution file.
+Wednesday, August 7, 2024 5:48:38 AM
+
+PS C:\Users\kushal\src\dotnet\open-source-crm> cd C:\Users\kushal\src\dotnet\open-source-crm\crm; date; dotnet --info; date; dotnet restore; date; dotnet build; date;
+
+Wednesday, August 7, 2024 5:49:14 AM
+.NET SDK:
+ Version:           9.0.100-preview.6.24328.19
+ Commit:            ef4c241666
+ Workload version:  9.0.100-manifests.bbb3781c
+ MSBuild version:   17.11.0-preview-24318-05+4a45d5633
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.22631
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
+
+.NET workloads installed:
+Configured to use loose manifests when installing new manifests.
+ [aspire]
+   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
+   Manifest Version:    8.0.1/8.0.100
+   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
+   Install Type:        FileBased
+
+
+Host:
+  Version:      9.0.0-preview.6.24327.7
+  Architecture: x64
+  Commit:       static
+
+.NET SDKs installed:
+  8.0.303 [C:\Program Files\dotnet\sdk]
+  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  Not found
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+Wednesday, August 7, 2024 5:49:15 AM
+MSBUILD : error MSB1011: Specify which project or solution file to use because this folder contains more than one project or solution file.
+Wednesday, August 7, 2024 5:49:15 AM
+MSBUILD : error MSB1011: Specify which project or solution file to use because this folder contains more than one project or solution file.
+Wednesday, August 7, 2024 5:49:15 AM
+
+PS C:\Users\kushal\src\dotnet\open-source-crm\crm> cd C:\Users\kushal\src\dotnet\open-source-crm; date; dotnet --info; date; dotnet restore -o crm\Gym.sln; date; dotnet build -o crm\Gym.sln; date;
+
+Wednesday, August 7, 2024 5:49:59 AM
+.NET SDK:
+ Version:           9.0.100-preview.6.24328.19
+ Commit:            ef4c241666
+ Workload version:  9.0.100-manifests.bbb3781c
+ MSBuild version:   17.11.0-preview-24318-05+4a45d5633
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.22631
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
+
+.NET workloads installed:
+Configured to use loose manifests when installing new manifests.
+ [aspire]
+   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
+   Manifest Version:    8.0.1/8.0.100
+   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
+   Install Type:        FileBased
+
+
+Host:
+  Version:      9.0.0-preview.6.24327.7
+  Architecture: x64
+  Commit:       static
+
+.NET SDKs installed:
+  8.0.303 [C:\Program Files\dotnet\sdk]
+  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  Not found
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+Wednesday, August 7, 2024 5:50:00 AM
+MSBUILD : error MSB1001: Unknown switch.
+    Full command line: 'C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\MSBuild.dll -maxcpucount -verbosity:m -tlp:default=auto -nologo -target:Restore -o crm\Gym.sln -distributedlogger:Microsoft.DotNet.Tools.MSBuild.MSBuildLogger,C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\dotnet.dll*Microsoft.DotNet.Tools.MSBuild.MSBuildForwardingLogger,C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\dotnet.dll'
+  Switches appended by response files:
+Switch: -o
+
+For switch syntax, type "MSBuild -help"
+Wednesday, August 7, 2024 5:50:00 AM
+MSBUILD : error MSB1003: Specify a project or solution file. The current working directory does not contain a project or solution file.
+Wednesday, August 7, 2024 5:50:00 AM
+
+PS C:\Users\kushal\src\dotnet\open-source-crm> cd C:\Users\kushal\src\dotnet\open-source-crm; date; dotnet --info; date; dotnet restore crm\Gym.sln; date; dotnet build crm\Gym.sln; date;
+
+Wednesday, August 7, 2024 5:50:34 AM
+.NET SDK:
+ Version:           9.0.100-preview.6.24328.19
+ Commit:            ef4c241666
+ Workload version:  9.0.100-manifests.bbb3781c
+ MSBuild version:   17.11.0-preview-24318-05+4a45d5633
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.22631
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
+
+.NET workloads installed:
+Configured to use loose manifests when installing new manifests.
+ [aspire]
+   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
+   Manifest Version:    8.0.1/8.0.100
+   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
+   Install Type:        FileBased
+
+
+Host:
+  Version:      9.0.0-preview.6.24327.7
+  Architecture: x64
+  Commit:       static
+
+.NET SDKs installed:
+  8.0.303 [C:\Program Files\dotnet\sdk]
+  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  Not found
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+Wednesday, August 7, 2024 5:50:34 AM
+    C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\NuGet.targets(465,5): error MSB3202: The project file "C:\Users\kushal\src\dotnet\open-source-crm\Dominio\Domain.csproj" was not found.
+    C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\NuGet.targets(465,5): error MSB3202: The project file "C:\Users\kushal\src\dotnet\open-source-crm\Negocio\Business.csproj" was not found.
+
+Restore failed with 2 error(s) in 0.5s
+Wednesday, August 7, 2024 5:50:35 AM
+    C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\NuGet.targets(465,5): error MSB3202: The project file "C:\Users\kushal\src\dotnet\open-source-crm\Dominio\Domain.csproj" was not found.
+    C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\NuGet.targets(465,5): error MSB3202: The project file "C:\Users\kushal\src\dotnet\open-source-crm\Negocio\Business.csproj" was not found.
+
+Restore failed with 2 error(s) in 0.4s
+Wednesday, August 7, 2024 5:50:36 AM
+
+PS C:\Users\kushal\src\dotnet\open-source-crm>
+PS C:\Users\kushal\src\dotnet\open-source-crm> dotnet new gitignore
+The template "dotnet gitignore file" was created successfully.
