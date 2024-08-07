@@ -398,3 +398,307 @@ Wednesday, August 7, 2024 5:16:56 AM
 Wednesday, August 7, 2024 5:16:57 AM
 
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Wednesday, August 7, 2024 5:17:11 AM
+.NET SDK:
+ Version:           9.0.100-preview.6.24328.19
+ Commit:            ef4c241666
+ Workload version:  9.0.100-manifests.bbb3781c
+ MSBuild version:   17.11.0-preview-24318-05+4a45d5633
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.22631
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
+
+.NET workloads installed:
+Configured to use loose manifests when installing new manifests.
+ [aspire]
+   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
+   Manifest Version:    8.0.1/8.0.100
+   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
+   Install Type:        FileBased
+
+
+Host:
+  Version:      9.0.0-preview.6.24327.7
+  Architecture: x64
+  Commit:       static
+
+.NET SDKs installed:
+  8.0.303 [C:\Program Files\dotnet\sdk]
+  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+Wednesday, August 7, 2024 5:17:12 AM
+Wednesday, August 7, 2024 5:17:12 AM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Wednesday, August 7, 2024 5:17:12 AM
+Wednesday, August 7, 2024 5:17:12 AM
+[master a87838c] add all files
+ 1 file changed, 219 insertions(+), 110 deletions(-)
+Wednesday, August 7, 2024 5:17:12 AM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 3.94 KiB | 1.97 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   3f1d17d..a87838c  master -> master
+Wednesday, August 7, 2024 5:17:14 AM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Wednesday, August 7, 2024 5:17:15 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Wednesday, August 7, 2024 5:17:44 AM
+Updating all sources...
+Updating source: msstore...
+Done
+Updating source: winget...
+  ██████████████████████████████  100%
+Done
+Wednesday, August 7, 2024 5:17:47 AM
+Name                                     Id                               Version       Available     Source
+------------------------------------------------------------------------------------------------------------
+Git                                      Git.Git                          2.45.2        2.46.0        winget
+IntelliJ IDEA Community Edition 2024.1.4 JetBrains.IntelliJIDEA.Community 2024.1.4      2024.1.5      winget
+Microsoft Edge WebView2 Runtime          Microsoft.EdgeWebView2Runtime    127.0.2651.74 127.0.2651.86 winget
+PyCharm Community Edition 2024.1.4       JetBrains.PyCharm.Community      2024.1.4      2024.1.5      winget
+Signal 7.18.0                            OpenWhisperSystems.Signal        7.18.0        7.19.0        winget
+FFmpeg (Essentials Build)                Gyan.FFmpeg.Essentials           7.0.1         7.0.2         winget
+Microsoft Visual Studio Code (User)      Microsoft.VisualStudioCode       1.91.1        1.92.0        winget
+PowerToys (Preview) x64                  Microsoft.PowerToys              0.82.1        0.83.0        winget
+DuckDuckGo                               DuckDuckGo.DesktopBrowser        0.85.5.0      0.87.2.0      winget
+9 upgrades available.
+Wednesday, August 7, 2024 5:17:52 AM
+Name                                     Id                               Version       Available     Source
+------------------------------------------------------------------------------------------------------------
+Git                                      Git.Git                          2.45.2        2.46.0        winget
+IntelliJ IDEA Community Edition 2024.1.4 JetBrains.IntelliJIDEA.Community 2024.1.4      2024.1.5      winget
+Microsoft Edge WebView2 Runtime          Microsoft.EdgeWebView2Runtime    127.0.2651.74 127.0.2651.86 winget
+PyCharm Community Edition 2024.1.4       JetBrains.PyCharm.Community      2024.1.4      2024.1.5      winget
+Signal 7.18.0                            OpenWhisperSystems.Signal        7.18.0        7.19.0        winget
+FFmpeg (Essentials Build)                Gyan.FFmpeg.Essentials           7.0.1         7.0.2         winget
+Microsoft Visual Studio Code (User)      Microsoft.VisualStudioCode       1.91.1        1.92.0        winget
+PowerToys (Preview) x64                  Microsoft.PowerToys              0.82.1        0.83.0        winget
+DuckDuckGo                               DuckDuckGo.DesktopBrowser        0.85.5.0      0.87.2.0      winget
+9 upgrades available.
+
+(1/9) Found Git [Git.Git] Version 2.46.0
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/Git-2.46.0-64-bit.exe
+  ██████████████████████████████  65.0 MB / 65.0 MB
+Successfully verified installer hash
+Starting package install...
+The installer will request to run as administrator, expect a prompt.
+Successfully installed
+
+(2/9) Found IntelliJ IDEA Community Edition [JetBrains.IntelliJIDEA.Community] Version 2024.1.5
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://download.jetbrains.com/idea/ideaIC-2024.1.5.exe
+  ██████████████████████████████   570 MB /  570 MB
+Successfully verified installer hash
+Starting package uninstall...
+Successfully uninstalled
+Starting package install...
+Successfully installed
+
+(3/9) Found Microsoft Edge WebView2 Runtime [Microsoft.EdgeWebView2Runtime] Version 127.0.2651.86
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/c638b5d5-4b2f-4845-baab-c9f4fd6c58ab/MicrosoftEdgeWebView2RuntimeInstallerX64.exe
+  ██████████████████████████████   169 MB /  169 MB
+Successfully verified installer hash
+Starting package install...
+The installer will request to run as administrator, expect a prompt.
+Successfully installed
+
+(4/9) Found PyCharm Community Edition [JetBrains.PyCharm.Community] Version 2024.1.5
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://download.jetbrains.com/python/pycharm-community-2024.1.5.exe
+  ██████████████████████████████   457 MB /  457 MB
+Successfully verified installer hash
+Starting package uninstall...
+Successfully uninstalled
+Starting package install...
+Successfully installed
+
+(5/9) Found Signal [OpenWhisperSystems.Signal] Version 7.19.0
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://updates.signal.org/desktop/signal-desktop-win-7.19.0.exe
+  ██████████████████████████████   125 MB /  125 MB
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+
+(6/9) Found FFmpeg (Essentials Build) [Gyan.FFmpeg.Essentials] Version 7.0.2
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://github.com/GyanD/codexffmpeg/releases/download/7.0.2/ffmpeg-7.0.2-essentials_build.zip
+  ██████████████████████████████  87.1 MB / 87.1 MB
+Successfully verified installer hash
+Extracting archive...
+Successfully extracted archive
+Starting package install...
+Command line alias added: "ffmpeg"
+Command line alias added: "ffplay"
+Command line alias added: "ffprobe"
+Successfully installed
+
+(7/9) Found Microsoft Visual Studio Code [Microsoft.VisualStudioCode] Version 1.92.0
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://vscode.download.prss.microsoft.com/dbazure/download/stable/b1c0a14de1414fcdaa400695b4db1c0799bc3124/VSCodeUserSetup-x64-1.92.0.exe
+  ██████████████████████████████  95.6 MB / 95.6 MB
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+
+(8/9) Found PowerToys (Preview) [Microsoft.PowerToys] Version 0.83.0
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://github.com/microsoft/PowerToys/releases/download/v0.83.0/PowerToysUserSetup-0.83.0-x64.exe
+  ██████████████████████████████   257 MB /  257 MB
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+
+(9/9) Found DuckDuckGo [DuckDuckGo.DesktopBrowser] Version 0.87.2.0
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Successfully verified installer hash
+Starting package install...
+  ██████████████████████████████  100%
+Successfully installed
+
+Wednesday, August 7, 2024 5:28:39 AM
+Wednesday, August 7, 2024 5:28:39 AM
+.NET SDK:
+ Version:           9.0.100-preview.6.24328.19
+ Commit:            ef4c241666
+ Workload version:  9.0.100-manifests.bbb3781c
+ MSBuild version:   17.11.0-preview-24318-05+4a45d5633
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.22631
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
+
+.NET workloads installed:
+Configured to use loose manifests when installing new manifests.
+ [aspire]
+   Installation Source: VS 17.11.35118.90, VS 17.10.35122.118
+   Manifest Version:    8.0.1/8.0.100
+   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.0.1\WorkloadManifest.json
+   Install Type:        FileBased
+
+
+Host:
+  Version:      9.0.0-preview.6.24327.7
+  Architecture: x64
+  Commit:       static
+
+.NET SDKs installed:
+  8.0.303 [C:\Program Files\dotnet\sdk]
+  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+Wednesday, August 7, 2024 5:28:41 AM
+Wednesday, August 7, 2024 5:28:41 AM
+On branch master
+nothing to commit, working tree clean
+Wednesday, August 7, 2024 5:28:42 AM
+Wednesday, August 7, 2024 5:28:42 AM
+On branch master
+nothing to commit, working tree clean
+Wednesday, August 7, 2024 5:28:42 AM
+Everything up-to-date
+Wednesday, August 7, 2024 5:28:44 AM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Wednesday, August 7, 2024 5:28:45 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
