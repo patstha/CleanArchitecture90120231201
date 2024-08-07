@@ -7626,183 +7626,6 @@
    at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
    at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
    at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
-   at Microsoft.Build.Construction.ProjectInSolution.GetUniqueProjectName()
    at Microsoft.Build.Construction.SolutionFile.ParseSolution()
    at Microsoft.Build.Construction.SolutionFile.ParseSolutionFile()
    at Microsoft.Build.Construction.SolutionFile.Parse(System.String)
@@ -9016,3 +8839,179 @@ Build failed with 3 error(s) and 2 warning(s) in 1.7s
 Wednesday, August 7, 2024 6:22:04 AM
 
 PS C:\Users\kushal\src\dotnet\open-source-crm> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+
+Wednesday, August 7, 2024 7:04:07 AM
+Updating all sources...
+Updating source: msstore...
+Done
+Updating source: winget...
+Done
+Wednesday, August 7, 2024 7:04:07 AM
+No installed package found matching input criteria.
+Wednesday, August 7, 2024 7:04:10 AM
+No installed package found matching input criteria.
+Wednesday, August 7, 2024 7:04:14 AM
+Wednesday, August 7, 2024 7:04:14 AM
+.NET SDK:
+ Version:           9.0.100-preview.6.24328.19
+ Commit:            ef4c241666
+ Workload version:  9.0.100-manifests.d3114dbd
+ MSBuild version:   17.11.0-preview-24318-05+4a45d5633
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.22631
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
+
+.NET workloads installed:
+Configured to use loose manifests when installing new manifests.
+ [aspire]
+   Installation Source: VS 17.11.35201.85, VS 17.10.35122.118
+   Manifest Version:    8.1.0/8.0.100
+   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.1.0\WorkloadManifest.json
+   Install Type:        FileBased
+
+
+Host:
+  Version:      9.0.0-preview.6.24327.7
+  Architecture: x64
+  Commit:       static
+
+.NET SDKs installed:
+  8.0.303 [C:\Program Files\dotnet\sdk]
+  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  Not found
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+Wednesday, August 7, 2024 7:04:14 AM
+Wednesday, August 7, 2024 7:04:14 AM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Wednesday, August 7, 2024 7:04:14 AM
+Wednesday, August 7, 2024 7:04:14 AM
+[master 64d8ed9] add all files
+ 1 file changed, 349 insertions(+), 373 deletions(-)
+Wednesday, August 7, 2024 7:04:15 AM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.29 KiB | 220.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   e84c105..64d8ed9  master -> master
+Wednesday, August 7, 2024 7:04:16 AM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Wednesday, August 7, 2024 7:04:17 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> go run github.com/1fpsvideo/1fps@v0.1.1
+go: downloading github.com/1fpsvideo/1fps v0.1.1
+go: downloading github.com/go-vgo/robotgo v0.110.1
+go: downloading github.com/gorilla/websocket v1.5.1
+go: downloading github.com/kbinani/screenshot v0.0.0-20230812210009-b87d31814237
+go: downloading golang.org/x/crypto v0.25.0
+go: downloading golang.org/x/image v0.16.0
+go: downloading github.com/lxn/win v0.0.0-20210218163916-a377121e959e
+go: downloading github.com/vcaesar/gops v0.30.2
+go: downloading github.com/vcaesar/imgo v0.40.0
+go: downloading github.com/vcaesar/keycode v0.10.1
+go: downloading github.com/vcaesar/tt v0.20.0
+go: downloading golang.org/x/net v0.21.0
+go: downloading github.com/shirou/gopsutil/v3 v3.23.8
+go: downloading golang.org/x/sys v0.22.0
+go: downloading github.com/yusufpapurcu/wmi v1.2.3
+go: downloading github.com/go-ole/go-ole v1.3.0
+# github.com/go-vgo/robotgo
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\img.go:92:40: undefined: Bitmap
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\img.go:107:38: undefined: Bitmap
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\img.go:137:20: undefined: Bitmap
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\screen.go:26:28: undefined: Rect
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\robotgo_fn_v1.go:9:2: undefined: Move
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\robotgo_fn_v1.go:17:2: undefined: Toggle
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\robotgo_fn_v1.go:18:2: undefined: MilliSleep
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\robotgo_fn_v1.go:20:2: undefined: MoveSmooth
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\robotgo_fn_v1.go:21:2: undefined: Toggle
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\robotgo_fn_v1.go:29:9: undefined: MoveSmooth
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\robotgo_fn_v1.go:29:9: too many errors
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> go run github.com/1fpsvideo/1fps@v0.1.1
+# github.com/go-vgo/robotgo
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\img.go:92:40: undefined: Bitmap
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\img.go:107:38: undefined: Bitmap
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\img.go:137:20: undefined: Bitmap
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\screen.go:26:28: undefined: Rect
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\robotgo_fn_v1.go:9:2: undefined: Move
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\robotgo_fn_v1.go:17:2: undefined: Toggle
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\robotgo_fn_v1.go:18:2: undefined: MilliSleep
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\robotgo_fn_v1.go:20:2: undefined: MoveSmooth
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\robotgo_fn_v1.go:21:2: undefined: Toggle
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\robotgo_fn_v1.go:29:9: undefined: MoveSmooth
+..\..\..\go\pkg\mod\github.com\go-vgo\robotgo@v0.110.1\robotgo_fn_v1.go:29:9: too many errors
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> cd C:\Users\kushal\go
+PS C:\Users\kushal\go> ls
+
+    Directory: C:\Users\kushal\go
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----            8/7/2024  7:04 AM                pkg
+
+PS C:\Users\kushal\go> mkdir bin
+
+    Directory: C:\Users\kushal\go
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----            8/7/2024  7:06 AM                bin
+
+PS C:\Users\kushal\go> mkdir src
+
+    Directory: C:\Users\kushal\go
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----            8/7/2024  7:06 AM                src
+
+PS C:\Users\kushal\go> cd C:\Users\kushal\go\src\1fps\; go env -w CGO_ENABLED=1; go run 1fps.go
+# runtime/cgo
+cgo: C compiler "gcc" not found: exec: "gcc": executable file not found in %PATH%
+PS C:\Users\kushal\go\src\1fps> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
