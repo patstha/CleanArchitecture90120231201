@@ -231,3 +231,125 @@ Thursday, August 15, 2024 11:35:18 AM
 Thursday, August 15, 2024 11:35:19 AM
 
 PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update  --verbose-logs --verbose; date; winget upgrade  --verbose-logs --verbose; date; winget upgrade --all --include-unknown  --verbose-logs --verbose; date;date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal";date; git push origin --all; date; git remote show origin; date;
+
+Thursday, August 15, 2024 11:35:31 AM
+Updating all sources...
+Updating source: msstore...
+Done
+Updating source: winget...
+Done
+Thursday, August 15, 2024 11:35:32 AM
+Name                                 Id                                            Version             Available Source
+-----------------------------------------------------------------------------------------------------------------------
+VLC media player                     VideoLAN.VLC                                  3.0.20.0            3.0.21    winget
+Visual Studio Community 2022 Preview Microsoft.VisualStudio.2022.Community.Preview 17.11.0 Preview 7.0 17.12.0   winget
+2 upgrades available.
+Thursday, August 15, 2024 11:35:35 AM
+Name                                 Id                                            Version             Available Source
+-----------------------------------------------------------------------------------------------------------------------
+VLC media player                     VideoLAN.VLC                                  3.0.20.0            3.0.21    winget
+Visual Studio Community 2022 Preview Microsoft.VisualStudio.2022.Community.Preview 17.11.0 Preview 7.0 17.12.0   winget
+2 upgrades available.
+
+(1/1) Found Visual Studio Community 2022 Preview [Microsoft.VisualStudio.2022.Community.Preview] Version 17.12.0
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Successfully verified installer hash
+Starting package install...
+Installer failed with exit code: 1
+
+Thursday, August 15, 2024 11:35:56 AM
+Thursday, August 15, 2024 11:35:56 AM
+.NET SDK:
+ Version:           9.0.100-preview.7.24407.12
+ Commit:            d672b8a045
+ Workload version:  9.0.100-manifests.cf958b56
+ MSBuild version:   17.12.0-preview-24374-02+48e81c6f1
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.22631
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.7.24407.12\
+
+.NET workloads installed:
+Configured to use loose manifests when installing new manifests.
+ [aspire]
+   Installation Source: VS 17.11.35201.85, VS 17.11.35208.52
+   Manifest Version:    8.1.0/8.0.100
+   Manifest Path:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.aspire\8.1.0\WorkloadManifest.json
+   Install Type:        FileBased
+
+
+Host:
+  Version:      9.0.0-preview.7.24405.7
+  Architecture: x64
+  Commit:       static
+
+.NET SDKs installed:
+  8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
+  8.0.400 [C:\Program Files\dotnet\sdk]
+  9.0.100-preview.7.24407.12 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 8.0.8 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 9.0.0-preview.7.24406.2 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.8 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.0-preview.7.24405.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.8 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.0-preview.7.24405.2 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\global.json
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+Thursday, August 15, 2024 11:35:58 AM
+Thursday, August 15, 2024 11:35:58 AM
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/PowerShell.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Thursday, August 15, 2024 11:35:58 AM
+Thursday, August 15, 2024 11:35:59 AM
+[master a7e8e41] add all files
+ 1 file changed, 33 insertions(+), 35 deletions(-)
+Thursday, August 15, 2024 11:35:59 AM
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 748 bytes | 374.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:patstha/CleanArchitecture90120231201.git
+   67df1dc..a7e8e41  master -> master
+Thursday, August 15, 2024 11:36:00 AM
+* remote origin
+  Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+Thursday, August 15, 2024 11:36:01 AM
+
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update  --verbose-logs --verbose; date; winget upgrade  --verbose-logs --verbose; date; winget upgrade --all --include-unknown  --verbose-logs --verbose; date;date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal";date; git push origin --all; date; git remote show origin; date;
