@@ -1,19 +1,19 @@
 PowerShell 7.4.4
 PS C:\Users\kushal> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\;date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
 
-Thursday, August 15, 2024 9:49:59 AM
+Thursday, August 15, 2024 11:15:49 AM
 Updating all sources...
 Updating source: msstore...
 Done
 Updating source: winget...
 Done
-Thursday, August 15, 2024 9:50:00 AM
+Thursday, August 15, 2024 11:15:50 AM
 Name                                 Id                                            Version             Available Source
 -----------------------------------------------------------------------------------------------------------------------
 VLC media player                     VideoLAN.VLC                                  3.0.20.0            3.0.21    winget
 Visual Studio Community 2022 Preview Microsoft.VisualStudio.2022.Community.Preview 17.11.0 Preview 7.0 17.12.0   winget
 2 upgrades available.
-Thursday, August 15, 2024 9:50:04 AM
+Thursday, August 15, 2024 11:15:55 AM
 Name                                 Id                                            Version             Available Source
 -----------------------------------------------------------------------------------------------------------------------
 VLC media player                     VideoLAN.VLC                                  3.0.20.0            3.0.21    winget
@@ -27,8 +27,8 @@ Successfully verified installer hash
 Starting package install...
 Installer failed with exit code: 1
 
-Thursday, August 15, 2024 9:50:30 AM
-Thursday, August 15, 2024 9:50:30 AM
+Thursday, August 15, 2024 11:16:19 AM
+Thursday, August 15, 2024 11:16:19 AM
 .NET SDK:
  Version:           9.0.100-preview.7.24407.12
  Commit:            d672b8a045
@@ -87,8 +87,8 @@ Learn more:
 
 Download .NET:
   https://aka.ms/dotnet/download
-Thursday, August 15, 2024 9:50:31 AM
-Thursday, August 15, 2024 9:50:31 AM
+Thursday, August 15, 2024 11:16:22 AM
+Thursday, August 15, 2024 11:16:22 AM
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -96,21 +96,21 @@ Changes not staged for commit:
         modified:   docs/PowerShell.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
-Thursday, August 15, 2024 9:50:31 AM
-Thursday, August 15, 2024 9:50:31 AM
-[master 2b876e4] add all files
- 1 file changed, 183 insertions(+), 183 deletions(-)
-Thursday, August 15, 2024 9:50:32 AM
+Thursday, August 15, 2024 11:16:22 AM
+Thursday, August 15, 2024 11:16:22 AM
+[master 407210a] add all files
+ 1 file changed, 74 insertions(+), 8884 deletions(-)
+Thursday, August 15, 2024 11:16:22 AM
 Enumerating objects: 7, done.
 Counting objects: 100% (7/7), done.
 Delta compression using up to 8 threads
 Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 1.68 KiB | 156.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+Writing objects: 100% (4/4), 2.25 KiB | 577.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To github.com:patstha/CleanArchitecture90120231201.git
-   f9aa646..2b876e4  master -> master
-Thursday, August 15, 2024 9:50:33 AM
+   2b876e4..407210a  master -> master
+Thursday, August 15, 2024 11:16:24 AM
 * remote origin
   Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
   Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
@@ -119,23 +119,25 @@ Thursday, August 15, 2024 9:50:33 AM
     master tracked
   Local ref configured for 'git push':
     master pushes to master (up to date)
-Thursday, August 15, 2024 9:50:34 AM
+Thursday, August 15, 2024 11:16:25 AM
 
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201>
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update  --verbose-logs; date; winget upgrade  --verbose-logs; date; winget upgrade --all --include-unknown  --verbose-logs; date;
+date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
 
-Thursday, August 15, 2024 9:50:45 AM
+Thursday, August 15, 2024 11:19:30 AM
 Updating all sources...
 Updating source: msstore...
 Done
 Updating source: winget...
 Done
-Thursday, August 15, 2024 9:50:46 AM
+Thursday, August 15, 2024 11:19:30 AM
 Name                                 Id                                            Version             Available Source
 -----------------------------------------------------------------------------------------------------------------------
 VLC media player                     VideoLAN.VLC                                  3.0.20.0            3.0.21    winget
 Visual Studio Community 2022 Preview Microsoft.VisualStudio.2022.Community.Preview 17.11.0 Preview 7.0 17.12.0   winget
 2 upgrades available.
-Thursday, August 15, 2024 9:50:50 AM
+Thursday, August 15, 2024 11:19:33 AM
 Name                                 Id                                            Version             Available Source
 -----------------------------------------------------------------------------------------------------------------------
 VLC media player                     VideoLAN.VLC                                  3.0.20.0            3.0.21    winget
@@ -149,8 +151,8 @@ Successfully verified installer hash
 Starting package install...
 Installer failed with exit code: 1
 
-Thursday, August 15, 2024 9:51:11 AM
-Thursday, August 15, 2024 9:51:11 AM
+Thursday, August 15, 2024 11:19:49 AM
+Thursday, August 15, 2024 11:19:49 AM
 .NET SDK:
  Version:           9.0.100-preview.7.24407.12
  Commit:            d672b8a045
@@ -209,17 +211,17 @@ Learn more:
 
 Download .NET:
   https://aka.ms/dotnet/download
-Thursday, August 15, 2024 9:51:12 AM
-Thursday, August 15, 2024 9:51:12 AM
+Thursday, August 15, 2024 11:19:51 AM
+Thursday, August 15, 2024 11:19:51 AM
 On branch master
 nothing to commit, working tree clean
-Thursday, August 15, 2024 9:51:12 AM
-Thursday, August 15, 2024 9:51:12 AM
+Thursday, August 15, 2024 11:19:51 AM
+Thursday, August 15, 2024 11:19:52 AM
 On branch master
 nothing to commit, working tree clean
-Thursday, August 15, 2024 9:51:12 AM
+Thursday, August 15, 2024 11:19:52 AM
 Everything up-to-date
-Thursday, August 15, 2024 9:51:13 AM
+Thursday, August 15, 2024 11:19:53 AM
 * remote origin
   Fetch URL: git@github.com:patstha/CleanArchitecture90120231201.git
   Push  URL: git@github.com:patstha/CleanArchitecture90120231201.git
@@ -228,6 +230,6 @@ Thursday, August 15, 2024 9:51:13 AM
     master tracked
   Local ref configured for 'git push':
     master pushes to master (up to date)
-Thursday, August 15, 2024 9:51:14 AM
+Thursday, August 15, 2024 11:19:54 AM
 
-PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update; date; winget upgrade; date; winget upgrade --all --include-unknown; date;date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
+PS C:\Users\kushal\src\dotnet\CleanArchitecture90120231201> date; winget source update  --verbose-logs; date; winget upgrade  --verbose-logs; date; winget upgrade --all --include-unknown  --verbose-logs; date;date; dotnet --info; date; cd C:\Users\kushal\src\dotnet\CleanArchitecture90120231201\; date; git status; date; git add .; date; git commit -m "add all files" -m "from terminal"; date; git push origin --all; date; git remote show origin; date;
